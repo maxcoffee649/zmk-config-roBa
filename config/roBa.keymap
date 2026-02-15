@@ -174,10 +174,10 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans          &kp UP_ARROW  &kp DOWN_ARROW  &kp DEL                                   &trans  &kp LEFT_ALT  &kp TAB        &kp LCTRL  &trans
-&trans  &kp LEFT_SHIFT  &kp LEFT      &kp RIGHT       &trans   &trans      &kp SLASH            &trans  &trans        &trans         &trans     &trans
-&trans  &trans          &trans        &trans          &trans   &trans      &kp INTERNATIONAL_1  &trans  &kp LA(LEFT)  &kp LA(RIGHT)  &trans     &trans
-&trans  &trans          &trans        &trans          &trans   &trans      &trans               &trans                                          &trans
+&trans  &trans          &kp UP_ARROW  &kp DOWN_ARROW  &kp DEL                                   &kp LC(T)  &kp LEFT_ALT  &kp TAB        &kp LCTRL  &trans
+&trans  &kp LEFT_SHIFT  &kp LEFT      &kp RIGHT       &trans   &trans      &kp SLASH            &trans     &trans        &trans         &trans     &trans
+&trans  &trans          &trans        &trans          &trans   &trans      &kp INTERNATIONAL_1  &trans     &kp LA(LEFT)  &kp LA(RIGHT)  &trans     &trans
+&trans  &trans          &trans        &trans          &trans   &trans      &trans               &trans                                             &trans
             >;
         };
 
