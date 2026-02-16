@@ -183,19 +183,19 @@
 
         NUM {
             bindings = <
-&kp ESCAPE  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp ASTERISK                             &kp LC(KP_PLUS)      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp F11  &kp F12
-&trans      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS      &trans             &trans  &kp LC(KP_NUMBER_0)  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans   &trans
-&trans      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp EQUAL     &trans             &trans  &kp LC(KP_MINUS)     &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans   &trans
-&to 0       &num_00          &kp KP_NUMBER_0  &kp SPACE        &kp ENTER     &kp BACKSPACE      &kp F8  &kp F7                                                                     &kp LC(NUMBER_1)
+&kp ESCAPE  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp DOUBLE_QUOTES                             &kp LC(KP_PLUS)      &kp RIGHT_BRACKET  &kp BACKSLASH         &kp F11  &kp F12
+&trans      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp SEMI           &trans             &trans  &kp LC(KP_NUMBER_0)  &kp ASTRK          &kp LEFT_PARENTHESIS  &trans   &trans
+&trans      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp COLON          &kp LS(SEMI)       &trans  &kp LC(KP_MINUS)     &kp LEFT_BRACKET   &kp PIPE              &trans   &trans
+&to 0       &num_00          &kp KP_NUMBER_0  &kp SPACE        &kp ENTER          &kp BACKSPACE      &kp F8  &kp F7                                                                 &kp LC(NUMBER_1)
             >;
         };
 
         ARROW {
             bindings = <
-&trans     &kp SQT          &kp PIPE           &kp INTERNATIONAL_1  &macro_braces                                        &macro_angle       &kp LG(LS(LEFT))    &kp LG(UP_ARROW)    &kp LG(LS(RIGHT))    &trans
-&kp AT     &kp DOLLAR       &kp PERCENT        &kp AMPERSAND        &macro_parens    &trans      &kp SQT                 &trans             &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)  &trans
-&kp GRAVE  &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH             &macro_brackets  &trans      &kp COLON               &trans             &trans              &trans              &trans               &trans
-&to 2      &trans           &trans             &trans               &trans           &trans      &kp LC(LG(LEFT_ARROW))  &kp LG(LC(RIGHT))                                                               &trans
+&trans          &kp AMPERSAND    &kp PIPE     &kp LS(INTERNATIONAL_1)  &macro_braces                                        &macro_angle       &kp LG(LS(LEFT))    &kp LG(UP_ARROW)    &kp LG(LS(RIGHT))    &trans
+&kp LEFT_BRACE  &kp DOLLAR       &kp PERCENT  &kp CARET                &macro_parens    &trans      &kp SQT                 &trans             &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)  &trans
+&kp GRAVE       &kp EXCLAMATION  &kp AT       &kp HASH                 &macro_brackets  &trans      &kp COLON               &trans             &trans              &trans              &trans               &trans
+&to 2           &trans           &trans       &trans                   &trans           &trans      &kp LC(LG(LEFT_ARROW))  &kp LG(LC(RIGHT))                                                               &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
@@ -203,10 +203,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB2  &mkp MB3  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans        &trans         &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1      &mkp MB2       &mkp MB3  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp LA(LEFT)  &kp LA(RIGHT)  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                         &trans
             >;
         };
 
