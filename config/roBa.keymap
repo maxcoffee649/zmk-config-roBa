@@ -163,10 +163,10 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W         &kp E         &kp R                      &kp T                                             &kp Y        &kp U           &kp I           &kp O             &lt 3 P
-&kp A      &kp S         &kp D         &kp F                      &kp G        &trans                &kp MINUS      &lt 5 H      &mt LEFT_GUI J  &mt LEFT_ALT K  &mt LEFT_SHIFT L  &mt LCTRL SEMICOLON
-&kp Z      &kp X         &kp C         &kp V                      &kp B        &kp LS(LG(S))         &kp SEMICOLON  &kp N        &kp M           &kp COMMA       &kp DOT           &kp SLASH
-&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT LANGUAGE_2  &lt 1 SPACE  &lt 3 LANGUAGE_1      &kp BACKSPACE  &lt 2 ENTER                                                    &kp LG(X)
+&kp Q      &kp W         &kp E         &kp R                      &kp T                                                 &kp Y        &kp U           &kp I           &kp O             &lt 3 P
+&kp A      &kp S         &kp D         &kp F                      &kp G        &trans                &kp MINUS          &lt 5 H      &mt LEFT_GUI J  &mt LEFT_ALT K  &mt LEFT_SHIFT L  &mt LCTRL SEMICOLON
+&kp Z      &kp X         &kp C         &kp V                      &kp B        &kp LS(LG(S))         &kp LS(SEMICOLON)  &kp N        &kp M           &kp COMMA       &kp DOT           &kp SLASH
+&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT LANGUAGE_2  &lt 1 SPACE  &lt 3 LANGUAGE_1      &kp BACKSPACE      &lt 2 ENTER                                                    &kp LG(X)
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -174,19 +174,19 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans          &kp UP_ARROW  &kp DOWN_ARROW  &kp DEL                                   &kp LC(T)  &kp LEFT_ALT  &kp TAB        &kp LCTRL  &trans
-&trans  &kp LEFT_SHIFT  &kp LEFT      &kp RIGHT       &trans   &trans      &kp SLASH            &trans     &trans        &trans         &trans     &trans
-&trans  &trans          &trans        &trans          &trans   &trans      &kp INTERNATIONAL_1  &trans     &kp LA(LEFT)  &kp LA(RIGHT)  &trans     &trans
-&trans  &trans          &trans        &trans          &trans   &trans      &trans               &trans                                             &trans
+&trans  &trans          &kp UP_ARROW  &kp DOWN_ARROW  &kp DEL                             &kp LC(T)  &kp LEFT_ALT  &kp TAB        &kp LCTRL  &trans
+&trans  &kp LEFT_SHIFT  &kp LEFT      &kp RIGHT       &trans   &trans      &kp SLASH      &trans     &trans        &trans         &trans     &trans
+&trans  &trans          &trans        &trans          &trans   &trans      &kp AMPERSAND  &trans     &kp LA(LEFT)  &kp LA(RIGHT)  &trans     &trans
+&trans  &trans          &trans        &trans          &trans   &trans      &trans         &trans                                             &trans
             >;
         };
 
         NUM {
             bindings = <
-&kp ESCAPE  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp DOUBLE_QUOTES                             &kp LC(KP_PLUS)      &kp RIGHT_BRACKET  &kp BACKSLASH         &kp F11  &kp F12
-&trans      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp SEMI           &trans             &trans  &kp LC(KP_NUMBER_0)  &kp ASTRK          &kp LEFT_PARENTHESIS  &trans   &trans
-&trans      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp COLON          &kp LS(SEMI)       &trans  &kp LC(KP_MINUS)     &kp LEFT_BRACKET   &kp PIPE              &trans   &trans
-&to 0       &num_00          &kp KP_NUMBER_0  &kp SPACE        &kp ENTER          &kp BACKSPACE      &kp F8  &kp F7                                                                 &kp LC(NUMBER_1)
+&kp ESCAPE  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp DOUBLE_QUOTES                             &kp LC(KP_PLUS)      &kp BACKSLASH  &kp BACKSLASH  &kp F11  &kp F12
+&trans      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp SEMI           &trans             &trans  &kp LC(KP_NUMBER_0)  &kp ASTRK      &kp ASTERISK   &trans   &trans
+&trans      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp COLON          &kp LS(SEMI)       &trans  &kp LC(KP_MINUS)     &kp PIPE       &kp PIPE       &trans   &trans
+&to 0       &num_00          &kp KP_NUMBER_0  &kp SPACE        &kp ENTER          &kp BACKSPACE      &kp F8  &kp F7                                                      &kp LC(NUMBER_1)
             >;
         };
 
