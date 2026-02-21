@@ -4,6 +4,7 @@
 #include <dt-bindings/zmk/pointing.h>
 
 // #includeのあとのあたりにスクロール量変更の定義を追記
+
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 80
 
 &mt {
@@ -166,17 +167,19 @@
         };
 
         // スクロール方向を逆にしたい場合は <&msc SCRL_DOWN> と <&msc SCRL_UP> を入れ替えてください
-       encoder_msc_down_up: encoder_msc_down_up {
-           compatible = "zmk,behavior-sensor-rotate";
-           label = "ENCODER_MSC_DOWN_UP";
-           #sensor-binding-cells = <0>;
-           bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
-           tap-ms = <20>;
-       };
+
+        encoder_msc_down_up: encoder_msc_down_up {
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "ENCODER_MSC_DOWN_UP";
+            #sensor-binding-cells = <0>;
+            bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+
+            tap-ms = <20>;
+        };
     };
 
-// 設定したいレイヤーに sensor-bindings = <&encoder_msc_down_up>; を追記
-// 以下は実際にレイヤー０に追記した例
+    // 設定したいレイヤーに sensor-bindings = <&encoder_msc_down_up>; を追記
+    // 以下は実際にレイヤー０に追記した例
 
     keymap {
         compatible = "zmk,keymap";
@@ -190,15 +193,16 @@
             >;
 
             // sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+
             sensor-bindings = <&encoder_msc_down_up>;
         };
 
         FUNCTION {
             bindings = <
-&trans  &trans          &kp UP_ARROW  &kp DOWN_ARROW  &kp DEL                                   &kp LC(T)  &kp LEFT_ALT  &kp TAB        &kp LCTRL  &kp LG(A)
-&trans  &kp LEFT_SHIFT  &kp LEFT      &kp RIGHT       &trans   &trans      &kp SLASH            &trans     &trans        &trans         &trans     &trans
-&trans  &trans          &trans        &trans          &trans   &trans      &kp INTERNATIONAL_1  &trans     &kp LA(LEFT)  &kp LA(RIGHT)  &trans     &trans
-&trans  &trans          &trans        &trans          &trans   &trans      &kp F8               &kp F7                                             &trans
+&trans  &trans          &kp UP_ARROW  &kp DOWN_ARROW  &kp DEL                                   &kp LC(T)  &kp LEFT_ALT  &kp TAB        &kp LCTRL      &kp LG(A)
+&trans  &kp LEFT_SHIFT  &kp LEFT      &kp RIGHT       &trans   &trans      &kp SLASH            &trans     &trans        &trans         &kp PAGE_UP    &kp HOME
+&trans  &trans          &trans        &trans          &trans   &trans      &kp INTERNATIONAL_1  &trans     &kp LA(LEFT)  &kp LA(RIGHT)  &kp PAGE_DOWN  &kp END
+&trans  &trans          &trans        &trans          &trans   &trans      &kp F8               &kp F7                                                 &trans
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
