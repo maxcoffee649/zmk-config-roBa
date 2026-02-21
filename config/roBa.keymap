@@ -3,6 +3,9 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
+// #includeのあとのあたりにスクロール量変更の定義を追記
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 80
+
 &mt {
     flavor = "balanced";
     quick-tap-ms = <0>;
@@ -161,7 +164,19 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
+
+        // スクロール方向を逆にしたい場合は <&msc SCRL_DOWN> と <&msc SCRL_UP> を入れ替えてください
+       encoder_msc_down_up: encoder_msc_down_up {
+           compatible = "zmk,behavior-sensor-rotate";
+           label = "ENCODER_MSC_DOWN_UP";
+           #sensor-binding-cells = <0>;
+           bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+           tap-ms = <20>;
+       };
     };
+
+// 設定したいレイヤーに sensor-bindings = <&encoder_msc_down_up>; を追記
+// 以下は実際にレイヤー０に追記した例
 
     keymap {
         compatible = "zmk,keymap";
@@ -174,7 +189,8 @@
 &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT LANGUAGE_2  &lt 1 SPACE  &lt 3 LANGUAGE_1      &kp BACKSPACE     &lt 2 ENTER                                                    &kp LG(X)
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            // sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            sensor-bindings = <&encoder_msc_down_up>;
         };
 
         FUNCTION {
@@ -184,6 +200,8 @@
 &trans  &trans          &trans        &trans          &trans   &trans      &kp INTERNATIONAL_1  &trans     &kp LA(LEFT)  &kp LA(RIGHT)  &trans     &trans
 &trans  &trans          &trans        &trans          &trans   &trans      &kp F8               &kp F7                                             &trans
             >;
+
+            sensor-bindings = <&encoder_msc_down_up>;
         };
 
         NUM {
