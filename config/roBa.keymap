@@ -183,10 +183,10 @@
 
         NUM {
             bindings = <
-&kp ESCAPE  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp DOUBLE_QUOTES                             &kp LC(KP_PLUS)      &kp BACKSLASH  &kp BACKSLASH  &kp F11  &kp F12
-&trans      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp SEMI           &trans             &trans  &kp LC(KP_NUMBER_0)  &kp ASTRK      &kp ASTERISK   &trans   &trans
-&trans      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp COLON          &kp LS(SEMI)       &trans  &kp LC(KP_MINUS)     &kp PIPE       &kp PIPE       &trans   &trans
-&to 0       &num_00          &kp KP_NUMBER_0  &kp SPACE        &kp ENTER          &kp BACKSPACE      &kp F8  &kp F7                                                      &kp LC(NUMBER_1)
+&kp ESCAPE  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp DOUBLE_QUOTES                             &kp LC(KP_PLUS)      &kp BACKSLASH      &kp BACKSLASH  &kp F11  &kp F12
+&trans      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp SEMI           &trans             &trans  &kp LC(KP_NUMBER_0)  &kp DOUBLE_QUOTES  &kp ASTERISK   &trans   &trans
+&trans      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp COLON          &kp LS(SEMI)       &trans  &kp LC(KP_MINUS)     &kp PIPE           &kp PIPE       &trans   &trans
+&to 0       &num_00          &kp KP_NUMBER_0  &kp SPACE        &kp ENTER          &kp BACKSPACE      &kp F8  &kp F7                                                          &kp LC(NUMBER_1)
             >;
         };
 
