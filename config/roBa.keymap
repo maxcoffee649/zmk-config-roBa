@@ -153,14 +153,14 @@
         numslash: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LANGUAGE_1 &kp SLASH>;
+            bindings = <&kp LANGUAGE_2 &kp SLASH>;
             label = "NEW_MACRO";
         };
 
         numbackslash: numbackslash {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LANGUAGE_1 &kp INTERNATIONAL_1>;
+            bindings = <&kp LANGUAGE_2 &kp INTERNATIONAL_1>;
             label = "NUMBACKSLASH";
         };
     };
