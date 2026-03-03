@@ -208,7 +208,7 @@
             bindings =
                 <&tog_off 4 &tog_off 5 &tog_off 6 &tog_off 7>,
                 <&macro_wait_time 200>,
-                <&bt BT_SEL 0>,
+                <&bt BT_SEL 3>,
                 <&macro_wait_time 500>;
 
             label = "BT3";
