@@ -317,7 +317,7 @@
         iPad_ARROW {
             bindings = <
 &trans                &trans          &kp UP_ARROW          &kp DOWN_ARROW  &kp DEL                                         &kp LG(T)      &kp LEFT_ALT  &kp TAB   &kp LCTRL      &kp LG(A)
-&kp LEFT_CONTROL      &kp LEFT_SHIFT  &kp LEFT              &kp RIGHT       &kp LG(LA(C))  &trans      &kp SLASH            &kp LS(LG(T))  &mkp MB1      &mkp MB2  &kp PAGE_UP    &kp HOME
+&kp GLOBE             &kp LEFT_SHIFT  &kp LEFT              &kp RIGHT       &kp LG(LA(C))  &trans      &kp SLASH            &kp LS(LG(T))  &mkp MB1      &mkp MB2  &kp PAGE_UP    &kp HOME
 &kp LC(LEFT_BRACKET)  &kp LC(SLASH)   &kp LA(LS(NUMBER_5))  &kp LA(LS(D))   &kp LG(LA(D))  &trans      &kp INTERNATIONAL_1  &kp LG(M)      &mkp MB3      &mkp MB4  &kp PAGE_DOWN  &kp END
 &trans                &trans          &trans                &trans          &trans         &trans      &kp F8               &kp F7                                                &kp LG(LS(NUMBER_4))
             >;
