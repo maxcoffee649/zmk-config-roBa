@@ -324,6 +324,17 @@
             >;
         };
 
+        iPad_SYMBOl_SCROLL {
+            bindings = <
+&trans            &kp AMPERSAND    &kp LEFT_SHIFT  &kp LS(INTERNATIONAL_1)  &macro_braces                                        &macro_angle       &kp LG(LS(LEFT))    &kp LG(UP_ARROW)    &kp LG(LS(RIGHT))    &kp EQUAL
+&kp LEFT_BRACKET  &kp DOLLAR       &kp PERCENT     &kp CARET                &macro_parens    &trans      &kp APOS                &trans             &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)  &kp LS(EQUAL)
+&kp LEFT_BRACE    &kp EXCLAMATION  &kp AT          &kp HASH                 &macro_brackets  &trans      &kp MINUS               &trans             &trans              &trans              &trans               &trans
+&to 2             &trans           &trans          &trans                   &trans           &trans      &kp LC(LG(LEFT_ARROW))  &kp LG(LC(RIGHT))                                                               &trans
+            >;
+
+            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
+        };
+
         MOUSE {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans        &trans         &trans    &trans
