@@ -168,7 +168,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&tog_off 1 &tog_off 2>,
+                <&tog_off 4 &tog_off 5 &tog_off 6 &tog_off 7>,
                 <&macro_wait_time 200>,
                 <&bt BT_SEL 0>,
                 <&macro_wait_time 500>;
@@ -179,29 +179,39 @@
         bt1: bt1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings =
+                <&tog_off 4 &tog_off 5 &tog_off 6 &tog_off 7>,
+                <&macro_wait_time 200>,
+                <&bt BT_SEL 1>,
+                <&macro_wait_time 500>,
+                <&tog_on 4>;
+
             label = "BT1";
         };
 
         bt2: bt2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings =
+                <&tog_off 4 &tog_off 5 &tog_off 6 &tog_off 7>,
+                <&macro_wait_time 200>,
+                <&bt BT_SEL 2>,
+                <&macro_wait_time 500>,
+                <&tog_on 4>;
+
             label = "BT2";
         };
 
         bt3: bt3 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
-            label = "BT3";
-        };
+            bindings =
+                <&tog_off 4 &tog_off 5 &tog_off 6 &tog_off 7>,
+                <&macro_wait_time 200>,
+                <&bt BT_SEL 0>,
+                <&macro_wait_time 500>;
 
-        bt4: bt4 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none>;
-            label = "BT4";
+            label = "BT3";
         };
     };
 
@@ -250,8 +260,8 @@
         Win_default_layer {
             bindings = <
 &kp Q      &kp W         &kp E         &kp R                      &kp T                                             &kp Y        &kp U           &kp I           &kp O             &lt 3 P
-&kp A      &kp S         &kp D         &kp F                      &kp G        &trans                &numslash      &lt 5 H      &mt LEFT_GUI J  &mt LEFT_ALT K  &mt LEFT_SHIFT L  &mt LCTRL SEMICOLON
-&kp Z      &kp X         &kp C         &kp V                      &kp B        &trans                &numbackslash  &kp N        &kp M           &kp COMMA       &kp DOT           &kp SLASH
+&kp A      &kp S         &kp D         &kp F                      &kp G        &trans                &numslash      &lt 9 H      &mt LEFT_GUI J  &mt LEFT_ALT K  &mt LEFT_SHIFT L  &mt LCTRL SEMICOLON
+&kp Z      &kp X         &kp C         &kp V                      &kp B        &mo 10                &numbackslash  &kp N        &kp M           &kp COMMA       &kp DOT           &kp SLASH
 &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT LANGUAGE_2  &lt 1 SPACE  &lt 3 LANGUAGE_1      &kp BACKSPACE  &lt 2 ENTER                                                    &kp LG(X)
             >;
 
@@ -293,9 +303,9 @@
 
         iPad_default_layer {
             bindings = <
-&kp Q     &kp W     &kp E      &kp R                      &kp T                                      &kp Y      &kp U  &kp I      &kp O             &kp P
-&kp A     &kp S     &kp D      &kp F                      &kp G      &trans                &trans    &kp H      &kp J  &kp K      &mt LEFT_SHIFT L  &mt LEFT_GUI SEMI
-&kp Z     &kp X     &kp C      &kp V                      &kp B      &trans                &trans    &kp N      &kp M  &kp COMMA  &kp DOT           &kp FSLH
+&kp Q     &kp W     &kp E      &kp R                      &kp T                                      &kp Y      &kp U  &kp I      &kp O             &lt 7 P
+&kp A     &kp S     &kp D      &kp F                      &kp G      &trans                &trans    &lt 9 J    &kp J  &kp K      &mt LEFT_SHIFT L  &mt LEFT_GUI SEMI
+&kp Z     &kp X     &kp C      &kp V                      &kp B      &mo 10                &trans    &kp N      &kp M  &kp COMMA  &kp DOT           &kp FSLH
 &kp LGUI  &kp LALT  &kp LCTRL  &mt LEFT_SHIFT LANGUAGE_2  &kp SPACE  &lt 3 LANGUAGE_1      &kp BSPC  &kp ENTER                                      &kp LG(LA(Q))
             >;
 
@@ -306,10 +316,10 @@
 
         iPad_ARROW {
             bindings = <
-&trans                &trans          &kp UP_ARROW          &kp DOWN_ARROW  &kp DEL                                         &kp LC(T)      &kp LEFT_ALT  &kp TAB        &kp LCTRL      &kp LG(A)
-&trans                &kp LEFT_SHIFT  &kp LEFT              &kp RIGHT       &trans         &trans      &kp SLASH            &kp LS(LC(T))  &mkp MB1      &mkp MB2       &kp PAGE_UP    &kp HOME
-&kp LC(LEFT_BRACKET)  &kp LC(SLASH)   &kp LA(LS(NUMBER_5))  &kp LA(LS(D))   &kp LG(LC(T))  &trans      &kp INTERNATIONAL_1  &kp LG(TAB)    &kp LA(LEFT)  &kp LA(RIGHT)  &kp PAGE_DOWN  &kp END
-&trans                &trans          &trans                &trans          &trans         &trans      &kp F8               &kp F7                                                     &kp LG(LS(S))
+&trans                &trans          &kp UP_ARROW          &kp DOWN_ARROW  &kp DEL                                         &kp LG(T)      &kp LEFT_ALT  &kp TAB   &kp LCTRL      &kp LG(A)
+&kp LEFT_CONTROL      &kp LEFT_SHIFT  &kp LEFT              &kp RIGHT       &kp LG(LA(C))  &trans      &kp SLASH            &kp LS(LG(T))  &mkp MB1      &mkp MB2  &kp PAGE_UP    &kp HOME
+&kp LC(LEFT_BRACKET)  &kp LC(SLASH)   &kp LA(LS(NUMBER_5))  &kp LA(LS(D))   &kp LG(LA(D))  &trans      &kp INTERNATIONAL_1  &kp LG(M)      &mkp MB3      &mkp MB4  &kp PAGE_DOWN  &kp END
+&trans                &trans          &trans                &trans          &trans         &trans      &kp F8               &kp F7                                                &kp LG(LS(NUMBER_4))
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -320,7 +330,7 @@
 &kp ESCAPE  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp DOUBLE_QUOTES                             &kp LC(KP_PLUS)      &kp RIGHT_BRACKET  &kp BACKSLASH  &kp F11  &kp F12
 &trans      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp SEMI           &trans             &trans  &kp LC(KP_NUMBER_0)  &kp LS(N8)         &kp LS(N9)     &trans   &trans
 &trans      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp COLON          &trans             &trans  &kp LC(KP_MINUS)     &kp RIGHT_BRACE    &kp PIPE       &trans   &trans
-&to 0       &num_00          &kp KP_NUMBER_0  &kp SPACE        &kp ENTER          &kp BACKSPACE      &trans  &trans                                                          &kp LC(NUMBER_1)
+&to 0       &num_00          &kp KP_NUMBER_0  &kp SPACE        &kp ENTER          &kp BACKSPACE      &trans  &trans                                                          &kp LG(H)
             >;
         };
 
@@ -355,12 +365,11 @@
 
         Bluetooth {
             bindings = <
-&trans  &trans        &trans        &trans        &trans                           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans        &trans        &trans        &trans        &trans
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
-&trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans                                                  &bt BT_CLR_ALL
+&trans  &trans        &trans        &trans        &trans                           &bt0    &bt1    &bt2    &bt3    &bt BT_SEL 4
+&trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans  &trans  &trans  &trans  &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &bootloader  &trans  &trans  &trans  &trans  &bt BT_CLR
+&trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans                          &bt BT_CLR_ALL
             >;
         };
-
     };
 };
