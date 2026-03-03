@@ -247,7 +247,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        Win_default_layer {
             bindings = <
 &kp Q      &kp W         &kp E         &kp R                      &kp T                                             &kp Y        &kp U           &kp I           &kp O             &lt 3 P
 &kp A      &kp S         &kp D         &kp F                      &kp G        &trans                &numslash      &lt 5 H      &mt LEFT_GUI J  &mt LEFT_ALT K  &mt LEFT_SHIFT L  &mt LCTRL SEMICOLON
@@ -260,7 +260,7 @@
             sensor-bindings = <&encoder_msc_down_up>;
         };
 
-        FUNCTION {
+        Win_ARROW {
             bindings = <
 &trans                &trans          &kp UP_ARROW          &kp DOWN_ARROW  &kp DEL                                         &kp LC(T)      &kp LEFT_ALT  &kp TAB        &kp LCTRL      &kp LG(A)
 &trans                &kp LEFT_SHIFT  &kp LEFT              &kp RIGHT       &trans         &trans      &kp SLASH            &kp LS(LC(T))  &mkp MB1      &mkp MB2       &kp PAGE_UP    &kp HOME
@@ -271,7 +271,7 @@
             sensor-bindings = <&encoder_msc_down_up>;
         };
 
-        NUM {
+        Win_NUM_FUNCTION {
             bindings = <
 &kp ESCAPE  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp DOUBLE_QUOTES                             &kp LC(KP_PLUS)      &kp RIGHT_BRACKET  &kp BACKSLASH  &kp F11  &kp F12
 &trans      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp SEMI           &trans             &trans  &kp LC(KP_NUMBER_0)  &kp LS(N8)         &kp LS(N9)     &trans   &trans
@@ -280,7 +280,7 @@
             >;
         };
 
-        ARROW {
+        Win_SYMBOl_SCROLL {
             bindings = <
 &trans            &kp AMPERSAND    &kp LEFT_SHIFT  &kp LS(INTERNATIONAL_1)  &macro_braces                                        &macro_angle       &kp LG(LS(LEFT))    &kp LG(UP_ARROW)    &kp LG(LS(RIGHT))    &kp EQUAL
 &kp LEFT_BRACKET  &kp DOLLAR       &kp PERCENT     &kp CARET                &macro_parens    &trans      &kp APOS                &trans             &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)  &kp LS(EQUAL)
@@ -289,6 +289,39 @@
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
+        };
+
+        iPad_default_layer {
+            bindings = <
+&kp Q     &kp W     &kp E      &kp R                      &kp T                                      &kp Y      &kp U  &kp I      &kp O             &kp P
+&kp A     &kp S     &kp D      &kp F                      &kp G      &trans                &trans    &kp H      &kp J  &kp K      &mt LEFT_SHIFT L  &mt LEFT_GUI SEMI
+&kp Z     &kp X     &kp C      &kp V                      &kp B      &trans                &trans    &kp N      &kp M  &kp COMMA  &kp DOT           &kp FSLH
+&kp LGUI  &kp LALT  &kp LCTRL  &mt LEFT_SHIFT LANGUAGE_2  &kp SPACE  &lt 3 LANGUAGE_1      &kp BSPC  &kp ENTER                                      &kp LG(LA(Q))
+            >;
+
+            // sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+
+            sensor-bindings = <&encoder_msc_down_up>;
+        };
+
+        iPad_ARROW {
+            bindings = <
+&trans                &trans          &kp UP_ARROW          &kp DOWN_ARROW  &kp DEL                                         &kp LC(T)      &kp LEFT_ALT  &kp TAB        &kp LCTRL      &kp LG(A)
+&trans                &kp LEFT_SHIFT  &kp LEFT              &kp RIGHT       &trans         &trans      &kp SLASH            &kp LS(LC(T))  &mkp MB1      &mkp MB2       &kp PAGE_UP    &kp HOME
+&kp LC(LEFT_BRACKET)  &kp LC(SLASH)   &kp LA(LS(NUMBER_5))  &kp LA(LS(D))   &kp LG(LC(T))  &trans      &kp INTERNATIONAL_1  &kp LG(TAB)    &kp LA(LEFT)  &kp LA(RIGHT)  &kp PAGE_DOWN  &kp END
+&trans                &trans          &trans                &trans          &trans         &trans      &kp F8               &kp F7                                                     &kp LG(LS(S))
+            >;
+
+            sensor-bindings = <&encoder_msc_down_up>;
+        };
+
+        iPad_NUM_FUNCTION {
+            bindings = <
+&kp ESCAPE  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp DOUBLE_QUOTES                             &kp LC(KP_PLUS)      &kp RIGHT_BRACKET  &kp BACKSLASH  &kp F11  &kp F12
+&trans      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp SEMI           &trans             &trans  &kp LC(KP_NUMBER_0)  &kp LS(N8)         &kp LS(N9)     &trans   &trans
+&trans      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp COLON          &trans             &trans  &kp LC(KP_MINUS)     &kp RIGHT_BRACE    &kp PIPE       &trans   &trans
+&to 0       &num_00          &kp KP_NUMBER_0  &kp SPACE        &kp ENTER          &kp BACKSPACE      &trans  &trans                                                          &kp LC(NUMBER_1)
+            >;
         };
 
         MOUSE {
@@ -300,16 +333,7 @@
             >;
         };
 
-        SCROLL {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
-            >;
-        };
-
-        layer_6 {
+        Bluetooth {
             bindings = <
 &trans  &trans        &trans        &trans        &trans                           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
 &trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans        &trans        &trans        &trans        &trans
@@ -318,13 +342,5 @@
             >;
         };
 
-        layer_7 {
-            bindings = <
-&kp Q     &kp W     &kp E      &kp R                      &kp T                                      &kp Y      &kp U  &kp I      &kp O             &kp P
-&kp A     &kp S     &kp D      &kp F                      &kp G      &trans                &trans    &kp H      &kp J  &kp K      &mt LEFT_SHIFT L  &mt LEFT_GUI SEMI
-&kp Z     &kp X     &kp C      &kp V                      &kp B      &trans                &trans    &kp N      &kp M  &kp COMMA  &kp DOT           &kp FSLH
-&kp LGUI  &kp LALT  &kp LCTRL  &mt LEFT_SHIFT LANGUAGE_2  &kp SPACE  &lt 3 LANGUAGE_1      &kp BSPC  &kp ENTER                                      &kp LG(LA(Q))
-            >;
-        };
     };
 };
