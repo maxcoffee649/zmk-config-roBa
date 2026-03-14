@@ -79,7 +79,7 @@
         };
 
         layer9_cursor {
-            bindings = <&to 9>;
+            bindings = <&mo 9>;
             key-positions = <18 19>;
         };
     };
