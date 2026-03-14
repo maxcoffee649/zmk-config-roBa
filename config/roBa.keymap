@@ -77,6 +77,11 @@
             bindings = <&kp TAB>;
             key-positions = <13 12>;
         };
+
+        layer9_cursor {
+            bindings = <&to 9>;
+            key-positions = <18 19>;
+        };
     };
 
     macros {
@@ -356,10 +361,10 @@
 
         CURSOR_ARROW {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans        &trans         &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1      &mkp MB2       &mkp MB3  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp LA(LEFT)  &kp LA(RIGHT)  &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                         &trans
+&trans  &trans  &trans  &trans          &trans                      &trans  &trans        &trans         &trans    &trans
+&trans  &trans  &trans  &trans          &trans  &trans      &trans  &trans  &mkp MB1      &mkp MB2       &mkp MB3  &trans
+&trans  &trans  &trans  &trans          &trans  &trans      &trans  &trans  &kp LA(LEFT)  &kp LA(RIGHT)  &trans    &trans
+&trans  &trans  &trans  &kp LEFT_SHIFT  &trans  &trans      &trans  &trans                                         &trans
             >;
         };
 
