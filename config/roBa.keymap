@@ -77,11 +77,6 @@
             bindings = <&kp TAB>;
             key-positions = <13 12>;
         };
-
-        layer9_cursor {
-            bindings = <&mo 9>;
-            key-positions = <18 19>;
-        };
     };
 
     macros {
