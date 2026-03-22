@@ -368,10 +368,10 @@
 
         CURSOR_ARROW {
             bindings = <
-&trans  &trans  &trans  &trans          &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans          &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans          &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &kp LEFT_SHIFT  &trans  &trans      &trans  &trans                          &trans
+&trans  &trans  &trans  &trans          &trans                      &trans  &trans  &trans  &trans          &trans
+&trans  &trans  &trans  &kp LEFT_GUI    &trans  &trans      &trans  &trans  &trans  &trans  &kp LEFT_SHIFT  &kp LEFT_CONTROL
+&trans  &trans  &trans  &trans          &trans  &trans      &trans  &trans  &trans  &trans  &trans          &trans
+&trans  &trans  &trans  &kp LEFT_SHIFT  &trans  &trans      &trans  &trans                                  &trans
             >;
         };
 
