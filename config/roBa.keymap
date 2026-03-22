@@ -218,6 +218,13 @@
 
             label = "BT3";
         };
+
+        Quick_Link: Quick_Link {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(X) &kp LANGUAGE_2>;
+            label = "QUICK_LINK";
+        };
     };
 
     behaviors {
@@ -267,7 +274,7 @@
 &kp Q      &kp W         &kp E         &kp R                      &kp T                                             &kp Y        &kp U           &kp I           &kp O             &lt 3 P
 &kp A      &kp S         &kp D         &kp F                      &kp G        &trans                &numslash      &lt 9 H      &mt LEFT_GUI J  &mt LEFT_ALT K  &mt LEFT_SHIFT L  &mt LCTRL SEMICOLON
 &kp Z      &kp X         &kp C         &kp V                      &kp B        &mo 10                &numbackslash  &kp N        &kp M           &kp COMMA       &kp DOT           &kp SLASH
-&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT LANGUAGE_2  &lt 1 SPACE  &lt 3 LANGUAGE_1      &kp BACKSPACE  &lt 2 ENTER                                                    &kp LG(X)
+&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT LANGUAGE_2  &lt 1 SPACE  &lt 3 LANGUAGE_1      &kp BACKSPACE  &lt 2 ENTER                                                    &Quick_Link
             >;
 
             // sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -289,7 +296,7 @@
         Win_NUM_FUNCTION {
             bindings = <
 &kp ESCAPE  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp DOUBLE_QUOTES                             &kp LC(KP_PLUS)      &kp RIGHT_BRACKET  &kp BACKSLASH  &kp F11  &kp F12
-&trans      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp SEMI           &trans             &trans  &kp LC(KP_NUMBER_0)  &kp LS(N8)         &kp LS(N9)     &trans   &trans
+&trans      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp LS(MINUS)      &trans             &trans  &kp LC(KP_NUMBER_0)  &kp LS(N8)         &kp LS(N9)     &trans   &trans
 &trans      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp COLON          &trans             &trans  &kp LC(KP_MINUS)     &kp RIGHT_BRACE    &kp PIPE       &trans   &trans
 &to 0       &num_00          &kp KP_NUMBER_0  &kp SPACE        &kp ENTER          &kp BACKSPACE      &trans  &trans                                                          &kp LC(NUMBER_1)
             >;
