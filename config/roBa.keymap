@@ -82,6 +82,16 @@
             bindings = <&mo 9>;
             key-positions = <18 19>;
         };
+
+        ipad_tab {
+            bindings = <&kp LG(BACKSLASH)>;
+            key-positions = <3 2>;
+        };
+
+        ipad_shifttab {
+            bindings = <&kp LG(RIGHT_BRACKET)>;
+            key-positions = <1 2>;
+        };
     };
 
     macros {
