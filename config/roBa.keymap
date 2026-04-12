@@ -79,7 +79,7 @@
         };
 
         layer9_cursor_arrow {
-            bindings = <&mo 9>;
+            bindings = <&mo 10>;
             key-positions = <18 19>;
         };
 
@@ -183,7 +183,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&tog_off 4 &tog_off 5 &tog_off 6 &tog_off 7>,
+                <&tog_off 4 &tog_off 5 &tog_off 6 &tog_off 7 &tog_off 8>,
                 <&macro_wait_time 200>,
                 <&bt BT_SEL 0>,
                 <&macro_wait_time 500>;
@@ -195,7 +195,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&tog_off 4 &tog_off 5 &tog_off 6 &tog_off 7>,
+                <&tog_off 4 &tog_off 5 &tog_off 6 &tog_off 7 &tog_off 8>,
                 <&macro_wait_time 200>,
                 <&bt BT_SEL 1>,
                 <&macro_wait_time 500>,
@@ -208,7 +208,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&tog_off 4 &tog_off 5 &tog_off 6 &tog_off 7>,
+                <&tog_off 4 &tog_off 5 &tog_off 6 &tog_off 7 &tog_off 8>,
                 <&macro_wait_time 200>,
                 <&bt BT_SEL 2>,
                 <&macro_wait_time 500>,
@@ -221,7 +221,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&tog_off 4 &tog_off 5 &tog_off 6 &tog_off 7>,
+                <&tog_off 4 &tog_off 5 &tog_off 6 &tog_off 7 &tog_off 8>,
                 <&macro_wait_time 200>,
                 <&bt BT_SEL 3>,
                 <&macro_wait_time 500>;
@@ -234,6 +234,76 @@
             #binding-cells = <0>;
             bindings = <&kp LG(X) &kp LANGUAGE_2>;
             label = "QUICK_LINK";
+        };
+
+        globe_left: globe_left {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp GLOBE &kp LEFT_ARROW>;
+            label = "GLOBE_LEFT";
+        };
+
+        globe_right: globe_right {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp GLOBE &kp RIGHT>;
+            label = "GLOBE_RIGHT";
+        };
+
+        iPad_move_left: iPad_move_left {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LCTRL &kp LEFT_SHIFT &kp GLOBE &kp LEFT_ARROW>;
+            label = "IPAD_MOVE_LEFT";
+        };
+
+        iPad_move_right: iPad_move_right {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LCTRL &kp LEFT_SHIFT &kp GLOBE &kp RIGHT>;
+            label = "IPAD_MOVE_RIGHT";
+        };
+
+        iPad_move_up: iPad_move_up {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LCTRL &kp LEFT_SHIFT &kp GLOBE &kp UP_ARROW>;
+            label = "IPAD_MOVE_UP";
+        };
+
+        iPad_move_down: iPad_move_down {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LCTRL &kp LEFT_SHIFT &kp GLOBE &kp DOWN>;
+            label = "IPAD_MOVE_DOWN";
+        };
+
+        iPad_SlideOvere_left: iPad_SlideOvere_left {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_ALT &kp GLOBE &kp LEFT_ARROW>;
+            label = "IPAD_SLIDEOVERE_LEFT";
+        };
+
+        iPad_SlideOvere_right: iPad_SlideOvere_right {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_ALT &kp GLOBE &kp RIGHT>;
+            label = "IPAD_SLIDEOVERE_RIGHT";
+        };
+
+        iPad_SlideOvere_Non: iPad_SlideOvere_Non {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp GLOBE &kp INTERNATIONAL_1>;
+            label = "IPAD_SLIDEOVERE_NON";
+        };
+
+        iPad_move_display: iPad_move_display {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LCTRL &kp GLOBE &kp INTERNATIONAL_1>;
+            label = "IPAD_MOVE_DISPLAY";
         };
     };
 
@@ -281,9 +351,9 @@
 
         Win_default_layer {
             bindings = <
-&kp Q      &kp W         &kp E         &kp R                      &kp T                                             &kp Y        &kp U           &kp I           &kp O             &lt 3 P
-&kp A      &kp S         &kp D         &kp F                      &kp G        &trans                &numslash      &lt 9 H      &mt LEFT_GUI J  &mt LEFT_ALT K  &mt LEFT_SHIFT L  &mt LCTRL SEMICOLON
-&kp Z      &kp X         &kp C         &kp V                      &kp B        &mo 10                &numbackslash  &kp N        &kp M           &kp COMMA       &kp DOT           &kp SLASH
+&kp Q      &kp W         &kp E         &kp R                      &kp T                                             &kp Y        &kp U           &kp I           &lt 1 O           &lt 3 P
+&kp A      &kp S         &kp D         &kp F                      &kp G        &trans                &numslash      &lt 10 H     &mt LEFT_GUI J  &mt LEFT_ALT K  &mt LEFT_SHIFT L  &mt LCTRL SEMICOLON
+&kp Z      &kp X         &kp C         &kp V                      &kp B        &mo 11                &numbackslash  &kp N        &kp M           &kp COMMA       &kp DOT           &kp SLASH
 &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT LANGUAGE_2  &lt 1 SPACE  &lt 3 LANGUAGE_1      &kp BACKSPACE  &lt 2 ENTER                                                    &Quick_Link
             >;
 
@@ -294,10 +364,10 @@
 
         Win_ARROW {
             bindings = <
-&trans                &trans          &kp UP_ARROW          &kp DOWN_ARROW  &kp DEL                                         &kp LC(T)      &kp LEFT_ALT  &kp TAB        &kp LCTRL      &kp LG(A)
-&trans                &kp LEFT_SHIFT  &kp LEFT              &kp RIGHT       &trans         &trans      &kp SLASH            &kp LS(LC(T))  &mkp MB1      &mkp MB2       &kp PAGE_UP    &kp HOME
-&kp LC(LEFT_BRACKET)  &kp LC(SLASH)   &kp LA(LS(NUMBER_5))  &kp LA(LS(D))   &kp LG(LC(T))  &trans      &kp INTERNATIONAL_1  &kp LG(TAB)    &kp LA(LEFT)  &kp LA(RIGHT)  &kp PAGE_DOWN  &kp END
-&trans                &trans          &trans                &trans          &trans         &trans      &kp F8               &kp F7                                                     &kp LG(LS(S))
+&trans                &trans          &kp UP_ARROW          &kp DOWN_ARROW  &kp DEL                                         &kp LC(T)      &kp LEFT_ALT  &kp TAB        &kp LCTRL  &kp LG(A)
+&trans                &kp LEFT_SHIFT  &kp LEFT              &kp RIGHT       &trans         &trans      &kp SLASH            &kp LS(LC(T))  &mkp MB1      &mkp MB2       &kp HOME   &kp END
+&kp LC(LEFT_BRACKET)  &kp LC(SLASH)   &kp LA(LS(NUMBER_5))  &kp LA(LS(D))   &kp LG(LC(T))  &trans      &kp INTERNATIONAL_1  &kp LG(TAB)    &kp LA(LEFT)  &kp LA(RIGHT)  &kp PG_UP  &kp PAGE_DOWN
+&trans                &trans          &trans                &trans          &trans         &trans      &kp F8               &kp F7                                                 &kp LG(LS(S))
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -325,10 +395,10 @@
 
         iPad_default_layer {
             bindings = <
-&kp Q     &kp W     &kp E      &kp R                      &kp T                                             &kp Y        &kp U  &kp I      &kp O             &lt 7 P
-&kp A     &kp S     &kp D      &kp F                      &kp G        &trans                &numslash      &lt 9 H      &kp J  &kp K      &mt LEFT_SHIFT L  &mt LEFT_GUI MINUS
-&kp Z     &kp X     &kp C      &kp V                      &kp B        &mo 10                &numbackslash  &kp N        &kp M  &kp COMMA  &kp DOT           &kp FSLH
-&kp LGUI  &kp LALT  &kp LCTRL  &mt LEFT_SHIFT LANGUAGE_2  &lt 5 SPACE  &lt 7 LANGUAGE_1      &kp BSPC       &lt 6 ENTER                                      &kp LG(LA(Q))
+&kp Q     &kp W     &kp E      &kp R                      &kp T                                             &kp Y        &kp U               &kp I           &lt 5 O           &lt 7 P
+&kp A     &kp S     &kp D      &kp F                      &kp G        &trans                &numslash      &lt 10 H     &mt LA(LEFT_GUI) J  &mt LEFT_ALT K  &mt LEFT_SHIFT L  &mt LEFT_GUI MINUS
+&kp Z     &kp X     &kp C      &kp V                      &kp B        &mo 11                &numbackslash  &kp N        &kp M               &kp COMMA       &kp DOT           &kp FSLH
+&kp LGUI  &kp LALT  &kp LCTRL  &mt LEFT_SHIFT LANGUAGE_2  &lt 5 SPACE  &lt 7 LANGUAGE_1      &kp BSPC       &lt 6 ENTER                                                        &kp LG(LA(Q))
             >;
 
             // sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -338,10 +408,10 @@
 
         iPad_ARROW {
             bindings = <
-&trans                &trans          &kp UP_ARROW          &kp DOWN_ARROW  &kp DEL                                         &kp LG(T)      &kp LEFT_ALT  &kp TAB   &kp LCTRL      &kp LG(A)
-&kp GLOBE             &kp LEFT_SHIFT  &kp LEFT              &kp RIGHT       &kp LG(LA(C))  &trans      &kp SLASH            &kp LS(LG(T))  &mkp MB1      &mkp MB2  &kp PAGE_UP    &kp HOME
-&kp LC(LEFT_BRACKET)  &kp LC(SLASH)   &kp LA(LS(NUMBER_5))  &kp LA(LS(D))   &kp LG(LA(D))  &trans      &kp INTERNATIONAL_1  &kp LG(M)      &mkp MB3      &mkp MB4  &kp PAGE_DOWN  &kp END
-&trans                &trans          &trans                &trans          &trans         &trans      &kp F8               &kp F7                                                &kp LG(LS(NUMBER_4))
+&trans     &trans          &kp UP_ARROW  &kp DOWN_ARROW  &kp DEL                                         &kp LG(T)      &globe_left  &globe_right  &kp LG(H)  &kp LG(A)
+&kp GLOBE  &kp LEFT_SHIFT  &kp LEFT      &kp RIGHT       &kp LG(LA(D))  &trans      &kp SLASH            &kp LS(LG(T))  &mkp MB1     &mkp MB2      &kp HOME   &kp END
+&trans     &trans          &kp LG(M)     &kp LG(LS(N))   &kp LG(LA(C))  &trans      &kp INTERNATIONAL_1  &kp LG(LC(M))  &mkp MB3     &mkp MB4      &kp PG_UP  &kp PAGE_DOWN
+&trans     &trans          &trans        &trans          &trans         &trans      &kp F8               &kp F7                                               &kp LG(LS(NUMBER_4))
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -350,7 +420,7 @@
         iPad_NUM_FUNCTION {
             bindings = <
 &kp ESCAPE  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp DOUBLE_QUOTES                             &kp LC(KP_PLUS)      &kp RIGHT_BRACKET  &kp BACKSLASH  &kp F11  &kp F12
-&trans      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp SEMI           &trans             &trans  &kp LC(KP_NUMBER_0)  &kp LS(N8)         &kp LS(N9)     &trans   &trans
+&trans      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp LS(MINUS)      &trans             &trans  &kp LC(KP_NUMBER_0)  &kp LS(N8)         &kp LS(N9)     &trans   &trans
 &trans      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp COLON          &trans             &trans  &kp LC(KP_MINUS)     &kp RIGHT_BRACE    &kp PIPE       &trans   &trans
 &to 4       &num_00          &kp KP_NUMBER_0  &kp SPACE        &kp ENTER          &kp BACKSPACE      &trans  &trans                                                          &kp LG(H)
             >;
@@ -358,13 +428,22 @@
 
         iPad_SYMBOl_SCROLL {
             bindings = <
-&trans            &kp AMPERSAND    &kp LEFT_SHIFT  &kp LS(INTERNATIONAL_1)  &macro_braces                                        &macro_angle       &kp LG(LS(LEFT))    &kp LG(UP_ARROW)    &kp LG(LS(RIGHT))    &kp EQUAL
-&kp LEFT_BRACKET  &kp DOLLAR       &kp PERCENT     &kp CARET                &macro_parens    &trans      &kp APOS                &trans             &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)  &kp LS(EQUAL)
-&kp LEFT_BRACE    &kp EXCLAMATION  &kp AT          &kp HASH                 &macro_brackets  &trans      &kp MINUS               &trans             &trans              &trans              &trans               &trans
-&to 5             &trans           &trans          &trans                   &trans           &trans      &kp LC(LG(LEFT_ARROW))  &kp LG(LC(RIGHT))                                                               &trans
+&trans            &kp AMPERSAND    &kp LEFT_SHIFT  &kp LS(INTERNATIONAL_1)  &macro_braces                                        &macro_angle       &iPad_SlideOvere_left  &iPad_move_up         &iPad_SlideOvere_right  &kp EQUAL
+&kp LEFT_BRACKET  &kp DOLLAR       &kp PERCENT     &kp CARET                &macro_parens    &trans      &kp APOS                &kp LG(LS(H))      &iPad_move_left        &iPad_move_down       &iPad_move_right        &kp LS(EQUAL)
+&kp LEFT_BRACE    &kp EXCLAMATION  &kp AT          &kp HASH                 &macro_brackets  &to 8       &kp MINUS               &trans             &kp LG(M)              &iPad_SlideOvere_Non  &iPad_move_display      &trans
+&to 5             &trans           &trans          &trans                   &trans           &trans      &kp LC(LG(LEFT_ARROW))  &kp LG(LC(RIGHT))                                                                       &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
+        };
+
+        iPad_GOODNOTES {
+            bindings = <
+&kp LS(LEFT)          &kp S   &globe_left  &globe_right   &trans                                    &trans  &trans  &trans  &trans  &trans
+&kp LS(RIGHT)         &kp H   &kp E        &kp P          &kp LG(LA(C))  &trans             &trans  &trans  &trans  &trans  &trans  &trans
+&kp LS(LG(NUMBER_3))  &trans  &kp L        &kp I          &kp LG(LA(D))  &to 4              &trans  &trans  &trans  &trans  &trans  &trans
+&trans                &trans  &trans       &kp LG(LC(M))  &kp LG(Z)      &kp LS(LG(Z))      &trans  &trans                          &trans
+            >;
         };
 
         MOUSE {
