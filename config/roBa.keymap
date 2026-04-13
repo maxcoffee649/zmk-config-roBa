@@ -82,11 +82,6 @@
             bindings = <&mo 10>;
             key-positions = <18 19>;
         };
-
-        alt+D {
-            bindings = <&kp LA(D)>;
-            key-positions = <38 41>;
-        };
     };
 
     macros {
