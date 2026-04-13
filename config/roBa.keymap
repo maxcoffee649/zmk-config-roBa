@@ -92,6 +92,11 @@
             bindings = <&kp LG(RIGHT_BRACKET)>;
             key-positions = <1 2>;
         };
+
+        alt+D {
+            bindings = <&kp LA(D)>;
+            key-positions = <38 41>;
+        };
     };
 
     macros {
