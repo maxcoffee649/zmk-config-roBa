@@ -14,6 +14,7 @@
 
 &trackball {
     automouse-layer = <9>;
+    automouse-threshold = <10>;　// 振動によってAMLが発動するため処置として追記
     scroll-layers = <3 7>;
 
     arrows {
