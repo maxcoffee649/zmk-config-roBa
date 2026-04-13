@@ -38,17 +38,17 @@
             key-positions = <12 11>;
         };
 
-        ctrl+alt+up {
+        ctrl_alt_up {
             bindings = <&kp LC(LA(UP_ARROW))>;
             key-positions = <39 2>;
         };
 
-        ctrl+alt+down {
+        ctrl_alt_down {
             bindings = <&kp LC(LA(DOWN_ARROW))>;
             key-positions = <39 3>;
         };
 
-        alt+z {
+        alt_z {
             bindings = <&kp LA(Z)>;
             key-positions = <22 23>;
         };
@@ -83,7 +83,7 @@
             key-positions = <18 19>;
         };
 
-        alt+D {
+        alt_D {
             bindings = <&kp LA(D)>;
             key-positions = <38 41>;
         };
