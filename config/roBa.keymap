@@ -231,14 +231,14 @@
             label = "QUICK_LINK";
         };
 
-        globe_left: globe_left {
+        iPad_globe_left: globe_left {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp GLOBE &kp LEFT_ARROW>;
             label = "GLOBE_LEFT";
         };
 
-        globe_right: globe_right {
+        iPad_globe_right: globe_right {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp GLOBE &kp RIGHT>;
@@ -403,10 +403,10 @@
 
         iPad_ARROW {
             bindings = <
-&trans     &trans          &kp UP_ARROW  &kp DOWN_ARROW  &kp DEL                                         &kp LG(T)      &globe_left  &globe_right  &kp LG(H)  &kp LG(A)
-&kp GLOBE  &kp LEFT_SHIFT  &kp LEFT      &kp RIGHT       &kp LG(LA(D))  &trans      &kp SLASH            &kp LS(LG(T))  &mkp MB1     &mkp MB2      &kp HOME   &kp END
-&trans     &trans          &kp LG(M)     &kp LG(LS(N))   &kp LG(LA(C))  &trans      &kp INTERNATIONAL_1  &kp LG(LC(M))  &mkp MB3     &mkp MB4      &kp PG_UP  &kp PAGE_DOWN
-&trans     &trans          &trans        &trans          &trans         &trans      &kp F8               &kp F7                                               &kp LG(LS(NUMBER_4))
+&trans     &trans          &kp UP_ARROW  &kp DOWN_ARROW  &kp DEL                                         &kp LG(T)      &iPad_globe_left  &iPad_globe_right  &kp LG(H)  &kp LG(A)
+&kp GLOBE  &kp LEFT_SHIFT  &kp LEFT      &kp RIGHT       &kp LG(LA(D))  &trans      &kp SLASH            &kp LS(LG(T))  &mkp MB1          &mkp MB2           &kp HOME   &kp END
+&trans     &trans          &kp LG(M)     &kp LG(LS(N))   &kp LG(LA(C))  &trans      &kp INTERNATIONAL_1  &kp LG(LC(M))  &mkp MB3          &mkp MB4           &kp PG_UP  &kp PAGE_DOWN
+&trans     &trans          &trans        &trans          &trans         &trans      &kp F8               &kp F7                                                         &kp LG(LS(NUMBER_4))
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -434,10 +434,10 @@
 
         iPad_GOODNOTES {
             bindings = <
-&kp LS(LEFT)          &kp S   &globe_left  &globe_right   &trans                                    &trans  &trans  &trans  &trans  &trans
-&kp LS(RIGHT)         &kp H   &kp E        &kp P          &kp LG(LA(C))  &trans             &trans  &trans  &trans  &trans  &trans  &trans
-&kp LS(LG(NUMBER_3))  &trans  &kp L        &kp I          &kp LG(LA(D))  &to 4              &trans  &trans  &trans  &trans  &trans  &trans
-&trans                &trans  &trans       &kp LG(LC(M))  &kp LG(Z)      &kp LS(LG(Z))      &trans  &trans                          &trans
+&kp LS(LEFT)          &kp S   &iPad_globe_left  &iPad_globe_right  &trans                                    &trans  &trans  &trans  &trans  &trans
+&kp LS(RIGHT)         &kp H   &kp E             &kp P              &kp LG(LA(C))  &trans             &trans  &trans  &trans  &trans  &trans  &trans
+&kp LS(LG(NUMBER_3))  &trans  &kp L             &kp I              &kp LG(LA(D))  &to 4              &trans  &trans  &trans  &trans  &trans  &trans
+&trans                &trans  &trans            &kp LG(LC(M))      &kp LG(Z)      &kp LS(LG(Z))      &trans  &trans                          &trans
             >;
         };
 
