@@ -434,10 +434,10 @@
 
         iPad_GOODNOTES {
             bindings = <
-&kp LS(LEFT)          &kp S   &iPad_globe_left  &iPad_globe_right  &trans                                    &trans  &trans  &trans  &trans  &trans
-&kp LS(RIGHT)         &kp H   &kp E             &kp P              &kp LG(LA(C))  &trans             &trans  &trans  &trans  &trans  &trans  &trans
-&kp LS(LG(NUMBER_3))  &trans  &kp L             &kp I              &kp LG(LA(D))  &to 4              &trans  &trans  &trans  &trans  &trans  &trans
-&trans                &trans  &trans            &kp LG(LC(M))      &kp LG(Z)      &kp LS(LG(Z))      &trans  &trans                          &trans
+&kp I                 &kp S          &iPad_globe_left  &iPad_globe_right  &trans                                    &trans  &trans  &trans  &trans  &trans
+&kp LS(LEFT)          &kp LS(RIGHT)  &kp E             &kp P              &kp LG(LA(D))  &trans             &trans  &trans  &trans  &trans  &trans  &trans
+&kp LS(LG(NUMBER_3))  &kp T          &kp L             &kp H              &kp LG(LA(C))  &to 4              &trans  &trans  &trans  &trans  &trans  &trans
+&trans                &trans         &trans            &kp LG(LC(M))      &kp LG(Z)      &kp LS(LG(Z))      &trans  &trans                          &trans
             >;
         };
 
