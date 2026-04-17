@@ -475,7 +475,7 @@
             bindings = <
 &trans     &trans          &kp UP_ARROW  &kp DOWN_ARROW  &kp DEL                                         &kp LG(T)      &iPad_globe_left  &iPad_globe_right  &kp LG(H)  &kp LG(A)
 &kp GLOBE  &kp LEFT_SHIFT  &kp LEFT      &kp RIGHT       &kp LG(LA(D))  &trans      &kp SLASH            &kp LS(LG(T))  &mkp MB1          &mkp MB2           &kp HOME   &kp END
-&trans     &trans          &kp LG(M)     &kp LG(LS(N))   &kp LG(LA(C))  &trans      &kp INTERNATIONAL_1  &kp LG(LC(M))  &mkp MB3          &mkp MB4           &kp PG_UP  &kp PAGE_DOWN
+&trans     &trans          &kp LG(M)     &kp LG(LS(N))   &kp LG(LA(C))  &trans      &kp INTERNATIONAL_1  &kp LG(LA(M))  &mkp MB3          &mkp MB4           &kp PG_UP  &kp PAGE_DOWN
 &trans     &trans          &trans        &trans          &trans         &trans      &kp F8               &kp F7                                                         &kp LG(LS(NUMBER_4))
             >;
 
@@ -507,7 +507,7 @@
 &kp I                 &kp S          &iPad_globe_left  &iPad_globe_right  &trans                                    &trans  &trans  &trans  &trans  &trans
 &kp LS(LEFT)          &kp LS(RIGHT)  &kp E             &kp P              &kp LG(LA(D))  &trans             &trans  &trans  &trans  &trans  &trans  &trans
 &kp LS(LG(NUMBER_3))  &kp T          &kp L             &kp H              &kp LG(LA(C))  &to 4              &trans  &trans  &trans  &trans  &trans  &trans
-&trans                &trans         &trans            &kp LG(LC(M))      &kp LG(Z)      &kp LS(LG(Z))      &trans  &trans                          &trans
+&trans                &trans         &trans            &kp LG(LA(M))      &kp LG(Z)      &kp LS(LG(Z))      &trans  &trans                          &trans
             >;
         };
 
