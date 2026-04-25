@@ -19,9 +19,6 @@
         status = "okay";
         compatible = "zmk,input-listener";
         device = <&trackball>;
-
-        input-processors = <&zip_temp_layer 9 10000>;
-
     };
 };
 
