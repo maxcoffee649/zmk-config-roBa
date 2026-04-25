@@ -13,7 +13,7 @@
 };
 
 &trackball {
-    // automouse-layer = <9>;
+    automouse-layer = <9>;
     scroll-layers = <3 7>;
 
     arrows {
@@ -27,12 +27,6 @@
         wait-ms = <5>;
         tap-ms = <5>;
     };
-};
-
-&trackball_listener {
-    /* 9番レイヤーを、操作停止から1秒(1000ms)維持する場合の設定 */
-    /* 10秒にしたい場合は 10000 に書き換えてください */
-    input-processors = <&zip_temp_layer 9 1000>;
 };
 
 / {
