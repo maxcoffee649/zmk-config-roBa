@@ -87,6 +87,11 @@
             bindings = <&kp LA(D)>;
             key-positions = <38 41>;
         };
+
+        home_shift-end {
+            bindings = <&home_shift_end>;
+            key-positions = <21 20>;
+        };
     };
 
     macros {
@@ -369,6 +374,13 @@
                 <&kp GLOBE &kp LEFT_CONTROL>;
 
             label = "IPAD_MOVE_DISPLAY";
+        };
+
+        home_shift_end: home_shift_end {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp HOME &kp LS(END)>;
+            label = "HOME_SHIFT_END";
         };
     };
 
