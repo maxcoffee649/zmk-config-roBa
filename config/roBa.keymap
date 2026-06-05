@@ -515,7 +515,7 @@
 &trans            &kp AMPERSAND    &kp LEFT_SHIFT  &kp LS(INTERNATIONAL_1)  &macro_braces                                        &macro_angle       &iPad_SlideOvere_left  &iPad_move_up         &iPad_SlideOvere_right  &kp EQUAL
 &kp LEFT_BRACKET  &kp DOLLAR       &kp PERCENT     &kp CARET                &macro_parens    &trans      &kp APOS                &kp LG(LS(H))      &iPad_move_left        &iPad_move_down       &iPad_move_right        &kp LS(EQUAL)
 &kp LEFT_BRACE    &kp EXCLAMATION  &kp AT          &kp HASH                 &macro_brackets  &to 8       &kp MINUS               &trans             &kp LG(M)              &iPad_SlideOvere_Non  &iPad_move_display      &trans
-&to 5             &trans           &trans          &trans                   &trans           &trans      &kp LC(LG(LEFT_ARROW))  &kp LG(LC(RIGHT))                                                                       &trans
+&to 4             &trans           &trans          &trans                   &trans           &trans      &kp LC(LG(LEFT_ARROW))  &kp LG(LC(RIGHT))                                                                       &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
