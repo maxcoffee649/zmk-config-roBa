@@ -453,10 +453,10 @@
 
         Win_ARROW {
             bindings = <
-&trans                &trans          &kp UP_ARROW          &kp DOWN_ARROW  &kp DEL                                         &kp LC(T)      &kp LEFT_ALT  &kp TAB        &kp LCTRL  &kp LG(A)
-&kp LC(LEFT_SHIFT)    &kp LEFT_SHIFT  &kp LEFT              &kp RIGHT       &trans         &trans      &kp SLASH            &kp LS(LC(T))  &mkp MB1      &mkp MB2       &kp HOME   &kp END
-&kp LC(LEFT_BRACKET)  &kp LC(SLASH)   &kp LA(LS(NUMBER_5))  &kp LA(LS(D))   &kp LG(LC(T))  &trans      &kp INTERNATIONAL_1  &kp LG(TAB)    &kp LA(LEFT)  &kp LA(RIGHT)  &kp PG_UP  &kp PAGE_DOWN
-&trans                &trans          &trans                &trans          &trans         &trans      &kp F8               &kp F7                                                 &kp LG(LS(S))
+&trans                &trans          &mt LC(UP_ARROW) UP_ARROW  &mt LC(DOWN_ARROW) DOWN  &kp DEL                                         &kp LC(T)      &kp LEFT_ALT  &kp TAB        &kp LCTRL  &kp LG(A)
+&kp LC(LEFT_SHIFT)    &kp LEFT_SHIFT  &mt LC(LEFT) LEFT_ARROW    &mt LC(RIGHT) RIGHT      &trans         &trans      &kp SLASH            &kp LS(LC(T))  &mkp MB1      &mkp MB2       &kp HOME   &kp END
+&kp LC(LEFT_BRACKET)  &kp LC(SLASH)   &kp LA(LS(NUMBER_5))       &kp LA(LS(D))            &kp LG(LC(T))  &trans      &kp INTERNATIONAL_1  &kp LG(TAB)    &kp LA(LEFT)  &kp LA(RIGHT)  &kp PG_UP  &kp PAGE_DOWN
+&trans                &trans          &trans                     &trans                   &trans         &trans      &kp F8               &kp F7                                                 &kp LG(LS(S))
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
