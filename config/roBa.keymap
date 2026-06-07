@@ -92,6 +92,11 @@
             bindings = <&home_shift_end>;
             key-positions = <14 13>;
         };
+
+        win_L {
+            bindings = <&kp LG(L)>;
+            key-positions = <42 41>;
+        };
     };
 
     macros {
