@@ -445,6 +445,8 @@
             label = "DOCK_CNTRL_CENTER";
             #binding-cells = <0>;
             bindings = <&kp LG(LA(D))>, <&kp LG(LA(C))>;
+
+            tapping-term-ms = <350>;
         };
 
         home_ctrl_home: home_ctrl_home {
