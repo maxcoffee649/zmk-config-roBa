@@ -88,11 +88,6 @@
             key-positions = <38 41>;
         };
 
-        home_shift-end {
-            bindings = <&home_shift_end>;
-            key-positions = <14 13>;
-        };
-
         win_L {
             bindings = <&kp LG(L)>;
             key-positions = <41 21>;
@@ -451,6 +446,20 @@
             #binding-cells = <0>;
             bindings = <&kp LG(LA(D))>, <&kp LG(LA(C))>;
         };
+
+        home_ctrl_home: home_ctrl_home {
+            compatible = "zmk,behavior-tap-dance";
+            label = "HOME_CTRL_HOME";
+            #binding-cells = <0>;
+            bindings = <&kp HOME>, <&kp LC(HOME)>;
+        };
+
+        endo_ctrl_end: endo_ctrl_end {
+            compatible = "zmk,behavior-tap-dance";
+            label = "ENDO_CTRL_END";
+            #binding-cells = <0>;
+            bindings = <&kp END>, <&kp LC(END)>;
+        };
     };
 
     // 設定したいレイヤーに sensor-bindings = <&encoder_msc_down_up>; を追記
@@ -474,10 +483,10 @@
 
         Win_ARROW {
             bindings = <
-&trans                &trans          &kp UP_ARROW             &kp DOWN_ARROW       &kp DEL                                         &kp LC(T)      &kp LEFT_ALT  &kp TAB        &kp LCTRL     &kp LG(A)
-&kp LC(LEFT_SHIFT)    &kp LEFT_SHIFT  &mt LC(LEFT) LEFT_ARROW  &mt LC(RIGHT) RIGHT  &trans         &trans      &kp SLASH            &kp LS(LC(T))  &mkp MB1      &mkp MB2       &kp HOME      &kp END
-&kp LC(LEFT_BRACKET)  &kp LC(SLASH)   &kp LA(LS(NUMBER_5))     &kp LA(LS(D))        &kp LG(LC(T))  &trans      &kp INTERNATIONAL_1  &kp LG(TAB)    &kp LA(LEFT)  &kp LA(RIGHT)  &kp LC(HOME)  &kp LC(END)
-&trans                &trans          &trans                   &trans               &trans         &trans      &kp F8               &kp F7                                                    &kp LG(LS(S))
+&trans                &trans          &kp UP_ARROW             &kp DOWN_ARROW       &kp DEL                                           &kp LC(T)      &kp LEFT_ALT  &kp TAB        &kp LCTRL        &kp LG(A)
+&kp LC(LEFT_SHIFT)    &kp LEFT_SHIFT  &mt LC(LEFT) LEFT_ARROW  &mt LC(RIGHT) RIGHT  &home_shift_end  &trans      &kp SLASH            &kp LS(LC(T))  &mkp MB1      &mkp MB2       &home_ctrl_home  &endo_ctrl_end
+&kp LC(LEFT_BRACKET)  &kp LC(SLASH)   &kp LA(LS(NUMBER_5))     &kp LA(LS(D))        &kp LG(LC(T))    &trans      &kp INTERNATIONAL_1  &kp LG(TAB)    &kp LA(LEFT)  &kp LA(RIGHT)  &trans           &trans
+&trans                &trans          &trans                   &trans               &trans           &trans      &kp F8               &kp F7                                                       &kp LG(LS(S))
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -518,7 +527,7 @@
 
         iPad_ARROW {
             bindings = <
-&trans         &trans          &kp UP_ARROW  &kp DOWN_ARROW  &kp DEL                                         &kp LG(T)      &iPad_globe_left  &iPad_globe_right  &trans              &kp LG(LA(D))
+&trans         &trans          &kp UP_ARROW  &kp DOWN_ARROW  &kp DEL                                         &kp LG(T)      &iPad_globe_left  &iPad_globe_right  &trans              &dock_cntrl_center
 &kp GLOBE      &kp LEFT_SHIFT  &kp LEFT      &kp RIGHT       &kp LG(LA(D))  &trans      &kp SLASH            &kp LS(LG(T))  &mkp MB1          &mkp MB2           &kp LG(LEFT_ARROW)  &kp LG(RIGHT)
 &kp LG(LA(L))  &kp LG(LA(N))   &kp LG(M)     &kp LG(LS(M))   &kp LG(LA(C))  &trans      &kp INTERNATIONAL_1  &kp LG(LA(M))  &mkp MB3          &mkp MB4           &kp PG_UP           &kp PAGE_DOWN
 &trans         &trans          &trans        &trans          &trans         &trans      &kp F8               &kp F7                                                                  &kp LG(LS(NUMBER_4))
