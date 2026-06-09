@@ -403,6 +403,13 @@
             bindings = <&kp N0 &kp N7 &kp N0 &kp N5 &kp N8 &kp NUMBER_4>;
             label = "PS";
         };
+
+        home_shift_end_ipad: home_shift_end_ipad {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LEFT) &kp RS(LS(RIGHT))>;
+            label = "HOME_SHIFT_END_IPAD";
+        };
     };
 
     behaviors {
@@ -529,10 +536,10 @@
 
         iPad_ARROW {
             bindings = <
-&trans         &trans          &kp UP_ARROW  &kp DOWN_ARROW  &kp DEL                                         &kp LG(T)      &iPad_globe_left  &iPad_globe_right  &kp LEFT_GUI        &kp TAB
-&kp GLOBE      &kp LEFT_SHIFT  &kp LEFT      &kp RIGHT       &kp LG(LA(D))  &trans      &kp SLASH            &kp LS(LG(T))  &mkp MB1          &mkp MB2           &kp LG(LEFT_ARROW)  &kp LG(RIGHT)
-&kp LG(LA(L))  &kp LG(LA(N))   &kp LG(M)     &kp LG(LS(M))   &kp LG(LA(C))  &trans      &kp INTERNATIONAL_1  &kp LG(LA(M))  &mkp MB3          &mkp MB4           &kp PG_UP           &kp PAGE_DOWN
-&trans         &trans          &trans        &trans          &trans         &trans      &kp F8               &kp F7                                                                  &kp LG(LS(NUMBER_4))
+&trans         &trans          &kp UP_ARROW  &kp DOWN_ARROW  &kp DEL                                                &kp LG(T)      &iPad_globe_left  &iPad_globe_right  &kp LEFT_GUI        &kp TAB
+&kp GLOBE      &kp LEFT_SHIFT  &kp LEFT      &kp RIGHT       &home_shift_end_ipad  &trans      &kp SLASH            &kp LS(LG(T))  &mkp MB1          &mkp MB2           &kp LG(LEFT_ARROW)  &kp LG(RIGHT)
+&kp LG(LA(L))  &kp LG(LA(N))   &kp LG(M)     &kp LG(LS(M))   &kp LG(LA(C))         &trans      &kp INTERNATIONAL_1  &kp LG(LA(M))  &mkp MB3          &mkp MB4           &kp PG_UP           &kp PAGE_DOWN
+&trans         &trans          &trans        &trans          &trans                &trans      &kp F8               &kp F7                                                                  &kp LG(LS(NUMBER_4))
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
