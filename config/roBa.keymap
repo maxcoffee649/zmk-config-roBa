@@ -463,9 +463,9 @@
             bindings = <&kp HOME>, <&kp LC(HOME)>;
         };
 
-        endo_ctrl_end: endo_ctrl_end {
+        end_ctrl_end: end_ctrl_end {
             compatible = "zmk,behavior-tap-dance";
-            label = "ENDO_CTRL_END";
+            label = "END_CTRL_END";
             #binding-cells = <0>;
             bindings = <&kp END>, <&kp LC(END)>;
         };
@@ -493,7 +493,7 @@
         Win_ARROW {
             bindings = <
 &trans                &trans          &kp UP_ARROW             &kp DOWN_ARROW       &kp DEL                                           &kp LC(T)      &kp LEFT_ALT  &kp TAB        &kp LCTRL        &kp LG(A)
-&kp LC(LEFT_SHIFT)    &kp LEFT_SHIFT  &mt LC(LEFT) LEFT_ARROW  &mt LC(RIGHT) RIGHT  &home_shift_end  &trans      &kp SLASH            &kp LS(LC(T))  &mkp MB1      &mkp MB2       &home_ctrl_home  &endo_ctrl_end
+&kp LC(LEFT_SHIFT)    &kp LEFT_SHIFT  &mt LC(LEFT) LEFT_ARROW  &mt LC(RIGHT) RIGHT  &home_shift_end  &trans      &kp SLASH            &kp LS(LC(T))  &mkp MB1      &mkp MB2       &home_ctrl_home  &end_ctrl_end
 &kp LC(LEFT_BRACKET)  &kp LC(SLASH)   &kp LA(LS(NUMBER_5))     &kp LA(LS(D))        &kp LG(LC(T))    &trans      &kp INTERNATIONAL_1  &kp LG(TAB)    &kp LA(LEFT)  &kp LA(RIGHT)  &trans           &trans
 &trans                &trans          &trans                   &trans               &trans           &trans      &kp F8               &kp F7                                                       &kp LG(LS(S))
             >;
@@ -576,10 +576,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans        &trans         &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1      &mkp MB2       &mkp MB3  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp LA(LEFT)  &kp LA(RIGHT)  &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                         &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans        &trans         &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1      &mkp MB2       &home_shift_end  &end_ctrl_end
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp LA(LEFT)  &kp LA(RIGHT)  &mkp MB3         &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                &trans
             >;
         };
 
