@@ -64,7 +64,7 @@
     aml_processor: aml_processor {
         compatible = "zmk,input-processor-temp-layer";
 
-        #input-processor-cells = <1>;
+        #input-processor-cells = <2>;
 
         require-prior-idle-ms = <0>;
 
@@ -78,7 +78,7 @@
         device = <&trackball>;
 
         input-processors = <
-            &aml_processor 9
+            &aml_processor 9 800
         >;
     };
 };
