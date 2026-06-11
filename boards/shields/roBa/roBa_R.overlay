@@ -59,3 +59,25 @@
         irq-gpios = <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
     };
 };
+
+/ {
+    aml_processor: aml_processor {
+        compatible = "zmk,input-processor-temp-layer";
+
+        #input-processor-cells = <1>;
+
+        require-prior-idle-ms = <0>;
+
+        excluded-positions = <0>;
+    };
+
+    trackball_listener {
+        compatible = "zmk,input-listener";
+
+        device = <&trackball>;
+
+        input-processors = <
+            &aml_processor 9
+        >;
+    };
+};
