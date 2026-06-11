@@ -70,6 +70,10 @@
 
         excluded-positions =
             <9 18 19 20 21 30 31 32>;
+
+        // 小さい揺れを無視するフィルタ
+        movement-threshold = <3>;
+        
     };
 
     trackball_listener {
