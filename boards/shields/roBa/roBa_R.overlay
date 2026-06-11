@@ -68,7 +68,8 @@
 
         require-prior-idle-ms = <0>;
 
-        excluded-positions = <0>;
+        excluded-positions =
+            <18 19 20 21 30 31 32>;
     };
 
     trackball_listener {
