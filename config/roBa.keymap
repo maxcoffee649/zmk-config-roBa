@@ -140,28 +140,28 @@
         left: left {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp Z &kp H &kp SPACE>;
+            bindings = <&kp LANGUAGE_1 &kp Z &kp H &kp SPACE>;
             label = "LEFT";
         };
 
         right: right {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp Z &kp L &kp SPACE>;
+            bindings = <&kp LANGUAGE_1 &kp Z &kp L &kp SPACE>;
             label = "RIGHT";
         };
 
         up: up {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp Z &kp K &kp SPACE>;
+            bindings = <&kp LANGUAGE_1 &kp Z &kp K &kp SPACE>;
             label = "UP";
         };
 
         down: down {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp Z &kp J &kp SPACE>;
+            bindings = <&kp LANGUAGE_1 &kp Z &kp J &kp SPACE>;
             label = "DOWN";
         };
 
