@@ -478,7 +478,7 @@
 
         Win_default_layer {
             bindings = <
-&kp Q      &kp W         &kp E         &kp R                      &kp T                                             &kp Y        &kp U           &kp I           &lt 1 O           &lt 12 P
+&kp Q      &kp W         &kp E         &kp R                      &kp T                                             &kp Y        &kp U           &kp I           &lt 1 O           &lt 3 P
 &kp A      &kp S         &kp D         &kp F                      &kp G        &trans                &numslash      &kp H        &mt LEFT_GUI J  &mt LEFT_ALT K  &mt LEFT_SHIFT L  &mt LCTRL SEMICOLON
 &kp Z      &kp X         &kp C         &kp V                      &kp B        &mo 11                &numbackslash  &kp N        &lt 10 M        &kp COMMA       &kp DOT           &kp SLASH
 &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT LANGUAGE_2  &lt 1 SPACE  &lt 3 LANGUAGE_1      &kp BACKSPACE  &lt 2 ENTER                                                    &Quick_Link
@@ -522,7 +522,7 @@
 
         iPad_default_layer {
             bindings = <
-&kp Q     &kp W     &kp E      &kp R                      &kp T                                             &kp Y        &kp U               &kp I           &lt 5 O           &lt 12 P
+&kp Q     &kp W     &kp E      &kp R                      &kp T                                             &kp Y        &kp U               &kp I           &lt 5 O           &lt 7 P
 &kp A     &kp S     &kp D      &kp F                      &kp G        &trans                &numslash      &lt 10 H     &mt LA(LEFT_GUI) J  &mt LEFT_ALT K  &mt LEFT_SHIFT L  &mt LEFT_GUI MINUS
 &kp Z     &kp X     &kp C      &kp V                      &kp B        &mo 11                &numbackslash  &kp N        &kp M               &kp COMMA       &kp DOT           &kp FSLH
 &kp LGUI  &kp LALT  &kp LCTRL  &mt LEFT_SHIFT LANGUAGE_2  &lt 5 SPACE  &lt 7 LANGUAGE_1      &kp BSPC       &lt 6 ENTER                                                        &kp LG(LA(Q))
@@ -575,7 +575,7 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans        &trans         &trans           &mo 12
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans        &trans         &trans           &mo 0
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1      &mkp MB2       &home_ctrl_home  &end_ctrl_end
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp LA(LEFT)  &kp LA(RIGHT)  &mkp MB3         &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                &trans
@@ -597,15 +597,6 @@
 &trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans  &trans  &trans  &trans  &trans
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &bootloader  &trans  &trans  &trans  &trans  &bt BT_CLR
 &trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans                          &bt BT_CLR_ALL
-            >;
-        };
-
-        scroll {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
     };
