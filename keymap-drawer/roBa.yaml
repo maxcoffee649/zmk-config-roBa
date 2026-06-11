@@ -10,7 +10,7 @@ layers:
   - U
   - I
   - {t: O, h: Win_ARROW}
-  - {t: P, h: Win_SYMBOl_SCROLL}
+  - {t: P, h: scroll}
   - A
   - S
   - D
@@ -142,7 +142,7 @@ layers:
   - Gui+Sft+LEFT
   - Gui+UP ARROW
   - Gui+Sft+RIGHT
-  - {t: '=', type: held}
+  - '='
   - '['
   - $
   - '%'
@@ -172,7 +172,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - Ctl+Gui+LEFT ARROW
   - Gui+Ctl+RIGHT
   - Alt+F4
@@ -186,7 +186,7 @@ layers:
   - U
   - I
   - {t: O, h: iPad_ARROW}
-  - {t: P, h: iPad_SYMBOl_SCROLL}
+  - {t: P, h: scroll}
   - A
   - S
   - D
@@ -318,7 +318,7 @@ layers:
   - '&iPad_SlideOvere_left'
   - '&iPad_move_up'
   - '&iPad_SlideOvere_right'
-  - {t: '=', type: held}
+  - '='
   - '['
   - $
   - '%'
@@ -348,7 +348,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - Ctl+Gui+LEFT ARROW
   - Gui+Ctl+RIGHT
   - {t: ▽, type: trans}
@@ -406,7 +406,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - MOUSE
+  - scroll
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -528,6 +528,50 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BT CLR ALL
+  scroll:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
 - p: [12, 11]
   k: Sft+TAB
