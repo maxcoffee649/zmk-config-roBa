@@ -13,7 +13,7 @@
 };
 
 &trackball {
-    scroll-layers = <3 7>;
+    scroll-layers = <3 7 12>;
 
     arrows {
         layers = <10>;
