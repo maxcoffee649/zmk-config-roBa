@@ -2978,7 +2978,7 @@ path.combo {
 <g transform="translate(729, 175)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em" style="font-size: 70%">Sft+</tspan><tspan x="0" dy="1.2em" style="font-size: 70%">AltGr+LEFT</tspan><tspan x="0" dy="1.2em" style="font-size: 70%">GUI</tspan>
+<tspan x="0" dy="-1.2em">Ctl+</tspan><tspan x="0" dy="1.2em">LEFT</tspan><tspan x="0" dy="1.2em">GUI</tspan>
 </text>
 </g>
 <g transform="translate(28, 231)" class="key trans keypos-34">
