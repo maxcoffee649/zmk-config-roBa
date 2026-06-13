@@ -449,7 +449,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+LEFT GUI
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT CONTROL
   - LEFT SHIFT
@@ -462,7 +462,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT SHIFT
-  - LEFT GUI
+  - LCTRL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -474,7 +474,7 @@ layers:
   - {type: held}
   - LEFT GUI
   - Sft+LEFT GUI
-  - Ctl+Sft+LEFT GUI
+  - Ctl+LEFT GUI
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
