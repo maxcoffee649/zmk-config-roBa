@@ -36,8 +36,8 @@ layers:
   - .
   - /
   - LCTRL
-  - LEFT WIN
   - LEFT ALT
+  - LEFT GUI
   - {t: LANGUAGE 2, h: LEFT SHIFT}
   - {t: SPACE, h: Win_ARROW}
   - {t: LANGUAGE 1, h: Win_SYMBOl_SCROLL}
@@ -417,8 +417,8 @@ layers:
   - {t: ▽, type: trans}
   - '&mkp MB1'
   - '&mkp MB2'
-  - '&home_ctrl_home'
-  - '&end_ctrl_end'
+  - '&mkp MB3'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -429,7 +429,7 @@ layers:
   - {t: ▽, type: trans}
   - Alt+LEFT
   - Alt+RIGHT
-  - '&mkp MB3'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -449,7 +449,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+LEFT GUI
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT CONTROL
   - LEFT SHIFT
@@ -462,7 +462,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT SHIFT
-  - LEFT GUI
+  - LCTRL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -474,7 +474,7 @@ layers:
   - {type: held}
   - LEFT GUI
   - Sft+LEFT GUI
-  - Sft+AltGr+LEFT GUI
+  - Ctl+LEFT GUI
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

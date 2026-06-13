@@ -481,7 +481,7 @@
 &kp Q      &kp W         &kp E         &kp R                      &kp T                                             &kp Y        &kp U           &kp I           &lt 1 O           &lt 12 P
 &kp A      &kp S         &kp D         &kp F                      &kp G        &trans                &numslash      &kp H        &mt LEFT_GUI J  &mt LEFT_ALT K  &mt LEFT_SHIFT L  &mt LCTRL SEMICOLON
 &kp Z      &kp X         &kp C         &kp V                      &kp B        &mo 11                &numbackslash  &kp N        &lt 10 M        &kp COMMA       &kp DOT           &kp SLASH
-&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT LANGUAGE_2  &lt 1 SPACE  &lt 3 LANGUAGE_1      &kp BACKSPACE  &lt 2 ENTER                                                    &Quick_Link
+&kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &mt LEFT_SHIFT LANGUAGE_2  &lt 1 SPACE  &lt 3 LANGUAGE_1      &kp BACKSPACE  &lt 2 ENTER                                                    &Quick_Link
             >;
 
             // sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -575,18 +575,18 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans        &trans         &trans           &mo 12
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1      &mkp MB2       &home_ctrl_home  &end_ctrl_end
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp LA(LEFT)  &kp LA(RIGHT)  &mkp MB3         &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans        &trans         &trans    &mo 12
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1      &mkp MB2       &mkp MB3  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp LA(LEFT)  &kp LA(RIGHT)  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                         &trans
             >;
         };
 
         CURSOR_ARROW {
             bindings = <
-&trans            &trans          &trans        &trans          &trans                                  &trans  &trans  &trans        &kp LC(LEFT_GUI)  &trans
-&kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_GUI    &trans              &trans      &trans  &trans  &trans  &trans        &kp LEFT_SHIFT    &kp LEFT_GUI
-&trans            &trans          &trans        &trans          &trans              &trans      &trans  &trans  &trans  &kp LEFT_GUI  &kp LS(LEFT_GUI)  &kp LS(RA(LEFT_GUI))
+&trans            &trans          &trans        &trans          &trans                                  &trans  &trans  &trans        &trans            &trans
+&kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_GUI    &trans              &trans      &trans  &trans  &trans  &trans        &kp LEFT_SHIFT    &kp LCTRL
+&trans            &trans          &trans        &trans          &trans              &trans      &trans  &trans  &trans  &kp LEFT_GUI  &kp LS(LEFT_GUI)  &kp LC(LEFT_GUI)
 &trans            &trans          &trans        &kp LEFT_SHIFT  &kp LC(LEFT_SHIFT)  &trans      &trans  &trans                                          &trans
             >;
         };
