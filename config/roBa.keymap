@@ -481,7 +481,7 @@
 &kp Q      &kp W         &kp E         &kp R                      &kp T                                             &kp Y        &kp U           &kp I           &lt 1 O           &lt 12 P
 &kp A      &kp S         &kp D         &kp F                      &kp G        &trans                &numslash      &kp H        &mt LEFT_GUI J  &mt LEFT_ALT K  &mt LEFT_SHIFT L  &mt LCTRL SEMICOLON
 &kp Z      &kp X         &kp C         &kp V                      &kp B        &mo 11                &numbackslash  &kp N        &lt 10 M        &kp COMMA       &kp DOT           &kp SLASH
-&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT LANGUAGE_2  &lt 1 SPACE  &lt 3 LANGUAGE_1      &kp BACKSPACE  &lt 2 ENTER                                                    &Quick_Link
+&kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &mt LEFT_SHIFT LANGUAGE_2  &lt 1 SPACE  &lt 3 LANGUAGE_1      &kp BACKSPACE  &lt 2 ENTER                                                    &Quick_Link
             >;
 
             // sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
