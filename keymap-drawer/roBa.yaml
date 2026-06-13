@@ -36,8 +36,8 @@ layers:
   - .
   - /
   - LCTRL
-  - LEFT WIN
   - LEFT ALT
+  - LEFT GUI
   - {t: LANGUAGE 2, h: LEFT SHIFT}
   - {t: SPACE, h: Win_ARROW}
   - {t: LANGUAGE 1, h: Win_SYMBOl_SCROLL}
