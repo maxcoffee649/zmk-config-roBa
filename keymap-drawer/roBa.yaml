@@ -417,8 +417,8 @@ layers:
   - {t: ▽, type: trans}
   - '&mkp MB1'
   - '&mkp MB2'
-  - '&home_ctrl_home'
-  - '&end_ctrl_end'
+  - '&mkp MB3'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -429,7 +429,7 @@ layers:
   - {t: ▽, type: trans}
   - Alt+LEFT
   - Alt+RIGHT
-  - '&mkp MB3'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
