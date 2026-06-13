@@ -474,7 +474,7 @@ layers:
   - {type: held}
   - LEFT GUI
   - Sft+LEFT GUI
-  - Ctl+LEFT GUI
+  - Ctl+Sft+LEFT GUI
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
