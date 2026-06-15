@@ -133,7 +133,7 @@ layers:
   - {type: held}
   - '&Esc_ctrl_1'
   Win_SYMBOl_SCROLL:
-  - Ctl+Sft+[
+  - Ctl+[
   - '&'
   - LEFT SHIFT
   - '&num_under'
