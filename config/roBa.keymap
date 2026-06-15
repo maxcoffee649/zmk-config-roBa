@@ -468,6 +468,13 @@
             #binding-cells = <0>;
             bindings = <&kp END>, <&kp LC(END)>;
         };
+
+        Esc_ctrl_1: Esc_ctrl_1 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "ESC_CTRL_1";
+            #binding-cells = <0>;
+            bindings = <&kp ESCAPE>, <&kp LC(NUMBER_1)>;
+        };
     };
 
     // 設定したいレイヤーに sensor-bindings = <&encoder_msc_down_up>; を追記
@@ -492,8 +499,8 @@
         Win_ARROW {
             bindings = <
 &trans                &trans          &kp UP_ARROW             &kp DOWN_ARROW       &kp DEL                                           &kp LC(T)      &kp LEFT_ALT  &kp TAB        &kp LCTRL        &kp LG(A)
-&kp LC(LEFT_SHIFT)    &kp LEFT_SHIFT  &mt LC(LEFT) LEFT_ARROW  &mt LC(RIGHT) RIGHT  &home_shift_end  &trans      &kp SLASH            &kp LS(LC(T))  &mkp MB1      &mkp MB2       &home_ctrl_home  &end_ctrl_end
-&kp LC(LEFT_BRACKET)  &kp LC(SLASH)   &kp LA(LS(NUMBER_5))     &kp LA(LS(D))        &kp LG(LC(T))    &trans      &kp INTERNATIONAL_1  &kp LG(TAB)    &kp LA(LEFT)  &kp LA(RIGHT)  &trans           &trans
+&trans                &kp LEFT_SHIFT  &mt LC(LEFT) LEFT_ARROW  &mt LC(RIGHT) RIGHT  &home_shift_end  &trans      &kp SLASH            &kp LS(LC(T))  &mkp MB1      &mkp MB2       &home_ctrl_home  &end_ctrl_end
+&kp LC(LEFT_BRACKET)  &kp LC(SLASH)   &kp LS(LC(LEFT))         &kp LC(LS(RIGHT))    &kp LG(LC(T))    &trans      &kp INTERNATIONAL_1  &kp LA(LS(D))  &kp LA(LEFT)  &kp LA(RIGHT)  &trans           &trans
 &trans                &trans          &trans                   &trans               &trans           &trans      &kp F8               &kp F7                                                       &kp LG(LS(S))
             >;
 
@@ -502,10 +509,10 @@
 
         Win_NUM_FUNCTION {
             bindings = <
-&kp ESCAPE     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp DOUBLE_QUOTES                             &kp LC(KP_PLUS)      &kp RIGHT_BRACKET  &kp BACKSLASH  &pin    &kp LG(A)
-&kp LS(MINUS)  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp LS(MINUS)      &trans             &trans  &kp LC(KP_NUMBER_0)  &kp LS(N8)         &kp LS(N9)     &trans  &kp LG(N)
-&trans         &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp COLON          &trans             &trans  &kp LC(KP_MINUS)     &kp RIGHT_BRACE    &kp PIPE       &trans  &kp LG(D)
-&to 0          &num_00          &kp KP_NUMBER_0  &kp SPACE        &kp ENTER          &kp BACKSPACE      &trans  &trans                                                         &kp LC(NUMBER_1)
+&kp ESCAPE     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp DOUBLE_QUOTES                             &kp LC(KP_PLUS)      &kp RIGHT_BRACKET  &kp BACKSLASH  &pin       &kp LG(A)
+&kp LS(MINUS)  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp LS(MINUS)      &trans             &trans  &kp LC(KP_NUMBER_0)  &kp LS(N8)         &kp LS(N9)     &kp LG(N)  &kp LG(TAB)
+&trans         &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp COLON          &trans             &trans  &kp LC(KP_MINUS)     &kp RIGHT_BRACE    &kp PIPE       &trans     &kp LG(D)
+&to 0          &num_00          &kp KP_NUMBER_0  &kp SPACE        &kp ENTER          &kp BACKSPACE      &trans  &trans                                                            &Esc_ctrl_1
             >;
         };
 
