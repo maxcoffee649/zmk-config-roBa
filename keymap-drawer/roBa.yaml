@@ -55,7 +55,7 @@ layers:
   - TAB
   - {t: LCTRL, type: held}
   - Gui+A
-  - Ctl+LEFT SHIFT
+  - {t: ▽, type: trans}
   - LEFT SHIFT
   - {t: LEFT ARROW, h: Ctl+LEFT}
   - {t: RIGHT, h: Ctl+RIGHT}
@@ -69,12 +69,12 @@ layers:
   - '&end_ctrl_end'
   - Ctl+[
   - Ctl+/
-  - Alt+Sft+5
-  - Alt+Sft+D
+  - Sft+Ctl+LEFT
+  - Ctl+Sft+RIGHT
   - Gui+Ctl+T
   - {t: ▽, type: trans}
   - INTERNATIONAL 1
-  - Gui+TAB
+  - Alt+Sft+D
   - Alt+LEFT
   - Alt+RIGHT
   - {t: ▽, type: trans}
@@ -109,8 +109,8 @@ layers:
   - Ctl+KP 0
   - Sft+8
   - Sft+9
-  - {t: ▽, type: trans}
   - Gui+N
+  - Gui+TAB
   - {t: ▽, type: trans}
   - KP 1
   - KP 2
@@ -131,7 +131,7 @@ layers:
   - BACKSPACE
   - {t: ▽, type: trans}
   - {type: held}
-  - Ctl+1
+  - '&Esc_ctrl_1'
   Win_SYMBOl_SCROLL:
   - Ctl+Sft+[
   - '&'
