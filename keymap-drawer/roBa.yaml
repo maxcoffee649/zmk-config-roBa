@@ -526,7 +526,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&ZMK'
   - BT CLR ALL
   scroll:
   - {t: ▽, type: trans}
