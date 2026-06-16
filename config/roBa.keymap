@@ -555,7 +555,7 @@
 &trans         &trans          &trans        &trans          &trans                &trans      &kp F8               &kp F7                                                                  &kp LG(LS(NUMBER_4))
             >;
 
-            sensor-bindings = <&encoder_msc_down_up>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         iPad_NUM_FUNCTION {
