@@ -413,7 +413,7 @@
         ZMK: ZMK {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(T) &kp Z &kp M &kp K &kp ENTER>;
+            bindings = <&kp LC(T) &kp LANGUAGE_2 &kp Z &kp M &kp K &kp ENTER>;
             label = "ZMK";
         };
     };
