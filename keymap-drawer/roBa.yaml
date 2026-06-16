@@ -53,8 +53,8 @@ layers:
   - Ctl+T
   - LEFT ALT
   - TAB
-  - {t: LCTRL, type: held}
-  - Gui+A
+  - {t: Ctl+PAGE UP, type: held}
+  - Ctl+PAGE DOWN
   - {t: ▽, type: trans}
   - LEFT SHIFT
   - {t: LEFT ARROW, h: Ctl+LEFT}
