@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - G
-  - {t: ▽, type: trans}
+  - {t: Win_default, h: toggle}
   - '&numslash'
   - H
   - {t: J, h: LEFT GUI}
@@ -109,7 +109,7 @@ layers:
   - Ctl+KP 0
   - Sft+8
   - Sft+9
-  - Gui+N
+  - Gui+Ctl+V
   - Gui+TAB
   - {t: ▽, type: trans}
   - KP 1
@@ -121,7 +121,7 @@ layers:
   - Ctl+KP MINUS
   - '}'
   - '|'
-  - {t: ▽, type: trans}
+  - Gui+N
   - Gui+D
   - {t: Win_default, h: toggle}
   - '&num_00'
@@ -192,7 +192,7 @@ layers:
   - D
   - F
   - G
-  - {t: ▽, type: trans}
+  - {t: iPad_default, h: toggle}
   - '&numslash'
   - {t: H, h: CURSOR_ARROW}
   - {t: J, h: Alt+LEFT GUI}
