@@ -570,10 +570,10 @@
 
         iPad_ARROW {
             bindings = <
-&trans         &trans                        &kp UP_ARROW  &kp DOWN_ARROW  &kp DEL                                                &kp LG(T)      &iPad_globe_left  &iPad_globe_right  &kp LEFT_GUI        &kp TAB
-&kp GLOBE      &kp LEFT_SHIFT                &kp LEFT      &kp RIGHT       &iPad_home_shift_end  &trans      &kp SLASH            &kp LS(LG(T))  &mkp MB1          &mkp MB2           &kp LG(LEFT_ARROW)  &kp LG(RIGHT)
-&kp LG(LA(L))  &kp LG(LA(LEFT_PARENTHESIS))  &kp LG(M)     &kp LG(LS(M))   &kp LG(LA(C))         &trans      &kp INTERNATIONAL_1  &kp LG(LA(N))  &mkp MB3          &mkp MB4           &trans              &trans
-&trans         &trans                        &trans        &trans          &trans                &trans      &kp F8               &kp F7                                                                  &kp LG(LS(NUMBER_4))
+&trans         &trans                        &kp UP_ARROW  &kp DOWN_ARROW     &kp DEL                                                &kp LG(T)      &iPad_globe_left  &iPad_globe_right  &kp LEFT_GUI        &kp TAB
+&kp GLOBE      &kp LEFT_SHIFT                &kp LEFT      &kp RIGHT          &iPad_home_shift_end  &trans      &kp SLASH            &kp LS(LG(T))  &mkp MB1          &mkp MB2           &kp LG(LEFT_ARROW)  &kp LG(RIGHT)
+&kp LG(LA(L))  &kp LG(LA(LEFT_PARENTHESIS))  &kp LG(M)     &kp LG(LS(LA(M)))  &kp LG(LA(C))         &trans      &kp INTERNATIONAL_1  &kp LG(LA(N))  &mkp MB3          &mkp MB4           &trans              &trans
+&trans         &trans                        &trans        &trans             &trans                &trans      &kp F8               &kp F7                                                                  &kp LG(LS(NUMBER_4))
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
