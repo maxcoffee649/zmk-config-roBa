@@ -12,7 +12,7 @@ layers:
   - {t: O, h: Win_ARROW}
   - {t: P, h: scroll}
   - A
-  - S
+  - {t: '&s', h: '&layer1_shift'}
   - D
   - F
   - G
