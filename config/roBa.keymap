@@ -416,6 +416,13 @@
             bindings = <&kp LC(T) &kp LANGUAGE_2 &kp Z &kp M &kp K &kp ENTER>;
             label = "ZMK";
         };
+
+        iPad_home_shift_end: iPad_home_shift_end {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(LC(LEFT_ARROW)) &kp LG(LS(RIGHT))>;
+            label = "IPAD_HOME_SHIFT_END";
+        };
     };
 
     behaviors {
@@ -489,6 +496,13 @@
             #binding-cells = <0>;
             bindings = <&kp LC(C)>, <&kp LC(V)>;
         };
+
+        dock_app_switcher: dock_app_switcher {
+            compatible = "zmk,behavior-tap-dance";
+            label = "DOCK_APP_SWITCHER";
+            #binding-cells = <0>;
+            bindings = <&kp LA(LG(D))>, <&kp LA(LG(M))>;
+        };
     };
 
     // 設定したいレイヤーに sensor-bindings = <&encoder_msc_down_up>; を追記
@@ -556,10 +570,10 @@
 
         iPad_ARROW {
             bindings = <
-&trans         &trans          &kp UP_ARROW  &kp DOWN_ARROW  &kp DEL                                                &kp LG(T)      &iPad_globe_left  &iPad_globe_right  &kp LEFT_GUI        &kp TAB
-&kp GLOBE      &kp LEFT_SHIFT  &kp LEFT      &kp RIGHT       &home_shift_end_ipad  &trans      &kp SLASH            &kp LS(LG(T))  &mkp MB1          &mkp MB2           &kp LG(LEFT_ARROW)  &kp LG(RIGHT)
-&kp LG(LA(L))  &kp LG(LA(N))   &kp LG(M)     &kp LG(LS(M))   &kp LG(LA(C))         &trans      &kp INTERNATIONAL_1  &kp LG(LA(M))  &mkp MB3          &mkp MB4           &trans              &trans
-&trans         &trans          &trans        &trans          &trans                &trans      &kp F8               &kp F7                                                                  &kp LG(LS(NUMBER_4))
+&trans         &trans                        &kp UP_ARROW  &kp DOWN_ARROW  &kp DEL                                                &kp LG(T)      &iPad_globe_left  &iPad_globe_right  &kp LEFT_GUI        &kp TAB
+&kp GLOBE      &kp LEFT_SHIFT                &kp LEFT      &kp RIGHT       &iPad_home_shift_end  &trans      &kp SLASH            &kp LS(LG(T))  &mkp MB1          &mkp MB2           &kp LG(LEFT_ARROW)  &kp LG(RIGHT)
+&kp LG(LA(L))  &kp LG(LA(LEFT_PARENTHESIS))  &kp LG(M)     &kp LG(LS(M))   &kp LG(LA(C))         &trans      &kp INTERNATIONAL_1  &kp LG(LA(N))  &mkp MB3          &mkp MB4           &trans              &trans
+&trans         &trans                        &trans        &trans          &trans                &trans      &kp F8               &kp F7                                                                  &kp LG(LS(NUMBER_4))
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
@@ -567,8 +581,8 @@
 
         iPad_NUM_FUNCTION {
             bindings = <
-&kp ESCAPE  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp DOUBLE_QUOTES                             &kp LC(KP_PLUS)      &kp RIGHT_BRACKET  &kp BACKSLASH  &ps            &trans
-&trans      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp LS(MINUS)      &trans             &trans  &kp LC(KP_NUMBER_0)  &kp LS(N8)         &kp LS(N9)     &kp PAGE_UP    &dock_cntrl_center
+&kp ESCAPE  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp DOUBLE_QUOTES                             &kp LC(KP_PLUS)      &kp RIGHT_BRACKET  &kp BACKSLASH  &ps            &kp LA(LG(C))
+&trans      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp LS(MINUS)      &trans             &trans  &kp LC(KP_NUMBER_0)  &kp LS(N8)         &kp LS(N9)     &kp PAGE_UP    &dock_app_switcher
 &trans      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp COLON          &trans             &trans  &kp LC(KP_MINUS)     &kp RIGHT_BRACE    &kp PIPE       &kp PAGE_DOWN  &kp LG(M)
 &to 4       &num_00          &kp KP_NUMBER_0  &kp SPACE        &kp ENTER          &kp BACKSPACE      &trans  &trans                                                                &kp LG(H)
             >;
