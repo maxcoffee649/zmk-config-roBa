@@ -423,6 +423,27 @@
             bindings = <&kp LG(LC(LEFT_ARROW)) &kp LG(LS(RIGHT))>;
             label = "IPAD_HOME_SHIFT_END";
         };
+
+        layer1_shift: layer1_shift {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&to 1>,
+                <&macro_tap>,
+                <&kp LEFT_SHIFT>,
+                <&macro_release>,
+                <&to 1>;
+
+            label = "LAYER1_SHIFT";
+        };
+
+        s: a {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp S>;
+            label = "A";
+        };
     };
 
     behaviors {
@@ -503,6 +524,24 @@
             #binding-cells = <0>;
             bindings = <&kp LA(LG(D))>, <&kp LA(LG(M))>;
         };
+
+        a_layer1_shift: a_layer1_shift {
+            compatible = "zmk,behavior-hold-tap";
+            label = "A_LAYER1_SHIFT";
+            bindings = <&layer1_shift>, <&s>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
+
+        s_layer1_shift: s_layer1_shift {
+            compatible = "zmk,behavior-hold-tap";
+            label = "S_LAYER1_SHIFT";
+            bindings = <&layer1_shift>, <&s>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
     };
 
     // 設定したいレイヤーに sensor-bindings = <&encoder_msc_down_up>; を追記
@@ -513,10 +552,10 @@
 
         Win_default_layer {
             bindings = <
-&kp Q      &kp W         &kp E         &kp R                      &kp T                                             &kp Y        &kp U           &kp I           &lt 1 O           &lt 12 P
-&kp A      &kp S         &kp D         &kp F                      &kp G        &to 0                 &numslash      &kp H        &mt LEFT_GUI J  &mt LEFT_ALT K  &mt LEFT_SHIFT L  &mt LCTRL SEMICOLON
-&kp Z      &kp X         &kp C         &kp V                      &kp B        &mo 11                &numbackslash  &kp N        &lt 10 M        &kp COMMA       &kp DOT           &kp SLASH
-&kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &mt LEFT_SHIFT LANGUAGE_2  &lt 1 SPACE  &lt 3 LANGUAGE_1      &kp BACKSPACE  &lt 2 ENTER                                                    &Quick_Link
+&kp Q      &kp W                &kp E         &kp R                      &kp T                                             &kp Y        &kp U           &kp I           &lt 1 O           &lt 12 P
+&kp A      &s_layer1_shift 0 0  &kp D         &kp F                      &kp G        &to 0                 &numslash      &kp H        &mt LEFT_GUI J  &mt LEFT_ALT K  &mt LEFT_SHIFT L  &mt LCTRL SEMICOLON
+&kp Z      &kp X                &kp C         &kp V                      &kp B        &mo 11                &numbackslash  &kp N        &lt 10 M        &kp COMMA       &kp DOT           &kp SLASH
+&kp LCTRL  &kp LEFT_ALT         &kp LEFT_GUI  &mt LEFT_SHIFT LANGUAGE_2  &lt 1 SPACE  &lt 3 LANGUAGE_1      &kp BACKSPACE  &lt 2 ENTER                                                    &Quick_Link
             >;
 
             // sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
