@@ -13,10 +13,10 @@
 };
 
 &trackball {
-    scroll-layers = <12>;
+    scroll-layers = <14>;
 
     arrows {
-        layers = <10>;
+        layers = <12>;
         bindings =
             <&kp RIGHT_ARROW>,
             <&kp LEFT_ARROW>,
@@ -77,8 +77,8 @@
             key-positions = <13 12>;
         };
 
-        layer9_cursor_arrow {
-            bindings = <&mo 10>;
+        layer12_cursor_arrow {
+            bindings = <&mo 12>;
             key-positions = <18 19>;
         };
 

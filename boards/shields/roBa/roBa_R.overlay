@@ -79,7 +79,7 @@
         device = <&trackball>;
 
         input-processors = <
-            &aml_processor 9 800
+            &aml_processor 11 800
         >;
     };
 };
