@@ -432,7 +432,8 @@
                 <&mo 1>,
                 <&macro_tap>,
                 <&kp LEFT_SHIFT>,
-                <&macro_release>;
+                <&macro_release>,
+                <&mo 1>;
 
             label = "LAYER1_SHIFT";
         };
@@ -524,22 +525,13 @@
             bindings = <&kp LA(LG(D))>, <&kp LA(LG(M))>;
         };
 
-        a_layer1_shift: a_layer1_shift {
-            compatible = "zmk,behavior-hold-tap";
-            label = "A_LAYER1_SHIFT";
-            bindings = <&layer1_shift>, <&s>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-        };
-
         s_layer1_shift: s_layer1_shift {
             compatible = "zmk,behavior-hold-tap";
             label = "S_LAYER1_SHIFT";
             bindings = <&layer1_shift>, <&s>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <250>;
         };
     };
 
