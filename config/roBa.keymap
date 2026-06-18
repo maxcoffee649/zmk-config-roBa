@@ -77,7 +77,7 @@
             key-positions = <13 12>;
         };
 
-        layer12_cursor_arrow {
+        to_cursor_arrow {
             bindings = <&mo 12>;
             key-positions = <18 19>;
         };
@@ -560,7 +560,7 @@
         Win_Select_2 {
             bindings = <
 &trans  &trans  &kp LS(LC(UP_ARROW))  &kp LS(LC(DOWN_ARROW))  &trans                                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp LS(LEFT)          &kp LS(LC(RIGHT))       &home_shift_end  &trans         &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp LS(LC(LEFT))      &kp LS(LC(RIGHT))       &home_shift_end  &trans         &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans                &mkp MB1                &trans           &trans         &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans                &kp LC(X)               &kp LC(C)        &kp LC(V)      &trans  &trans                          &trans
             >;
