@@ -275,7 +275,7 @@ layers:
   - \
   - '&ps'
   - Alt+Gui+C
-  - {t: ▽, type: trans}
+  - Sft+-
   - KP 4
   - KP 5
   - KP 6
