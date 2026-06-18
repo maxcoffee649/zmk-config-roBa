@@ -247,7 +247,7 @@ layers:
   - Gui+Alt+N
   - Gui+M
   - Gui+Sft+Alt+M
-  - Gui+Alt+C
+  - Gui+Alt+D
   - {t: ▽, type: trans}
   - INTERNATIONAL 1
   - Gui+Alt+N
