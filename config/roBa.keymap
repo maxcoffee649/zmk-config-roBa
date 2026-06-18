@@ -78,7 +78,7 @@
         };
 
         layer9_cursor_arrow {
-            bindings = <&mo 13>;
+            bindings = <&mo 12>;
             key-positions = <18 19>;
         };
 
@@ -182,7 +182,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&tog_off 6 &tog_off 7 &tog_off 8 &tog_off 9 &tog_off 11>,
+                <&tog_off 6 &tog_off 7 &tog_off 8 &tog_off 9 &tog_off 10>,
                 <&macro_wait_time 200>,
                 <&bt BT_SEL 0>,
                 <&macro_wait_time 500>;
@@ -194,7 +194,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&tog_off 6 &tog_off 7 &tog_off 8 &tog_off 9 &tog_off 11>,
+                <&tog_off 6 &tog_off 7 &tog_off 8 &tog_off 9 &tog_off 10>,
                 <&macro_wait_time 200>,
                 <&bt BT_SEL 1>,
                 <&macro_wait_time 500>,
@@ -207,7 +207,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&tog_off 6 &tog_off 7 &tog_off 8 &tog_off 9 &tog_off 11>,
+                <&tog_off 6 &tog_off 7 &tog_off 8 &tog_off 9 &tog_off 10>,
                 <&macro_wait_time 200>,
                 <&bt BT_SEL 2>,
                 <&macro_wait_time 500>,
@@ -220,7 +220,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&tog_off 6 &tog_off 7 &tog_off 8 &tog_off 9 &tog_off 11>,
+                <&tog_off 6 &tog_off 7 &tog_off 8 &tog_off 9 &tog_off 10>,
                 <&macro_wait_time 200>,
                 <&bt BT_SEL 3>,
                 <&macro_wait_time 500>;
@@ -506,9 +506,9 @@
 
         Win_Default_Layer {
             bindings = <
-&kp Q      &kp W         &kp E         &kp R                      &kp T                                             &kp Y        &kp U           &kp I           &lt 1 O           &lt 15 P
+&kp Q      &kp W         &kp E         &kp R                      &kp T                                             &kp Y        &kp U           &kp I           &lt 1 O           &lt 14 P
 &lt 5 A    &lt 4 S       &kp D         &kp F                      &kp G        &to 0                 &numslash      &kp H        &mt LEFT_GUI J  &mt LEFT_ALT K  &mt LEFT_SHIFT L  &mt LCTRL SEMICOLON
-&kp Z      &kp X         &kp C         &kp V                      &kp B        &mo 14                &numbackslash  &kp N        &lt 13 M        &kp COMMA       &kp DOT           &kp SLASH
+&kp Z      &kp X         &kp C         &kp V                      &kp B        &mo 13                &numbackslash  &kp N        &lt 12 M        &kp COMMA       &kp DOT           &kp SLASH
 &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &mt LEFT_SHIFT LANGUAGE_2  &lt 1 SPACE  &lt 3 LANGUAGE_1      &kp BACKSPACE  &lt 2 ENTER                                                    &Quick_Link
             >;
 
@@ -519,10 +519,10 @@
 
         Win_Arrow {
             bindings = <
-&trans                &trans         &kp UP_ARROW             &kp DOWN_ARROW       &kp DEL                                           &kp LC(T)      &kp LEFT_ALT  &kp TAB        &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)
-&kp LC(LEFT_SHIFT)    &trans         &mt LC(LEFT) LEFT_ARROW  &mt LC(RIGHT) RIGHT  &home_shift_end  &trans      &kp SLASH            &kp LS(LC(T))  &mkp MB1      &mkp MB2       &home_ctrl_home  &end_ctrl_end
-&kp LC(LEFT_BRACKET)  &kp LC(SLASH)  &trans                   &trans               &kp LG(LC(T))    &trans      &kp INTERNATIONAL_1  &kp LA(LS(D))  &kp LA(LEFT)  &kp LA(RIGHT)  &trans           &trans
-&trans                &trans         &trans                   &trans               &trans           &trans      &kp F8               &kp F7                                                       &kp LG(LS(S))
+&trans                &trans         &kp UP_ARROW             &kp DOWN_ARROW       &kp DEL                                         &kp LC(T)      &kp LEFT_ALT  &kp TAB        &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)
+&trans                &trans         &mt LC(LEFT) LEFT_ARROW  &mt LC(RIGHT) RIGHT  &trans         &trans      &kp SLASH            &kp LS(LC(T))  &mkp MB1      &mkp MB2       &home_ctrl_home  &end_ctrl_end
+&kp LC(LEFT_BRACKET)  &kp LC(SLASH)  &trans                   &trans               &kp LG(LC(T))  &trans      &kp INTERNATIONAL_1  &kp LA(LS(D))  &kp LA(LEFT)  &kp LA(RIGHT)  &trans           &trans
+&trans                &trans         &trans                   &trans               &trans         &trans      &kp F8               &kp F7                                                       &kp LG(LS(S))
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
@@ -550,27 +550,27 @@
 
         Win_Select_1 {
             bindings = <
-&trans  &trans  &kp LS(UP_ARROW)    &kp LS(DOWN_ARROW)  &trans                               &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp LS(LEFT_ARROW)  &kp LS(RIGHT)       &home_shift_end  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans              &trans              &trans           &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans              &trans              &trans           &trans      &trans  &trans                          &trans
+&trans  &trans  &kp LS(UP_ARROW)    &kp LS(DOWN_ARROW)  &trans                                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp LS(LEFT_ARROW)  &kp LS(RIGHT)       &home_shift_end  &trans         &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans              &mkp MB1            &trans           &trans         &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans              &kp LC(X)           &kp LC(C)        &kp LC(V)      &trans  &trans                          &trans
             >;
         };
 
         Win_Select_2 {
             bindings = <
-&trans  &trans  &kp LS(LC(UP_ARROW))  &kp LS(LC(DOWN_ARROW))  &trans                               &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp LS(LEFT)          &kp LS(LC(RIGHT))       &home_shift_end  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans                &trans                  &trans           &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans                &trans                  &trans           &trans      &trans  &trans                          &trans
+&trans  &trans  &kp LS(LC(UP_ARROW))  &kp LS(LC(DOWN_ARROW))  &trans                                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp LS(LEFT)          &kp LS(LC(RIGHT))       &home_shift_end  &trans         &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans                &mkp MB1                &trans           &trans         &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans                &kp LC(X)               &kp LC(C)        &kp LC(V)      &trans  &trans                          &trans
             >;
         };
 
         iPad_Default_Layer {
             bindings = <
-&kp Q     &kp W     &kp E      &kp R                      &kp T                                             &kp Y        &kp U               &kp I           &lt 7 O           &lt 15 P
-&lt 10 A  &lt 10 S  &kp D      &kp F                      &kp G        &to 6                 &numslash      &lt 13 H     &mt LA(LEFT_GUI) J  &mt LEFT_ALT K  &mt LEFT_SHIFT L  &mt LEFT_GUI MINUS
-&kp Z     &kp X     &kp C      &kp V                      &kp B        &mo 14                &numbackslash  &kp N        &kp M               &kp COMMA       &kp DOT           &kp FSLH
+&kp Q     &kp W     &kp E      &kp R                      &kp T                                             &kp Y        &kp U               &kp I           &lt 7 O           &lt 14 P
+&lt 0 A   &lt 0 S   &kp D      &kp F                      &kp G        &to 6                 &numslash      &lt 12 H     &mt LA(LEFT_GUI) J  &mt LEFT_ALT K  &mt LEFT_SHIFT L  &mt LEFT_GUI MINUS
+&kp Z     &kp X     &kp C      &kp V                      &kp B        &mo 13                &numbackslash  &kp N        &kp M               &kp COMMA       &kp DOT           &kp FSLH
 &kp LGUI  &kp LALT  &kp LCTRL  &mt LEFT_SHIFT LANGUAGE_2  &lt 7 SPACE  &lt 9 LANGUAGE_1      &kp BSPC       &lt 8 ENTER                                                        &kp LG(LA(Q))
             >;
 
@@ -581,10 +581,10 @@
 
         iPad_Arrow {
             bindings = <
-&iPad_globe_left  &iPad_globe_right  &kp UP_ARROW  &kp DOWN_ARROW     &kp DEL                                                &kp LG(T)      &iPad_globe_left  &iPad_globe_right  &kp LEFT_GUI        &kp TAB
-&kp GLOBE         &kp LEFT_SHIFT     &kp LEFT      &kp RIGHT          &iPad_home_shift_end  &trans      &kp SLASH            &kp LS(LG(T))  &mkp MB1          &mkp MB2           &kp LG(LEFT_ARROW)  &kp LG(RIGHT)
-&kp LG(LA(L))     &kp LG(LA(N))      &kp LG(M)     &kp LG(LS(LA(M)))  &kp LG(LA(D))         &trans      &kp INTERNATIONAL_1  &kp LG(LA(N))  &mkp MB3          &mkp MB4           &trans              &trans
-&trans            &trans             &trans        &trans             &trans                &trans      &kp F8               &kp F7                                                                  &kp LG(LS(NUMBER_4))
+&iPad_globe_left  &trans         &kp UP_ARROW  &kp DOWN_ARROW     &kp DEL                                                &kp LG(T)      &iPad_globe_left  &iPad_globe_right  &kp LEFT_GUI        &kp TAB
+&kp GLOBE         &kp LSHIFT     &kp LEFT      &kp RIGHT          &iPad_home_shift_end  &trans      &kp SLASH            &kp LS(LG(T))  &mkp MB1          &mkp MB2           &kp LG(LEFT_ARROW)  &kp LG(RIGHT)
+&kp LG(LA(L))     &kp LG(LA(N))  &kp LG(M)     &kp LG(LS(LA(M)))  &kp LG(LA(D))         &trans      &kp INTERNATIONAL_1  &kp LG(LA(N))  &mkp MB3          &mkp MB4           &trans              &trans
+&trans            &trans         &trans        &trans             &trans                &trans      &kp F8               &kp F7                                                                  &kp LG(LS(NUMBER_4))
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
@@ -603,20 +603,11 @@
             bindings = <
 &trans            &kp AMPERSAND    &kp LEFT_SHIFT  &kp LS(INTERNATIONAL_1)  &macro_braces                                        &macro_angle       &iPad_SlideOvere_left  &iPad_move_up         &iPad_SlideOvere_right  &kp EQUAL
 &kp LEFT_BRACKET  &kp DOLLAR       &kp PERCENT     &kp CARET                &macro_parens    &trans      &kp APOS                &kp LG(LS(H))      &iPad_move_left        &iPad_move_down       &iPad_move_right        &kp LS(EQUAL)
-&kp LEFT_BRACE    &kp EXCLAMATION  &kp AT          &kp HASH                 &macro_brackets  &to 11      &kp MINUS               &trans             &kp LG(M)              &iPad_SlideOvere_Non  &iPad_move_display      &trans
+&kp LEFT_BRACE    &kp EXCLAMATION  &kp AT          &kp HASH                 &macro_brackets  &to 10      &kp MINUS               &trans             &kp LG(M)              &iPad_SlideOvere_Non  &iPad_move_display      &trans
 &to 6             &trans           &trans          &trans                   &trans           &trans      &kp LC(LG(LEFT_ARROW))  &kp LG(LC(RIGHT))                                                                       &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
-        };
-
-        iPad_Select_2 {
-            bindings = <
-&trans  &trans  &kp LS(UP_ARROW)  &kp LS(DOWN_ARROW)  &trans                                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp LS(LEFT)      &kp LS(RIGHT)       &iPad_home_shift_end  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans            &trans              &trans                &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans            &trans              &trans                &trans      &trans  &trans                          &trans
-            >;
         };
 
         iPad_GoodNotes {
@@ -632,7 +623,7 @@
 
         Mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans        &trans         &trans    &mo 15
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans        &trans         &trans    &mo 14
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1      &mkp MB2       &mkp MB3  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp LA(LEFT)  &kp LA(RIGHT)  &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                         &trans
