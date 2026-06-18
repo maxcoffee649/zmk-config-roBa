@@ -69,8 +69,8 @@ layers:
   - '&end_ctrl_end'
   - Ctl+[
   - Ctl+/
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt+Sft+5
+  - Alt+S
   - Gui+Ctl+T
   - {t: ▽, type: trans}
   - INTERNATIONAL 1
