@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: roBa}
 layers:
-  Win_default:
+  Win_Default_Layer:
   - Q
   - W
   - E
@@ -9,14 +9,14 @@ layers:
   - Y
   - U
   - I
-  - {t: O, h: Win_ARROW}
-  - {t: P, h: scroll}
-  - {t: A, h: Win_ARROW}
-  - {t: S, h: Win_NUM_FUNCTION}
+  - {t: O, h: Win_Arrow}
+  - {t: P, h: Scroll}
+  - {t: A, h: Win_Select_2}
+  - {t: S, h: Win_Select_1}
   - D
   - F
   - G
-  - {t: Win_default, h: toggle}
+  - {t: Win_Default_Layer, h: toggle}
   - '&numslash'
   - H
   - {t: J, h: LEFT GUI}
@@ -31,7 +31,7 @@ layers:
   - Bluetooth
   - '&numbackslash'
   - N
-  - {t: M, h: CURSOR_ARROW}
+  - {t: M, h: Cursor_Arrow}
   - ','
   - .
   - /
@@ -39,12 +39,12 @@ layers:
   - LEFT ALT
   - LEFT GUI
   - {t: LANGUAGE 2, h: LEFT SHIFT}
-  - {t: SPACE, h: Win_ARROW}
-  - {t: LANGUAGE 1, h: Win_SYMBOl_SCROLL}
+  - {t: SPACE, h: Win_Arrow}
+  - {t: LANGUAGE 1, h: Win_Symbol_Scroll}
   - BACKSPACE
-  - {t: ENTER, h: Win_NUM_FUNCTION}
+  - {t: ENTER, h: Win_Num_Function}
   - '&Quick_Link'
-  Win_ARROW:
+  Win_Arrow:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - UP ARROW
@@ -56,7 +56,7 @@ layers:
   - {t: Ctl+PAGE UP, type: held}
   - Ctl+PAGE DOWN
   - Ctl+LEFT SHIFT
-  - LEFT SHIFT
+  - {t: ▽, type: trans}
   - {t: LEFT ARROW, h: Ctl+LEFT}
   - {t: RIGHT, h: Ctl+RIGHT}
   - '&home_shift_end'
@@ -88,7 +88,7 @@ layers:
   - F8
   - F7
   - Gui+Sft+S
-  Win_NUM_FUNCTION:
+  Win_Num_Function:
   - ESCAPE
   - KP 7
   - KP 8
@@ -100,7 +100,7 @@ layers:
   - '&pin'
   - Gui+A
   - Sft+-
-  - {t: KP 4, type: held}
+  - KP 4
   - KP 5
   - KP 6
   - Sft+-
@@ -123,16 +123,16 @@ layers:
   - '|'
   - Gui+N
   - Gui+D
-  - {t: Win_default, h: toggle}
+  - {t: Win_Default_Layer, h: toggle}
   - '&num_00'
   - KP 0
   - SPACE
   - ENTER
   - BACKSPACE
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - '&Esc_ctrl_1'
-  Win_SYMBOl_SCROLL:
+  Win_Symbol_Scroll:
   - Ctl+[
   - '&'
   - LEFT SHIFT
@@ -167,7 +167,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: Win_NUM_FUNCTION, h: toggle}
+  - {t: Win_Num_Function, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -176,7 +176,95 @@ layers:
   - Ctl+Gui+LEFT ARROW
   - Gui+Ctl+RIGHT
   - Alt+F4
-  iPad_default:
+  Win_Select_1:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+UP ARROW
+  - Sft+DOWN ARROW
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - Sft+LEFT ARROW
+  - Sft+RIGHT
+  - '&home_shift_end'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Win_Select_2:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+Ctl+UP ARROW
+  - Sft+Ctl+DOWN ARROW
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - Sft+LEFT
+  - Sft+Ctl+RIGHT
+  - '&home_shift_end'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  iPad_Default_Layer:
   - Q
   - W
   - E
@@ -185,16 +273,16 @@ layers:
   - Y
   - U
   - I
-  - {t: O, h: iPad_ARROW}
-  - {t: P, h: scroll}
-  - A
-  - S
+  - {t: O, h: iPad_Arrow}
+  - {t: P, h: Scroll}
+  - {t: A, h: iPad_Select_2}
+  - {t: S, h: iPad_Select_2}
   - D
   - F
   - G
-  - {t: iPad_default, h: toggle}
+  - {t: iPad_Default_Layer, h: toggle}
   - '&numslash'
-  - {t: H, h: CURSOR_ARROW}
+  - {t: H, h: Cursor_Arrow}
   - {t: J, h: Alt+LEFT GUI}
   - {t: K, h: LEFT ALT}
   - {t: L, h: LEFT SHIFT}
@@ -215,14 +303,14 @@ layers:
   - LALT
   - LCTRL
   - {t: LANGUAGE 2, h: LEFT SHIFT}
-  - {t: SPACE, h: iPad_ARROW}
-  - {t: LANGUAGE 1, h: iPad_SYMBOl_SCROLL}
+  - {t: SPACE, h: iPad_Arrow}
+  - {t: LANGUAGE 1, h: iPad_Symbol_Scroll}
   - BSPC
-  - {t: ENTER, h: iPad_NUM_FUNCTION}
+  - {t: ENTER, h: iPad_Num_Function}
   - Gui+Alt+Q
-  iPad_ARROW:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  iPad_Arrow:
+  - '&iPad_globe_left'
+  - '&iPad_globe_right'
   - UP ARROW
   - DOWN ARROW
   - DEL
@@ -264,7 +352,7 @@ layers:
   - F8
   - F7
   - Gui+Sft+4
-  iPad_NUM_FUNCTION:
+  iPad_Num_Function:
   - ESCAPE
   - KP 7
   - KP 8
@@ -299,7 +387,7 @@ layers:
   - '|'
   - PAGE DOWN
   - Gui+M
-  - {t: iPad_default, h: toggle}
+  - {t: iPad_Default_Layer, h: toggle}
   - '&num_00'
   - KP 0
   - SPACE
@@ -308,7 +396,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - Gui+H
-  iPad_SYMBOl_SCROLL:
+  iPad_Symbol_Scroll:
   - {t: ▽, type: trans}
   - '&'
   - LEFT SHIFT
@@ -336,14 +424,14 @@ layers:
   - '@'
   - '#'
   - '&macro_brackets'
-  - {t: iPad_GOODNOTES, h: toggle}
+  - {t: iPad_GoodNotes, h: toggle}
   - '-'
   - {t: ▽, type: trans}
   - Gui+M
   - '&iPad_SlideOvere_Non'
   - '&iPad_move_display'
   - {t: ▽, type: trans}
-  - {t: iPad_default, h: toggle}
+  - {t: iPad_Default_Layer, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -352,11 +440,55 @@ layers:
   - Ctl+Gui+LEFT ARROW
   - Gui+Ctl+RIGHT
   - {t: ▽, type: trans}
-  iPad_GOODNOTES:
-  - I
-  - S
+  iPad_Select_2:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+UP ARROW
+  - Sft+DOWN ARROW
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - Sft+LEFT
+  - Sft+RIGHT
+  - '&iPad_home_shift_end'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  iPad_GoodNotes:
   - '&iPad_globe_left'
   - '&iPad_globe_right'
+  - I
+  - S
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -380,15 +512,15 @@ layers:
   - L
   - H
   - Gui+Alt+C
-  - {t: iPad_default, h: toggle}
+  - {t: iPad_Default_Layer, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+Alt+L
+  - Gui+Alt+N
   - {t: ▽, type: trans}
   - Gui+Alt+M
   - Gui+Z
@@ -396,7 +528,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  MOUSE:
+  Mouse:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -406,7 +538,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - scroll
+  - Scroll
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -440,7 +572,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  CURSOR_ARROW:
+  Cursor_Arrow:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -528,7 +660,7 @@ layers:
   - {t: ▽, type: trans}
   - '&ZMK'
   - BT CLR ALL
-  scroll:
+  Scroll:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -592,7 +724,7 @@ combos:
 - p: [13, 12]
   k: TAB
 - p: [18, 19]
-  k: CURSOR_ARROW
+  k: Cursor_Arrow
 - p: [38, 41]
   k: Alt+D
 - p: [41, 21]
