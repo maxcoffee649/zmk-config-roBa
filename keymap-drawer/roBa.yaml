@@ -55,11 +55,11 @@ layers:
   - TAB
   - {t: Ctl+PAGE UP, type: held}
   - Ctl+PAGE DOWN
-  - Ctl+LEFT SHIFT
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: LEFT ARROW, h: Ctl+LEFT}
   - {t: RIGHT, h: Ctl+RIGHT}
-  - '&home_shift_end'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - /
   - Sft+Ctl+T
@@ -202,6 +202,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '&mkp MB1'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -213,10 +214,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -246,6 +246,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '&mkp MB1'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -257,10 +258,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -275,8 +275,8 @@ layers:
   - I
   - {t: O, h: iPad_Arrow}
   - {t: P, h: Scroll}
-  - {t: A, h: iPad_Select_2}
-  - {t: S, h: iPad_Select_2}
+  - {t: A, h: Win_Default_Layer}
+  - {t: S, h: Win_Default_Layer}
   - D
   - F
   - G
@@ -310,7 +310,7 @@ layers:
   - Gui+Alt+Q
   iPad_Arrow:
   - '&iPad_globe_left'
-  - '&iPad_globe_right'
+  - {t: ▽, type: trans}
   - UP ARROW
   - DOWN ARROW
   - DEL
@@ -320,7 +320,7 @@ layers:
   - {t: LEFT GUI, type: held}
   - TAB
   - GLOBE
-  - LEFT SHIFT
+  - LSHIFT
   - LEFT
   - RIGHT
   - '&iPad_home_shift_end'
@@ -439,50 +439,6 @@ layers:
   - {type: held}
   - Ctl+Gui+LEFT ARROW
   - Gui+Ctl+RIGHT
-  - {t: ▽, type: trans}
-  iPad_Select_2:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Sft+UP ARROW
-  - Sft+DOWN ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - Sft+LEFT
-  - Sft+RIGHT
-  - '&iPad_home_shift_end'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   iPad_GoodNotes:
   - '&iPad_globe_left'
