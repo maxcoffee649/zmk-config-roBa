@@ -233,7 +233,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - Sft+LEFT
+  - Sft+Ctl+LEFT
   - Sft+Ctl+RIGHT
   - '&home_shift_end'
   - {t: ▽, type: trans}
