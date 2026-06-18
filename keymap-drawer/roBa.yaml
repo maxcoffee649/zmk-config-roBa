@@ -235,7 +235,7 @@ layers:
   - LEFT SHIFT
   - LEFT
   - RIGHT
-  - '&home_shift_end_ipad'
+  - '&iPad_home_shift_end'
   - {t: ▽, type: trans}
   - /
   - Sft+Gui+T
@@ -244,13 +244,13 @@ layers:
   - Gui+LEFT ARROW
   - Gui+RIGHT
   - Gui+Alt+L
-  - Gui+Alt+N
+  - Gui+Alt+(
   - Gui+M
-  - Gui+Sft+M
+  - Gui+Sft+Alt+M
   - Gui+Alt+C
   - {t: ▽, type: trans}
   - INTERNATIONAL 1
-  - Gui+Alt+M
+  - Gui+Alt+N
   - '&mkp MB3'
   - '&mkp MB4'
   - {t: ▽, type: trans}
@@ -274,7 +274,7 @@ layers:
   - ']'
   - \
   - '&ps'
-  - {t: ▽, type: trans}
+  - Alt+Gui+C
   - {t: ▽, type: trans}
   - KP 4
   - KP 5
@@ -286,7 +286,7 @@ layers:
   - Sft+8
   - Sft+9
   - PAGE UP
-  - '&dock_cntrl_center'
+  - '&dock_app_switcher'
   - {t: ▽, type: trans}
   - KP 1
   - KP 2
