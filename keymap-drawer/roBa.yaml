@@ -116,7 +116,7 @@ layers:
   - KP 2
   - KP 3
   - ':'
-  - {t: ▽, type: trans}
+  - DELETE
   - {t: ▽, type: trans}
   - Ctl+KP MINUS
   - '}'
