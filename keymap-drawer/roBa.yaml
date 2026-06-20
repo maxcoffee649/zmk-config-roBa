@@ -111,7 +111,7 @@ layers:
   - Sft+9
   - Gui+Ctl+V
   - Gui+TAB
-  - Ctl+1
+  - {t: Ctl+Z, h: Ctl+1}
   - KP 1
   - KP 2
   - KP 3
