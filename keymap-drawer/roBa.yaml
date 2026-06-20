@@ -116,7 +116,7 @@ layers:
   - KP 2
   - KP 3
   - ':'
-  - DELETE
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Ctl+KP MINUS
   - '}'
@@ -685,3 +685,5 @@ combos:
   k: Alt+D
 - p: [41, 21]
   k: Gui+L
+- p: [0, 10]
+  k: DELETE

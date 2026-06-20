@@ -400,6 +400,10 @@ path.combo {
 <rect rx="6" ry="6" x="593" y="162" width="28" height="26" class="combo"/>
 <text x="607" y="175" class="combo tap">Gui+L</text>
 </g>
+<g class="combo combopos-12">
+<rect rx="6" ry="6" x="14" y="78" width="28" height="26" class="combo"/>
+<text x="28" y="91" class="combo tap">DELETE</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 339)" class="layer-Win_Arrow">
@@ -680,6 +684,10 @@ path.combo {
 <rect rx="6" ry="6" x="593" y="162" width="28" height="26" class="combo"/>
 <text x="607" y="175" class="combo tap">Gui+L</text>
 </g>
+<g class="combo combopos-12">
+<rect rx="6" ry="6" x="14" y="78" width="28" height="26" class="combo"/>
+<text x="28" y="91" class="combo tap">DELETE</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 678)" class="layer-Win_Num_Function">
@@ -819,9 +827,9 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">:</text>
 </g>
-<g transform="translate(309, 168)" class="key keypos-27">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">DELETE</text>
+<g transform="translate(309, 168)" class="key trans keypos-27">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g transform="translate(448, 168)" class="key trans keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -956,6 +964,10 @@ path.combo {
 <path d="M607,175 l105,-48" class="combo"/>
 <rect rx="6" ry="6" x="593" y="162" width="28" height="26" class="combo"/>
 <text x="607" y="175" class="combo tap">Gui+L</text>
+</g>
+<g class="combo combopos-12">
+<rect rx="6" ry="6" x="14" y="78" width="28" height="26" class="combo"/>
+<text x="28" y="91" class="combo tap">DELETE</text>
 </g>
 </g>
 </g>
@@ -1222,6 +1234,10 @@ path.combo {
 <rect rx="6" ry="6" x="593" y="162" width="28" height="26" class="combo"/>
 <text x="607" y="175" class="combo tap">Gui+L</text>
 </g>
+<g class="combo combopos-12">
+<rect rx="6" ry="6" x="14" y="78" width="28" height="26" class="combo"/>
+<text x="28" y="91" class="combo tap">DELETE</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1355)" class="layer-Win_Select_1">
@@ -1477,6 +1493,10 @@ path.combo {
 <rect rx="6" ry="6" x="593" y="162" width="28" height="26" class="combo"/>
 <text x="607" y="175" class="combo tap">Gui+L</text>
 </g>
+<g class="combo combopos-12">
+<rect rx="6" ry="6" x="14" y="78" width="28" height="26" class="combo"/>
+<text x="28" y="91" class="combo tap">DELETE</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1694)" class="layer-Win_Select_2">
@@ -1731,6 +1751,10 @@ path.combo {
 <path d="M607,175 l105,-48" class="combo"/>
 <rect rx="6" ry="6" x="593" y="162" width="28" height="26" class="combo"/>
 <text x="607" y="175" class="combo tap">Gui+L</text>
+</g>
+<g class="combo combopos-12">
+<rect rx="6" ry="6" x="14" y="78" width="28" height="26" class="combo"/>
+<text x="28" y="91" class="combo tap">DELETE</text>
 </g>
 </g>
 </g>
@@ -2007,6 +2031,10 @@ path.combo {
 <path d="M607,175 l105,-48" class="combo"/>
 <rect rx="6" ry="6" x="593" y="162" width="28" height="26" class="combo"/>
 <text x="607" y="175" class="combo tap">Gui+L</text>
+</g>
+<g class="combo combopos-12">
+<rect rx="6" ry="6" x="14" y="78" width="28" height="26" class="combo"/>
+<text x="28" y="91" class="combo tap">DELETE</text>
 </g>
 </g>
 </g>
@@ -2288,6 +2316,10 @@ path.combo {
 <rect rx="6" ry="6" x="593" y="162" width="28" height="26" class="combo"/>
 <text x="607" y="175" class="combo tap">Gui+L</text>
 </g>
+<g class="combo combopos-12">
+<rect rx="6" ry="6" x="14" y="78" width="28" height="26" class="combo"/>
+<text x="28" y="91" class="combo tap">DELETE</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 2711)" class="layer-iPad_Num_Function">
@@ -2567,6 +2599,10 @@ path.combo {
 <rect rx="6" ry="6" x="593" y="162" width="28" height="26" class="combo"/>
 <text x="607" y="175" class="combo tap">Gui+L</text>
 </g>
+<g class="combo combopos-12">
+<rect rx="6" ry="6" x="14" y="78" width="28" height="26" class="combo"/>
+<text x="28" y="91" class="combo tap">DELETE</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 3050)" class="layer-iPad_Symbol_Scroll">
@@ -2825,6 +2861,10 @@ path.combo {
 <path d="M607,175 l105,-48" class="combo"/>
 <rect rx="6" ry="6" x="593" y="162" width="28" height="26" class="combo"/>
 <text x="607" y="175" class="combo tap">Gui+L</text>
+</g>
+<g class="combo combopos-12">
+<rect rx="6" ry="6" x="14" y="78" width="28" height="26" class="combo"/>
+<text x="28" y="91" class="combo tap">DELETE</text>
 </g>
 </g>
 </g>
@@ -3092,6 +3132,10 @@ path.combo {
 <rect rx="6" ry="6" x="593" y="162" width="28" height="26" class="combo"/>
 <text x="607" y="175" class="combo tap">Gui+L</text>
 </g>
+<g class="combo combopos-12">
+<rect rx="6" ry="6" x="14" y="78" width="28" height="26" class="combo"/>
+<text x="28" y="91" class="combo tap">DELETE</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 3727)" class="layer-Mouse">
@@ -3348,6 +3392,10 @@ path.combo {
 <path d="M607,175 l105,-48" class="combo"/>
 <rect rx="6" ry="6" x="593" y="162" width="28" height="26" class="combo"/>
 <text x="607" y="175" class="combo tap">Gui+L</text>
+</g>
+<g class="combo combopos-12">
+<rect rx="6" ry="6" x="14" y="78" width="28" height="26" class="combo"/>
+<text x="28" y="91" class="combo tap">DELETE</text>
 </g>
 </g>
 </g>
@@ -3614,6 +3662,10 @@ path.combo {
 <rect rx="6" ry="6" x="593" y="162" width="28" height="26" class="combo"/>
 <text x="607" y="175" class="combo tap">Gui+L</text>
 </g>
+<g class="combo combopos-12">
+<rect rx="6" ry="6" x="14" y="78" width="28" height="26" class="combo"/>
+<text x="28" y="91" class="combo tap">DELETE</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 4405)" class="layer-Scroll">
@@ -3858,6 +3910,10 @@ path.combo {
 <path d="M607,175 l105,-48" class="combo"/>
 <rect rx="6" ry="6" x="593" y="162" width="28" height="26" class="combo"/>
 <text x="607" y="175" class="combo tap">Gui+L</text>
+</g>
+<g class="combo combopos-12">
+<rect rx="6" ry="6" x="14" y="78" width="28" height="26" class="combo"/>
+<text x="28" y="91" class="combo tap">DELETE</text>
 </g>
 </g>
 </g>
@@ -4108,6 +4164,10 @@ path.combo {
 <path d="M607,175 l105,-48" class="combo"/>
 <rect rx="6" ry="6" x="593" y="162" width="28" height="26" class="combo"/>
 <text x="607" y="175" class="combo tap">Gui+L</text>
+</g>
+<g class="combo combopos-12">
+<rect rx="6" ry="6" x="14" y="78" width="28" height="26" class="combo"/>
+<text x="28" y="91" class="combo tap">DELETE</text>
 </g>
 </g>
 </g>
