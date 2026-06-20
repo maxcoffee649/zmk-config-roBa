@@ -59,7 +59,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: LEFT ARROW, h: Ctl+LEFT}
   - {t: RIGHT, h: Ctl+RIGHT}
-  - {t: ▽, type: trans}
+  - '&home_shift_end'
   - {t: ▽, type: trans}
   - /
   - Sft+Ctl+T
