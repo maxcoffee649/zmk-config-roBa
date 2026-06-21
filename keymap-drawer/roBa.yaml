@@ -116,7 +116,7 @@ layers:
   - KP 2
   - KP 3
   - ':'
-  - {t: ▽, type: trans}
+  - '&student_ID'
   - {t: ▽, type: trans}
   - Ctl+KP MINUS
   - '}'
@@ -380,7 +380,7 @@ layers:
   - KP 2
   - KP 3
   - ':'
-  - {t: ▽, type: trans}
+  - '&student_ID'
   - {t: ▽, type: trans}
   - Ctl+KP MINUS
   - '}'
