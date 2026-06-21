@@ -432,7 +432,7 @@
         student_ID: student_ID {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp NUMBER_2 &kp NUMBER_4 &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_6 &kp NUMBER_4 &kp N9>;
+            bindings = <&kp KP_NUMBER_2 &kp KP_NUMBER_4 &kp KP_NUMBER_1 &kp KP_NUMBER_2 &kp KP_NUMBER_6 &kp KP_NUMBER_4 &kp KP_NUMBER_9>;
             label = "STUDENT_ID";
         };
     };
