@@ -96,6 +96,11 @@
             bindings = <&kp DELETE>;
             key-positions = <0 10>;
         };
+
+        f2 {
+            bindings = <&kp F2>;
+            key-positions = <39 40>;
+        };
     };
 
     macros {
