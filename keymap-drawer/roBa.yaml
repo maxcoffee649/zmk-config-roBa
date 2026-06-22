@@ -687,3 +687,5 @@ combos:
   k: Gui+L
 - p: [0, 10]
   k: DELETE
+- p: [39, 40]
+  k: F2
