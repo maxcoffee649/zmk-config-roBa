@@ -50,7 +50,7 @@ layers:
   - UP ARROW
   - DOWN ARROW
   - DEL
-  - Ctl+T
+  - Ctl+N
   - LEFT ALT
   - TAB
   - {t: Ctl+PAGE UP, type: held}
@@ -62,9 +62,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - /
-  - Sft+Ctl+T
+  - Ctl+T
   - '&mkp MB1'
-  - '&mkp MB2'
+  - {t: ▽, type: trans}
   - '&home_ctrl_home'
   - '&end_ctrl_end'
   - Ctl+[
@@ -74,9 +74,9 @@ layers:
   - Gui+Ctl+T
   - {t: ▽, type: trans}
   - INTERNATIONAL 1
+  - Sft+Ctl+T
   - Alt+Sft+D
-  - Alt+LEFT
-  - Alt+RIGHT
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -314,7 +314,7 @@ layers:
   - UP ARROW
   - DOWN ARROW
   - DEL
-  - Gui+T
+  - Gui+Sft+T
   - '&iPad_globe_left'
   - '&iPad_globe_right'
   - {t: LEFT GUI, type: held}
@@ -326,7 +326,7 @@ layers:
   - '&iPad_home_shift_end'
   - {t: ▽, type: trans}
   - /
-  - Sft+Gui+T
+  - Gui+T
   - '&mkp MB1'
   - '&mkp MB2'
   - Gui+LEFT ARROW
