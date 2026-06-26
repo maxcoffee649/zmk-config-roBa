@@ -539,7 +539,7 @@
 
         Win_Default_Layer {
             bindings = <
-&kp Q      &kp W         &kp E         &kp R                      &kp T                                             &kp Y        &kp U           &kp I           &lt 1 O           &lt 13 P
+&kp Q      &lt 4 W       &kp E         &kp R                      &kp T                                             &kp Y        &kp U           &kp I           &lt 1 O           &lt 13 P
 &lt 5 A    &lt 4 S       &kp D         &kp F                      &kp G        &to 0                 &numslash      &kp H        &mt LEFT_GUI J  &mt LEFT_ALT K  &mt LEFT_SHIFT L  &mt LCTRL SEMICOLON
 &kp Z      &kp X         &kp C         &kp V                      &kp B        &mo 14                &numbackslash  &kp N        &lt 12 M        &kp COMMA       &kp DOT           &kp SLASH
 &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &mt LEFT_SHIFT LANGUAGE_2  &lt 1 SPACE  &lt 3 LANGUAGE_1      &kp BACKSPACE  &lt 2 ENTER                                                    &Quick_Link
