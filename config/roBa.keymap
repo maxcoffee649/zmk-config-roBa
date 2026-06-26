@@ -444,7 +444,11 @@
         drive_new_folder: drive_new_folder {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(C)>, <&macro_wait_time 300>, <&kp F>;
+            bindings =
+                <&macro_tap_time 50>,
+                <&kp LA(C)>,
+                <&macro_wait_time 500>,
+                <&kp F>;
 
             label = "DRIVE_NEW_FOLDER";
         };
