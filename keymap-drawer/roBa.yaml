@@ -55,8 +55,8 @@ layers:
   - TAB
   - {t: Ctl+PAGE UP, type: held}
   - Ctl+PAGE DOWN
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt+Sft+5
+  - Alt+S
   - {t: LEFT ARROW, h: Ctl+LEFT}
   - {t: RIGHT, h: Ctl+RIGHT}
   - {t: ▽, type: trans}
@@ -69,8 +69,8 @@ layers:
   - '&end_ctrl_end'
   - Ctl+[
   - Ctl+/
-  - Alt+Sft+5
-  - Alt+S
+  - '&drive_new_folder'
+  - {t: ▽, type: trans}
   - Gui+Ctl+T
   - {t: ▽, type: trans}
   - INTERNATIONAL 1
