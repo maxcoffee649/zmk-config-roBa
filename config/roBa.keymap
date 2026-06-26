@@ -446,7 +446,7 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LA(LEFT_ALT)>,
+                <&kp LEFT_ALT>,
                 <&macro_tap>,
                 <&kp C>,
                 <&macro_release>,
