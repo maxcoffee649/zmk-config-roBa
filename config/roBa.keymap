@@ -444,7 +444,16 @@
         drive_new_folder: drive_new_folder {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(C) &kp F>;
+            bindings =
+                <&macro_press>,
+                <&kp LA(LEFT_ALT)>,
+                <&macro_tap>,
+                <&kp C>,
+                <&macro_release>,
+                <&kp LEFT_ALT>,
+                <&macro_wait_time 100>,
+                <&kp F>;
+
             label = "DRIVE_NEW_FOLDER";
         };
     };
@@ -545,7 +554,7 @@
             bindings = <
 &trans                &trans         &kp UP_ARROW             &kp DOWN_ARROW       &kp DEL                                         &kp LC(N)      &kp LEFT_ALT   &kp TAB  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)
 &kp LA(LS(N5))        &kp LA(S)      &mt LC(LEFT) LEFT_ARROW  &mt LC(RIGHT) RIGHT  &trans         &trans      &kp SLASH            &kp LC(T)      &mkp MB1       &trans   &home_ctrl_home  &end_ctrl_end
-&kp LC(LEFT_BRACKET)  &kp LC(SLASH)  &drive_new_folder        &trans               &kp LG(LC(T))  &trans      &kp INTERNATIONAL_1  &kp LS(LC(T))  &kp LA(LS(D))  &trans   &trans           &trans
+&kp LC(LEFT_BRACKET)  &kp LC(SLASH)  &drive_new_folder        &kp LC(LS(N))        &kp LG(LC(T))  &trans      &kp INTERNATIONAL_1  &kp LS(LC(T))  &kp LA(LS(D))  &trans   &trans           &trans
 &trans                &trans         &trans                   &trans               &trans         &trans      &kp F8               &kp F7                                                  &kp LG(LS(S))
             >;
 
