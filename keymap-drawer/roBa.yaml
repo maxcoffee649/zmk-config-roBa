@@ -106,7 +106,7 @@ layers:
   - Sft+-
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+KP 0
+  - Ctl+0
   - Sft+8
   - Sft+9
   - Gui+Ctl+V
