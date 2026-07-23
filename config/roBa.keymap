@@ -83,6 +83,9 @@
         };
 
         alt_D {
+            timeout-ms = <25>;
+            require-prior-idle-ms = <200>;
+
             bindings = <&kp LA(D)>;
             key-positions = <38 41>;
         };
