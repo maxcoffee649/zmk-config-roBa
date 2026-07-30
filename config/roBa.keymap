@@ -85,7 +85,6 @@
         alt_D {
             timeout-ms = <25>;
             require-prior-idle-ms = <200>;
-
             bindings = <&kp LA(D)>;
             key-positions = <38 41>;
         };
@@ -655,7 +654,7 @@
 
         Mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans        &trans         &trans    &mo 13
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans        &trans         &mkp MB1  &mo 13
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1      &mkp MB2       &mkp MB3  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp LA(LEFT)  &kp LA(RIGHT)  &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                         &trans
