@@ -46,7 +46,7 @@ layers:
   - '&Quick_Link'
   Win_Arrow:
   - Alt+TAB
-  - {t: ▽, type: trans}
+  - Ctl+TAB
   - UP ARROW
   - DOWN ARROW
   - DEL
