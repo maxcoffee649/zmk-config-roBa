@@ -454,7 +454,7 @@
             bindings =
                 <&macro_tap_time 50>,
                 <&kp LA(C)>,
-                <&macro_wait_time 500>,
+                <&macro_wait_time 100>,
                 <&kp F>;
 
             label = "DRIVE_NEW_FOLDER";
