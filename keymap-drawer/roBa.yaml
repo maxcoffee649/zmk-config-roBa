@@ -45,7 +45,7 @@ layers:
   - {t: ENTER, h: Win_Num_Function}
   - '&Quick_Link'
   Win_Arrow:
-  - {t: ▽, type: trans}
+  - Alt+TAB
   - {t: ▽, type: trans}
   - UP ARROW
   - DOWN ARROW
