@@ -452,9 +452,9 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&macro_tap_time 50>,
+                <&macro_tap_time 30>,
                 <&kp LA(C)>,
-                <&macro_wait_time 100>,
+                <&macro_wait_time 20>,
                 <&kp F>;
 
             label = "DRIVE_NEW_FOLDER";
