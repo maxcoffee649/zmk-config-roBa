@@ -105,7 +105,7 @@ layers:
   - KP 6
   - Sft+-
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - NEXT
   - Ctl+0
   - Sft+8
   - Sft+9
@@ -117,7 +117,7 @@ layers:
   - KP 3
   - ':'
   - '&student_ID'
-  - {t: ▽, type: trans}
+  - PREVIOUS
   - Ctl+KP MINUS
   - '}'
   - '|'
@@ -689,3 +689,5 @@ combos:
   k: DELETE
 - p: [39, 40]
   k: F2
+- p: [16, 28]
+  k: PLAY PAUSE
