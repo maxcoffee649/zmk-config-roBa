@@ -459,6 +459,7 @@
                 <&macro_release>,
                 <&kp LEFT_ALT>,
                 <&macro_wait_time 20>,
+                <&macro_tap>,
                 <&kp F>;
 
             label = "DRIVE_NEW_FOLDER";
