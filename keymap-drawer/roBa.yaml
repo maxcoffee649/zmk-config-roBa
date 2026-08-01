@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - G
-  - {t: Win_Default_Layer, h: toggle}
+  - END
   - '&numslash'
   - H
   - {t: J, h: LEFT GUI}
