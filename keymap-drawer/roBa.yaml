@@ -581,7 +581,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LCTRL
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
