@@ -94,31 +94,31 @@ layers:
   - KP 8
   - KP 9
   - '"'
-  - Ctl+KP PLUS
+  - {t: ▽, type: trans}
   - ']'
   - \
   - '&pin'
   - Gui+A
-  - {t: ▽, type: trans}
+  - KP 0
   - KP 4
   - KP 5
   - KP 6
   - Sft+-
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - NEXT
-  - Ctl+0
   - Sft+8
   - Sft+9
   - Gui+Ctl+V
   - Gui+TAB
-  - {t: ▽, type: trans}
+  - '&num_00'
   - KP 1
   - KP 2
   - KP 3
   - ':'
   - '&student_ID'
+  - {t: ▽, type: trans}
   - PREVIOUS
-  - Ctl+KP MINUS
   - '}'
   - '|'
   - Gui+N
@@ -689,5 +689,5 @@ combos:
   k: DELETE
 - p: [39, 40]
   k: F2
-- p: [16, 28]
+- p: [17, 29]
   k: PLAY PAUSE
