@@ -414,6 +414,10 @@ path.combo {
 <tspan x="504" dy="-0.6em">PLAY</tspan><tspan x="504" dy="1.2em">PAUSE</tspan>
 </text>
 </g>
+<g class="combo combopos-15">
+<rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
+<text x="168" y="144" class="combo tap">Gui+V</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 339)" class="layer-Win_Arrow">
@@ -704,6 +708,10 @@ path.combo {
 <tspan x="504" dy="-0.6em">PLAY</tspan><tspan x="504" dy="1.2em">PAUSE</tspan>
 </text>
 </g>
+<g class="combo combopos-15">
+<rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
+<text x="168" y="144" class="combo tap">Gui+V</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 678)" class="layer-Win_Num_Function">
@@ -989,6 +997,10 @@ path.combo {
 <tspan x="504" dy="-0.6em">PLAY</tspan><tspan x="504" dy="1.2em">PAUSE</tspan>
 </text>
 </g>
+<g class="combo combopos-15">
+<rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
+<text x="168" y="144" class="combo tap">Gui+V</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1017)" class="layer-Win_Symbol_Scroll">
@@ -1268,6 +1280,10 @@ path.combo {
 <tspan x="504" dy="-0.6em">PLAY</tspan><tspan x="504" dy="1.2em">PAUSE</tspan>
 </text>
 </g>
+<g class="combo combopos-15">
+<rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
+<text x="168" y="144" class="combo tap">Gui+V</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1355)" class="layer-Win_Select_1">
@@ -1537,6 +1553,10 @@ path.combo {
 <tspan x="504" dy="-0.6em">PLAY</tspan><tspan x="504" dy="1.2em">PAUSE</tspan>
 </text>
 </g>
+<g class="combo combopos-15">
+<rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
+<text x="168" y="144" class="combo tap">Gui+V</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1694)" class="layer-Win_Select_2">
@@ -1805,6 +1825,10 @@ path.combo {
 <text x="504" y="127" class="combo tap">
 <tspan x="504" dy="-0.6em">PLAY</tspan><tspan x="504" dy="1.2em">PAUSE</tspan>
 </text>
+</g>
+<g class="combo combopos-15">
+<rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
+<text x="168" y="144" class="combo tap">Gui+V</text>
 </g>
 </g>
 </g>
@@ -2095,6 +2119,10 @@ path.combo {
 <text x="504" y="127" class="combo tap">
 <tspan x="504" dy="-0.6em">PLAY</tspan><tspan x="504" dy="1.2em">PAUSE</tspan>
 </text>
+</g>
+<g class="combo combopos-15">
+<rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
+<text x="168" y="144" class="combo tap">Gui+V</text>
 </g>
 </g>
 </g>
@@ -2390,6 +2418,10 @@ path.combo {
 <tspan x="504" dy="-0.6em">PLAY</tspan><tspan x="504" dy="1.2em">PAUSE</tspan>
 </text>
 </g>
+<g class="combo combopos-15">
+<rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
+<text x="168" y="144" class="combo tap">Gui+V</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 2711)" class="layer-iPad_Num_Function">
@@ -2683,6 +2715,10 @@ path.combo {
 <tspan x="504" dy="-0.6em">PLAY</tspan><tspan x="504" dy="1.2em">PAUSE</tspan>
 </text>
 </g>
+<g class="combo combopos-15">
+<rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
+<text x="168" y="144" class="combo tap">Gui+V</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 3050)" class="layer-iPad_Symbol_Scroll">
@@ -2955,6 +2991,10 @@ path.combo {
 <text x="504" y="127" class="combo tap">
 <tspan x="504" dy="-0.6em">PLAY</tspan><tspan x="504" dy="1.2em">PAUSE</tspan>
 </text>
+</g>
+<g class="combo combopos-15">
+<rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
+<text x="168" y="144" class="combo tap">Gui+V</text>
 </g>
 </g>
 </g>
@@ -3236,6 +3276,10 @@ path.combo {
 <tspan x="504" dy="-0.6em">PLAY</tspan><tspan x="504" dy="1.2em">PAUSE</tspan>
 </text>
 </g>
+<g class="combo combopos-15">
+<rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
+<text x="168" y="144" class="combo tap">Gui+V</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 3727)" class="layer-Mouse">
@@ -3508,6 +3552,10 @@ path.combo {
 <text x="504" y="127" class="combo tap">
 <tspan x="504" dy="-0.6em">PLAY</tspan><tspan x="504" dy="1.2em">PAUSE</tspan>
 </text>
+</g>
+<g class="combo combopos-15">
+<rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
+<text x="168" y="144" class="combo tap">Gui+V</text>
 </g>
 </g>
 </g>
@@ -3788,6 +3836,10 @@ path.combo {
 <tspan x="504" dy="-0.6em">PLAY</tspan><tspan x="504" dy="1.2em">PAUSE</tspan>
 </text>
 </g>
+<g class="combo combopos-15">
+<rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
+<text x="168" y="144" class="combo tap">Gui+V</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 4405)" class="layer-Scroll">
@@ -4046,6 +4098,10 @@ path.combo {
 <text x="504" y="127" class="combo tap">
 <tspan x="504" dy="-0.6em">PLAY</tspan><tspan x="504" dy="1.2em">PAUSE</tspan>
 </text>
+</g>
+<g class="combo combopos-15">
+<rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
+<text x="168" y="144" class="combo tap">Gui+V</text>
 </g>
 </g>
 </g>
@@ -4310,6 +4366,10 @@ path.combo {
 <text x="504" y="127" class="combo tap">
 <tspan x="504" dy="-0.6em">PLAY</tspan><tspan x="504" dy="1.2em">PAUSE</tspan>
 </text>
+</g>
+<g class="combo combopos-15">
+<rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
+<text x="168" y="144" class="combo tap">Gui+V</text>
 </g>
 </g>
 </g>

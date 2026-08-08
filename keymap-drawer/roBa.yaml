@@ -691,3 +691,5 @@ combos:
   k: F2
 - p: [17, 29]
   k: PLAY PAUSE
+- p: [24, 25]
+  k: Gui+V
