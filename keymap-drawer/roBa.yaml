@@ -181,7 +181,7 @@ layers:
   - {type: held}
   - Sft+UP ARROW
   - Sft+DOWN ARROW
-  - {t: ▽, type: trans}
+  - Ctl+A
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -225,7 +225,7 @@ layers:
   - {t: ▽, type: trans}
   - Sft+Ctl+UP ARROW
   - Sft+Ctl+DOWN ARROW
-  - {t: ▽, type: trans}
+  - Ctl+A
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
