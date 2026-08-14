@@ -499,6 +499,13 @@
                 <&macro_release>,
                 <&kp LCTRL>;
         };
+
+        call_number: call_number {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp KP_NUMBER_0 &kp KP_NUMBER_7 &kp KP_NUMBER_0 &kp KP_NUMBER_9 &kp KP_NUMBER_0 &kp KP_NUMBER_9 &kp KP_NUMBER_2 &kp KP_NUMBER_0 &kp KP_NUMBER_6 &kp KP_NUMBER_7 &kp NUMBER_3>;
+            label = "CALL_NUMBER";
+        };
     };
 
     behaviors {
@@ -615,10 +622,10 @@
 
         Win_Num_Function {
             bindings = <
-&kp ESCAPE  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp DOUBLE_QUOTES                             &trans          &kp RIGHT_BRACKET  &kp BACKSLASH  &pin           &kp LG(A)
-&kp KP_N0   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp LS(MINUS)      &trans             &trans  &kp C_NEXT      &kp LS(N8)         &kp LS(N9)     &kp LG(LC(V))  &kp LG(TAB)
-&num_00     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp COLON          &student_ID        &trans  &kp C_PREVIOUS  &kp RIGHT_BRACE    &kp PIPE       &kp LG(N)      &kp LG(D)
-&to 0       &num_00          &kp KP_NUMBER_0  &kp SPACE        &kp ENTER          &kp BACKSPACE      &trans  &trans                                                           &kp LC(NUMBER_1)
+&kp ESCAPE  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp DOUBLE_QUOTES                                   &trans          &kp RIGHT_BRACKET  &kp BACKSLASH  &pin           &kp LG(A)
+&kp KP_N0   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp LS(MINUS)      &trans             &trans        &kp C_NEXT      &kp LS(N8)         &kp LS(N9)     &kp LG(LC(V))  &kp LG(TAB)
+&num_00     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp COLON          &student_ID        &call_number  &kp C_PREVIOUS  &kp RIGHT_BRACE    &kp PIPE       &kp LG(N)      &kp LG(D)
+&to 0       &num_00          &kp KP_NUMBER_0  &kp SPACE        &kp ENTER          &kp BACKSPACE      &trans        &trans                                                           &kp LC(NUMBER_1)
             >;
         };
 
