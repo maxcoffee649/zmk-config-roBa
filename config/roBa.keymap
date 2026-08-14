@@ -105,6 +105,8 @@
         };
 
         stop_music {
+            timeout-ms = <25>;
+            require-prior-idle-ms = <200>;
             bindings = <&kp C_PLAY_PAUSE>;
             key-positions = <17 29>;
         };
