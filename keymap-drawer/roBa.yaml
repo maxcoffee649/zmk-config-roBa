@@ -117,7 +117,7 @@ layers:
   - KP 3
   - ':'
   - '&student_ID'
-  - {t: ▽, type: trans}
+  - '&call_number'
   - PREVIOUS
   - '}'
   - '|'
