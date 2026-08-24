@@ -82,10 +82,10 @@
             key-positions = <18 19>;
         };
 
-        alt_D {
+        alt_space {
             timeout-ms = <25>;
             require-prior-idle-ms = <200>;
-            bindings = <&kp LA(D)>;
+            bindings = <&kp LA(SPACE)>;
             key-positions = <38 41>;
         };
 
@@ -99,8 +99,8 @@
             key-positions = <0 10>;
         };
 
-        f2 {
-            bindings = <&kp F2>;
+        alt_d {
+            bindings = <&kp LA(D)>;
             key-positions = <39 40>;
         };
 
@@ -111,9 +111,14 @@
             key-positions = <17 29>;
         };
 
-        win_v {
-            bindings = <&kp LG(V)>;
+        clipboard_history {
+            bindings = <&kp LA(LS(V))>;
             key-positions = <24 25>;
+        };
+
+        f2 {
+            bindings = <&kp F2>;
+            key-positions = <41 37>;
         };
     };
 
