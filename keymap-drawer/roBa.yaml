@@ -682,14 +682,16 @@ combos:
 - p: [18, 19]
   k: Cursor_Arrow
 - p: [38, 41]
-  k: Alt+D
+  k: Alt+SPACE
 - p: [41, 21]
   k: Gui+L
 - p: [0, 10]
   k: DELETE
 - p: [39, 40]
-  k: F2
+  k: Alt+D
 - p: [17, 29]
   k: PLAY PAUSE
 - p: [24, 25]
-  k: Gui+V
+  k: Alt+Sft+V
+- p: [41, 37]
+  k: F2
