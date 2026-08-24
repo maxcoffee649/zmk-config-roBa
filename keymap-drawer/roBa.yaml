@@ -64,7 +64,7 @@ layers:
   - /
   - Ctl+T
   - '&mkp MB1'
-  - {t: ▽, type: trans}
+  - Ctl+Alt+Gui+D
   - '&home_ctrl_home'
   - '&end_ctrl_end'
   - Ctl+[
