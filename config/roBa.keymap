@@ -113,12 +113,17 @@
 
         clipboard_history {
             bindings = <&kp LA(LS(V))>;
-            key-positions = <24 25>;
+            key-positions = <24 23>;
         };
 
         f2 {
             bindings = <&kp F2>;
             key-positions = <41 37>;
+        };
+
+        win_v {
+            bindings = <&kp LG(V)>;
+            key-positions = <24 25>;
         };
     };
 
@@ -632,6 +637,8 @@
 &num_00     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp COLON          &student_ID        &call_number  &kp C_PREVIOUS  &kp RIGHT_BRACE    &kp PIPE       &kp LG(N)      &kp LG(D)
 &to 0       &num_00          &kp KP_NUMBER_0  &kp SPACE        &kp ENTER          &kp BACKSPACE      &trans        &trans                                                           &kp LC(NUMBER_1)
             >;
+
+            sensor-bindings = <&inc_dec_kp END HOME>;
         };
 
         Win_Symbol_Scroll {
