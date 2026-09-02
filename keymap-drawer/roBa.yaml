@@ -691,7 +691,9 @@ combos:
   k: Alt+D
 - p: [17, 29]
   k: PLAY PAUSE
-- p: [24, 25]
+- p: [24, 23]
   k: Alt+Sft+V
 - p: [41, 37]
   k: F2
+- p: [24, 25]
+  k: Gui+V
