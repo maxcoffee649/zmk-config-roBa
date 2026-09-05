@@ -82,10 +82,10 @@
             key-positions = <18 19>;
         };
 
-        alt_space {
+        raycast {
             timeout-ms = <25>;
             require-prior-idle-ms = <200>;
-            bindings = <&kp LA(SPACE)>;
+            bindings = <&kp LA(R)>;
             key-positions = <38 41>;
         };
 
