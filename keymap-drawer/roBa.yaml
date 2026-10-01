@@ -685,8 +685,6 @@ combos:
   k: Alt+R
 - p: [41, 21]
   k: Gui+L
-- p: [0, 10]
-  k: DELETE
 - p: [39, 40]
   k: Alt+D
 - p: [17, 29]

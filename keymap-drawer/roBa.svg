@@ -401,32 +401,28 @@ path.combo {
 <text x="607" y="175" class="combo tap">Gui+L</text>
 </g>
 <g class="combo combopos-12">
-<rect rx="6" ry="6" x="14" y="78" width="28" height="26" class="combo"/>
-<text x="28" y="91" class="combo tap">DELETE</text>
-</g>
-<g class="combo combopos-13">
 <rect rx="6" ry="6" x="364" y="234" width="28" height="26" class="combo"/>
 <text x="378" y="247" class="combo tap">Alt+D</text>
 </g>
-<g class="combo combopos-14">
+<g class="combo combopos-13">
 <rect rx="6" ry="6" x="490" y="114" width="28" height="26" class="combo"/>
 <text x="504" y="127" class="combo tap">
 <tspan x="504" dy="-0.6em">PLAY</tspan><tspan x="504" dy="1.2em">PAUSE</tspan>
 </text>
 </g>
-<g class="combo combopos-15">
+<g class="combo combopos-14">
 <rect rx="6" ry="6" x="98" y="134" width="28" height="26" class="combo"/>
 <text x="112" y="147" class="combo tap">
 <tspan x="112" dy="-0.6em">Alt+Sft</tspan><tspan x="112" dy="1.2em">+V</tspan>
 </text>
 </g>
-<g class="combo combopos-16">
+<g class="combo combopos-15">
 <path d="M347,228 l120,2" class="combo"/>
 <path d="M347,228 l-120,-2" class="combo"/>
 <rect rx="6" ry="6" x="333" y="215" width="28" height="26" class="combo"/>
 <text x="347" y="228" class="combo tap">F2</text>
 </g>
-<g class="combo combopos-17">
+<g class="combo combopos-16">
 <rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
 <text x="168" y="144" class="combo tap">Gui+V</text>
 </g>
@@ -709,32 +705,28 @@ path.combo {
 <text x="607" y="175" class="combo tap">Gui+L</text>
 </g>
 <g class="combo combopos-12">
-<rect rx="6" ry="6" x="14" y="78" width="28" height="26" class="combo"/>
-<text x="28" y="91" class="combo tap">DELETE</text>
-</g>
-<g class="combo combopos-13">
 <rect rx="6" ry="6" x="364" y="234" width="28" height="26" class="combo"/>
 <text x="378" y="247" class="combo tap">Alt+D</text>
 </g>
-<g class="combo combopos-14">
+<g class="combo combopos-13">
 <rect rx="6" ry="6" x="490" y="114" width="28" height="26" class="combo"/>
 <text x="504" y="127" class="combo tap">
 <tspan x="504" dy="-0.6em">PLAY</tspan><tspan x="504" dy="1.2em">PAUSE</tspan>
 </text>
 </g>
-<g class="combo combopos-15">
+<g class="combo combopos-14">
 <rect rx="6" ry="6" x="98" y="134" width="28" height="26" class="combo"/>
 <text x="112" y="147" class="combo tap">
 <tspan x="112" dy="-0.6em">Alt+Sft</tspan><tspan x="112" dy="1.2em">+V</tspan>
 </text>
 </g>
-<g class="combo combopos-16">
+<g class="combo combopos-15">
 <path d="M347,228 l120,2" class="combo"/>
 <path d="M347,228 l-120,-2" class="combo"/>
 <rect rx="6" ry="6" x="333" y="215" width="28" height="26" class="combo"/>
 <text x="347" y="228" class="combo tap">F2</text>
 </g>
-<g class="combo combopos-17">
+<g class="combo combopos-16">
 <rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
 <text x="168" y="144" class="combo tap">Gui+V</text>
 </g>
@@ -1010,32 +1002,28 @@ path.combo {
 <text x="607" y="175" class="combo tap">Gui+L</text>
 </g>
 <g class="combo combopos-12">
-<rect rx="6" ry="6" x="14" y="78" width="28" height="26" class="combo"/>
-<text x="28" y="91" class="combo tap">DELETE</text>
-</g>
-<g class="combo combopos-13">
 <rect rx="6" ry="6" x="364" y="234" width="28" height="26" class="combo"/>
 <text x="378" y="247" class="combo tap">Alt+D</text>
 </g>
-<g class="combo combopos-14">
+<g class="combo combopos-13">
 <rect rx="6" ry="6" x="490" y="114" width="28" height="26" class="combo"/>
 <text x="504" y="127" class="combo tap">
 <tspan x="504" dy="-0.6em">PLAY</tspan><tspan x="504" dy="1.2em">PAUSE</tspan>
 </text>
 </g>
-<g class="combo combopos-15">
+<g class="combo combopos-14">
 <rect rx="6" ry="6" x="98" y="134" width="28" height="26" class="combo"/>
 <text x="112" y="147" class="combo tap">
 <tspan x="112" dy="-0.6em">Alt+Sft</tspan><tspan x="112" dy="1.2em">+V</tspan>
 </text>
 </g>
-<g class="combo combopos-16">
+<g class="combo combopos-15">
 <path d="M347,228 l120,2" class="combo"/>
 <path d="M347,228 l-120,-2" class="combo"/>
 <rect rx="6" ry="6" x="333" y="215" width="28" height="26" class="combo"/>
 <text x="347" y="228" class="combo tap">F2</text>
 </g>
-<g class="combo combopos-17">
+<g class="combo combopos-16">
 <rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
 <text x="168" y="144" class="combo tap">Gui+V</text>
 </g>
@@ -1305,32 +1293,28 @@ path.combo {
 <text x="607" y="175" class="combo tap">Gui+L</text>
 </g>
 <g class="combo combopos-12">
-<rect rx="6" ry="6" x="14" y="78" width="28" height="26" class="combo"/>
-<text x="28" y="91" class="combo tap">DELETE</text>
-</g>
-<g class="combo combopos-13">
 <rect rx="6" ry="6" x="364" y="234" width="28" height="26" class="combo"/>
 <text x="378" y="247" class="combo tap">Alt+D</text>
 </g>
-<g class="combo combopos-14">
+<g class="combo combopos-13">
 <rect rx="6" ry="6" x="490" y="114" width="28" height="26" class="combo"/>
 <text x="504" y="127" class="combo tap">
 <tspan x="504" dy="-0.6em">PLAY</tspan><tspan x="504" dy="1.2em">PAUSE</tspan>
 </text>
 </g>
-<g class="combo combopos-15">
+<g class="combo combopos-14">
 <rect rx="6" ry="6" x="98" y="134" width="28" height="26" class="combo"/>
 <text x="112" y="147" class="combo tap">
 <tspan x="112" dy="-0.6em">Alt+Sft</tspan><tspan x="112" dy="1.2em">+V</tspan>
 </text>
 </g>
-<g class="combo combopos-16">
+<g class="combo combopos-15">
 <path d="M347,228 l120,2" class="combo"/>
 <path d="M347,228 l-120,-2" class="combo"/>
 <rect rx="6" ry="6" x="333" y="215" width="28" height="26" class="combo"/>
 <text x="347" y="228" class="combo tap">F2</text>
 </g>
-<g class="combo combopos-17">
+<g class="combo combopos-16">
 <rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
 <text x="168" y="144" class="combo tap">Gui+V</text>
 </g>
@@ -1590,32 +1574,28 @@ path.combo {
 <text x="607" y="175" class="combo tap">Gui+L</text>
 </g>
 <g class="combo combopos-12">
-<rect rx="6" ry="6" x="14" y="78" width="28" height="26" class="combo"/>
-<text x="28" y="91" class="combo tap">DELETE</text>
-</g>
-<g class="combo combopos-13">
 <rect rx="6" ry="6" x="364" y="234" width="28" height="26" class="combo"/>
 <text x="378" y="247" class="combo tap">Alt+D</text>
 </g>
-<g class="combo combopos-14">
+<g class="combo combopos-13">
 <rect rx="6" ry="6" x="490" y="114" width="28" height="26" class="combo"/>
 <text x="504" y="127" class="combo tap">
 <tspan x="504" dy="-0.6em">PLAY</tspan><tspan x="504" dy="1.2em">PAUSE</tspan>
 </text>
 </g>
-<g class="combo combopos-15">
+<g class="combo combopos-14">
 <rect rx="6" ry="6" x="98" y="134" width="28" height="26" class="combo"/>
 <text x="112" y="147" class="combo tap">
 <tspan x="112" dy="-0.6em">Alt+Sft</tspan><tspan x="112" dy="1.2em">+V</tspan>
 </text>
 </g>
-<g class="combo combopos-16">
+<g class="combo combopos-15">
 <path d="M347,228 l120,2" class="combo"/>
 <path d="M347,228 l-120,-2" class="combo"/>
 <rect rx="6" ry="6" x="333" y="215" width="28" height="26" class="combo"/>
 <text x="347" y="228" class="combo tap">F2</text>
 </g>
-<g class="combo combopos-17">
+<g class="combo combopos-16">
 <rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
 <text x="168" y="144" class="combo tap">Gui+V</text>
 </g>
@@ -1875,32 +1855,28 @@ path.combo {
 <text x="607" y="175" class="combo tap">Gui+L</text>
 </g>
 <g class="combo combopos-12">
-<rect rx="6" ry="6" x="14" y="78" width="28" height="26" class="combo"/>
-<text x="28" y="91" class="combo tap">DELETE</text>
-</g>
-<g class="combo combopos-13">
 <rect rx="6" ry="6" x="364" y="234" width="28" height="26" class="combo"/>
 <text x="378" y="247" class="combo tap">Alt+D</text>
 </g>
-<g class="combo combopos-14">
+<g class="combo combopos-13">
 <rect rx="6" ry="6" x="490" y="114" width="28" height="26" class="combo"/>
 <text x="504" y="127" class="combo tap">
 <tspan x="504" dy="-0.6em">PLAY</tspan><tspan x="504" dy="1.2em">PAUSE</tspan>
 </text>
 </g>
-<g class="combo combopos-15">
+<g class="combo combopos-14">
 <rect rx="6" ry="6" x="98" y="134" width="28" height="26" class="combo"/>
 <text x="112" y="147" class="combo tap">
 <tspan x="112" dy="-0.6em">Alt+Sft</tspan><tspan x="112" dy="1.2em">+V</tspan>
 </text>
 </g>
-<g class="combo combopos-16">
+<g class="combo combopos-15">
 <path d="M347,228 l120,2" class="combo"/>
 <path d="M347,228 l-120,-2" class="combo"/>
 <rect rx="6" ry="6" x="333" y="215" width="28" height="26" class="combo"/>
 <text x="347" y="228" class="combo tap">F2</text>
 </g>
-<g class="combo combopos-17">
+<g class="combo combopos-16">
 <rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
 <text x="168" y="144" class="combo tap">Gui+V</text>
 </g>
@@ -2181,32 +2157,28 @@ path.combo {
 <text x="607" y="175" class="combo tap">Gui+L</text>
 </g>
 <g class="combo combopos-12">
-<rect rx="6" ry="6" x="14" y="78" width="28" height="26" class="combo"/>
-<text x="28" y="91" class="combo tap">DELETE</text>
-</g>
-<g class="combo combopos-13">
 <rect rx="6" ry="6" x="364" y="234" width="28" height="26" class="combo"/>
 <text x="378" y="247" class="combo tap">Alt+D</text>
 </g>
-<g class="combo combopos-14">
+<g class="combo combopos-13">
 <rect rx="6" ry="6" x="490" y="114" width="28" height="26" class="combo"/>
 <text x="504" y="127" class="combo tap">
 <tspan x="504" dy="-0.6em">PLAY</tspan><tspan x="504" dy="1.2em">PAUSE</tspan>
 </text>
 </g>
-<g class="combo combopos-15">
+<g class="combo combopos-14">
 <rect rx="6" ry="6" x="98" y="134" width="28" height="26" class="combo"/>
 <text x="112" y="147" class="combo tap">
 <tspan x="112" dy="-0.6em">Alt+Sft</tspan><tspan x="112" dy="1.2em">+V</tspan>
 </text>
 </g>
-<g class="combo combopos-16">
+<g class="combo combopos-15">
 <path d="M347,228 l120,2" class="combo"/>
 <path d="M347,228 l-120,-2" class="combo"/>
 <rect rx="6" ry="6" x="333" y="215" width="28" height="26" class="combo"/>
 <text x="347" y="228" class="combo tap">F2</text>
 </g>
-<g class="combo combopos-17">
+<g class="combo combopos-16">
 <rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
 <text x="168" y="144" class="combo tap">Gui+V</text>
 </g>
@@ -2491,32 +2463,28 @@ path.combo {
 <text x="607" y="175" class="combo tap">Gui+L</text>
 </g>
 <g class="combo combopos-12">
-<rect rx="6" ry="6" x="14" y="78" width="28" height="26" class="combo"/>
-<text x="28" y="91" class="combo tap">DELETE</text>
-</g>
-<g class="combo combopos-13">
 <rect rx="6" ry="6" x="364" y="234" width="28" height="26" class="combo"/>
 <text x="378" y="247" class="combo tap">Alt+D</text>
 </g>
-<g class="combo combopos-14">
+<g class="combo combopos-13">
 <rect rx="6" ry="6" x="490" y="114" width="28" height="26" class="combo"/>
 <text x="504" y="127" class="combo tap">
 <tspan x="504" dy="-0.6em">PLAY</tspan><tspan x="504" dy="1.2em">PAUSE</tspan>
 </text>
 </g>
-<g class="combo combopos-15">
+<g class="combo combopos-14">
 <rect rx="6" ry="6" x="98" y="134" width="28" height="26" class="combo"/>
 <text x="112" y="147" class="combo tap">
 <tspan x="112" dy="-0.6em">Alt+Sft</tspan><tspan x="112" dy="1.2em">+V</tspan>
 </text>
 </g>
-<g class="combo combopos-16">
+<g class="combo combopos-15">
 <path d="M347,228 l120,2" class="combo"/>
 <path d="M347,228 l-120,-2" class="combo"/>
 <rect rx="6" ry="6" x="333" y="215" width="28" height="26" class="combo"/>
 <text x="347" y="228" class="combo tap">F2</text>
 </g>
-<g class="combo combopos-17">
+<g class="combo combopos-16">
 <rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
 <text x="168" y="144" class="combo tap">Gui+V</text>
 </g>
@@ -2800,32 +2768,28 @@ path.combo {
 <text x="607" y="175" class="combo tap">Gui+L</text>
 </g>
 <g class="combo combopos-12">
-<rect rx="6" ry="6" x="14" y="78" width="28" height="26" class="combo"/>
-<text x="28" y="91" class="combo tap">DELETE</text>
-</g>
-<g class="combo combopos-13">
 <rect rx="6" ry="6" x="364" y="234" width="28" height="26" class="combo"/>
 <text x="378" y="247" class="combo tap">Alt+D</text>
 </g>
-<g class="combo combopos-14">
+<g class="combo combopos-13">
 <rect rx="6" ry="6" x="490" y="114" width="28" height="26" class="combo"/>
 <text x="504" y="127" class="combo tap">
 <tspan x="504" dy="-0.6em">PLAY</tspan><tspan x="504" dy="1.2em">PAUSE</tspan>
 </text>
 </g>
-<g class="combo combopos-15">
+<g class="combo combopos-14">
 <rect rx="6" ry="6" x="98" y="134" width="28" height="26" class="combo"/>
 <text x="112" y="147" class="combo tap">
 <tspan x="112" dy="-0.6em">Alt+Sft</tspan><tspan x="112" dy="1.2em">+V</tspan>
 </text>
 </g>
-<g class="combo combopos-16">
+<g class="combo combopos-15">
 <path d="M347,228 l120,2" class="combo"/>
 <path d="M347,228 l-120,-2" class="combo"/>
 <rect rx="6" ry="6" x="333" y="215" width="28" height="26" class="combo"/>
 <text x="347" y="228" class="combo tap">F2</text>
 </g>
-<g class="combo combopos-17">
+<g class="combo combopos-16">
 <rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
 <text x="168" y="144" class="combo tap">Gui+V</text>
 </g>
@@ -3089,32 +3053,28 @@ path.combo {
 <text x="607" y="175" class="combo tap">Gui+L</text>
 </g>
 <g class="combo combopos-12">
-<rect rx="6" ry="6" x="14" y="78" width="28" height="26" class="combo"/>
-<text x="28" y="91" class="combo tap">DELETE</text>
-</g>
-<g class="combo combopos-13">
 <rect rx="6" ry="6" x="364" y="234" width="28" height="26" class="combo"/>
 <text x="378" y="247" class="combo tap">Alt+D</text>
 </g>
-<g class="combo combopos-14">
+<g class="combo combopos-13">
 <rect rx="6" ry="6" x="490" y="114" width="28" height="26" class="combo"/>
 <text x="504" y="127" class="combo tap">
 <tspan x="504" dy="-0.6em">PLAY</tspan><tspan x="504" dy="1.2em">PAUSE</tspan>
 </text>
 </g>
-<g class="combo combopos-15">
+<g class="combo combopos-14">
 <rect rx="6" ry="6" x="98" y="134" width="28" height="26" class="combo"/>
 <text x="112" y="147" class="combo tap">
 <tspan x="112" dy="-0.6em">Alt+Sft</tspan><tspan x="112" dy="1.2em">+V</tspan>
 </text>
 </g>
-<g class="combo combopos-16">
+<g class="combo combopos-15">
 <path d="M347,228 l120,2" class="combo"/>
 <path d="M347,228 l-120,-2" class="combo"/>
 <rect rx="6" ry="6" x="333" y="215" width="28" height="26" class="combo"/>
 <text x="347" y="228" class="combo tap">F2</text>
 </g>
-<g class="combo combopos-17">
+<g class="combo combopos-16">
 <rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
 <text x="168" y="144" class="combo tap">Gui+V</text>
 </g>
@@ -3385,32 +3345,28 @@ path.combo {
 <text x="607" y="175" class="combo tap">Gui+L</text>
 </g>
 <g class="combo combopos-12">
-<rect rx="6" ry="6" x="14" y="78" width="28" height="26" class="combo"/>
-<text x="28" y="91" class="combo tap">DELETE</text>
-</g>
-<g class="combo combopos-13">
 <rect rx="6" ry="6" x="364" y="234" width="28" height="26" class="combo"/>
 <text x="378" y="247" class="combo tap">Alt+D</text>
 </g>
-<g class="combo combopos-14">
+<g class="combo combopos-13">
 <rect rx="6" ry="6" x="490" y="114" width="28" height="26" class="combo"/>
 <text x="504" y="127" class="combo tap">
 <tspan x="504" dy="-0.6em">PLAY</tspan><tspan x="504" dy="1.2em">PAUSE</tspan>
 </text>
 </g>
-<g class="combo combopos-15">
+<g class="combo combopos-14">
 <rect rx="6" ry="6" x="98" y="134" width="28" height="26" class="combo"/>
 <text x="112" y="147" class="combo tap">
 <tspan x="112" dy="-0.6em">Alt+Sft</tspan><tspan x="112" dy="1.2em">+V</tspan>
 </text>
 </g>
-<g class="combo combopos-16">
+<g class="combo combopos-15">
 <path d="M347,228 l120,2" class="combo"/>
 <path d="M347,228 l-120,-2" class="combo"/>
 <rect rx="6" ry="6" x="333" y="215" width="28" height="26" class="combo"/>
 <text x="347" y="228" class="combo tap">F2</text>
 </g>
-<g class="combo combopos-17">
+<g class="combo combopos-16">
 <rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
 <text x="168" y="144" class="combo tap">Gui+V</text>
 </g>
@@ -3674,32 +3630,28 @@ path.combo {
 <text x="607" y="175" class="combo tap">Gui+L</text>
 </g>
 <g class="combo combopos-12">
-<rect rx="6" ry="6" x="14" y="78" width="28" height="26" class="combo"/>
-<text x="28" y="91" class="combo tap">DELETE</text>
-</g>
-<g class="combo combopos-13">
 <rect rx="6" ry="6" x="364" y="234" width="28" height="26" class="combo"/>
 <text x="378" y="247" class="combo tap">Alt+D</text>
 </g>
-<g class="combo combopos-14">
+<g class="combo combopos-13">
 <rect rx="6" ry="6" x="490" y="114" width="28" height="26" class="combo"/>
 <text x="504" y="127" class="combo tap">
 <tspan x="504" dy="-0.6em">PLAY</tspan><tspan x="504" dy="1.2em">PAUSE</tspan>
 </text>
 </g>
-<g class="combo combopos-15">
+<g class="combo combopos-14">
 <rect rx="6" ry="6" x="98" y="134" width="28" height="26" class="combo"/>
 <text x="112" y="147" class="combo tap">
 <tspan x="112" dy="-0.6em">Alt+Sft</tspan><tspan x="112" dy="1.2em">+V</tspan>
 </text>
 </g>
-<g class="combo combopos-16">
+<g class="combo combopos-15">
 <path d="M347,228 l120,2" class="combo"/>
 <path d="M347,228 l-120,-2" class="combo"/>
 <rect rx="6" ry="6" x="333" y="215" width="28" height="26" class="combo"/>
 <text x="347" y="228" class="combo tap">F2</text>
 </g>
-<g class="combo combopos-17">
+<g class="combo combopos-16">
 <rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
 <text x="168" y="144" class="combo tap">Gui+V</text>
 </g>
@@ -3969,32 +3921,28 @@ path.combo {
 <text x="607" y="175" class="combo tap">Gui+L</text>
 </g>
 <g class="combo combopos-12">
-<rect rx="6" ry="6" x="14" y="78" width="28" height="26" class="combo"/>
-<text x="28" y="91" class="combo tap">DELETE</text>
-</g>
-<g class="combo combopos-13">
 <rect rx="6" ry="6" x="364" y="234" width="28" height="26" class="combo"/>
 <text x="378" y="247" class="combo tap">Alt+D</text>
 </g>
-<g class="combo combopos-14">
+<g class="combo combopos-13">
 <rect rx="6" ry="6" x="490" y="114" width="28" height="26" class="combo"/>
 <text x="504" y="127" class="combo tap">
 <tspan x="504" dy="-0.6em">PLAY</tspan><tspan x="504" dy="1.2em">PAUSE</tspan>
 </text>
 </g>
-<g class="combo combopos-15">
+<g class="combo combopos-14">
 <rect rx="6" ry="6" x="98" y="134" width="28" height="26" class="combo"/>
 <text x="112" y="147" class="combo tap">
 <tspan x="112" dy="-0.6em">Alt+Sft</tspan><tspan x="112" dy="1.2em">+V</tspan>
 </text>
 </g>
-<g class="combo combopos-16">
+<g class="combo combopos-15">
 <path d="M347,228 l120,2" class="combo"/>
 <path d="M347,228 l-120,-2" class="combo"/>
 <rect rx="6" ry="6" x="333" y="215" width="28" height="26" class="combo"/>
 <text x="347" y="228" class="combo tap">F2</text>
 </g>
-<g class="combo combopos-17">
+<g class="combo combopos-16">
 <rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
 <text x="168" y="144" class="combo tap">Gui+V</text>
 </g>
@@ -4244,32 +4192,28 @@ path.combo {
 <text x="607" y="175" class="combo tap">Gui+L</text>
 </g>
 <g class="combo combopos-12">
-<rect rx="6" ry="6" x="14" y="78" width="28" height="26" class="combo"/>
-<text x="28" y="91" class="combo tap">DELETE</text>
-</g>
-<g class="combo combopos-13">
 <rect rx="6" ry="6" x="364" y="234" width="28" height="26" class="combo"/>
 <text x="378" y="247" class="combo tap">Alt+D</text>
 </g>
-<g class="combo combopos-14">
+<g class="combo combopos-13">
 <rect rx="6" ry="6" x="490" y="114" width="28" height="26" class="combo"/>
 <text x="504" y="127" class="combo tap">
 <tspan x="504" dy="-0.6em">PLAY</tspan><tspan x="504" dy="1.2em">PAUSE</tspan>
 </text>
 </g>
-<g class="combo combopos-15">
+<g class="combo combopos-14">
 <rect rx="6" ry="6" x="98" y="134" width="28" height="26" class="combo"/>
 <text x="112" y="147" class="combo tap">
 <tspan x="112" dy="-0.6em">Alt+Sft</tspan><tspan x="112" dy="1.2em">+V</tspan>
 </text>
 </g>
-<g class="combo combopos-16">
+<g class="combo combopos-15">
 <path d="M347,228 l120,2" class="combo"/>
 <path d="M347,228 l-120,-2" class="combo"/>
 <rect rx="6" ry="6" x="333" y="215" width="28" height="26" class="combo"/>
 <text x="347" y="228" class="combo tap">F2</text>
 </g>
-<g class="combo combopos-17">
+<g class="combo combopos-16">
 <rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
 <text x="168" y="144" class="combo tap">Gui+V</text>
 </g>
@@ -4524,32 +4468,28 @@ path.combo {
 <text x="607" y="175" class="combo tap">Gui+L</text>
 </g>
 <g class="combo combopos-12">
-<rect rx="6" ry="6" x="14" y="78" width="28" height="26" class="combo"/>
-<text x="28" y="91" class="combo tap">DELETE</text>
-</g>
-<g class="combo combopos-13">
 <rect rx="6" ry="6" x="364" y="234" width="28" height="26" class="combo"/>
 <text x="378" y="247" class="combo tap">Alt+D</text>
 </g>
-<g class="combo combopos-14">
+<g class="combo combopos-13">
 <rect rx="6" ry="6" x="490" y="114" width="28" height="26" class="combo"/>
 <text x="504" y="127" class="combo tap">
 <tspan x="504" dy="-0.6em">PLAY</tspan><tspan x="504" dy="1.2em">PAUSE</tspan>
 </text>
 </g>
-<g class="combo combopos-15">
+<g class="combo combopos-14">
 <rect rx="6" ry="6" x="98" y="134" width="28" height="26" class="combo"/>
 <text x="112" y="147" class="combo tap">
 <tspan x="112" dy="-0.6em">Alt+Sft</tspan><tspan x="112" dy="1.2em">+V</tspan>
 </text>
 </g>
-<g class="combo combopos-16">
+<g class="combo combopos-15">
 <path d="M347,228 l120,2" class="combo"/>
 <path d="M347,228 l-120,-2" class="combo"/>
 <rect rx="6" ry="6" x="333" y="215" width="28" height="26" class="combo"/>
 <text x="347" y="228" class="combo tap">F2</text>
 </g>
-<g class="combo combopos-17">
+<g class="combo combopos-16">
 <rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
 <text x="168" y="144" class="combo tap">Gui+V</text>
 </g>
