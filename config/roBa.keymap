@@ -94,11 +94,6 @@
             key-positions = <41 21>;
         };
 
-        CAD_delete {
-            bindings = <&kp DELETE>;
-            key-positions = <0 10>;
-        };
-
         alt_d {
             bindings = <&kp LA(D)>;
             key-positions = <39 40>;
