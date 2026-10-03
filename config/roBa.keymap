@@ -120,6 +120,11 @@
             bindings = <&kp LG(V)>;
             key-positions = <24 25>;
         };
+
+        LaTeX_formula {
+            bindings = <&LaTeX_formula>;
+            key-positions = <39 11>;
+        };
     };
 
     macros {
