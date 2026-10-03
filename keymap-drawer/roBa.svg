@@ -426,6 +426,12 @@ path.combo {
 <rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
 <text x="168" y="144" class="combo tap">Gui+V</text>
 </g>
+<g class="combo combopos-17">
+<path d="M209,172 l109,65" class="combo"/>
+<path d="M209,172 l-109,-65" class="combo"/>
+<rect rx="6" ry="6" x="195" y="159" width="28" height="26" class="combo"/>
+<text x="209" y="172" class="combo tap"><tspan style="font-size: 64%">&amp;LaTeX_for…</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 339)" class="layer-Win_Arrow">
@@ -730,6 +736,12 @@ path.combo {
 <rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
 <text x="168" y="144" class="combo tap">Gui+V</text>
 </g>
+<g class="combo combopos-17">
+<path d="M209,172 l109,65" class="combo"/>
+<path d="M209,172 l-109,-65" class="combo"/>
+<rect rx="6" ry="6" x="195" y="159" width="28" height="26" class="combo"/>
+<text x="209" y="172" class="combo tap"><tspan style="font-size: 64%">&amp;LaTeX_for…</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 678)" class="layer-Win_Num_Function">
@@ -1027,6 +1039,12 @@ path.combo {
 <rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
 <text x="168" y="144" class="combo tap">Gui+V</text>
 </g>
+<g class="combo combopos-17">
+<path d="M209,172 l109,65" class="combo"/>
+<path d="M209,172 l-109,-65" class="combo"/>
+<rect rx="6" ry="6" x="195" y="159" width="28" height="26" class="combo"/>
+<text x="209" y="172" class="combo tap"><tspan style="font-size: 64%">&amp;LaTeX_for…</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1017)" class="layer-Win_Symbol_Scroll">
@@ -1318,6 +1336,12 @@ path.combo {
 <rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
 <text x="168" y="144" class="combo tap">Gui+V</text>
 </g>
+<g class="combo combopos-17">
+<path d="M209,172 l109,65" class="combo"/>
+<path d="M209,172 l-109,-65" class="combo"/>
+<rect rx="6" ry="6" x="195" y="159" width="28" height="26" class="combo"/>
+<text x="209" y="172" class="combo tap"><tspan style="font-size: 64%">&amp;LaTeX_for…</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1355)" class="layer-Win_Select_1">
@@ -1599,6 +1623,12 @@ path.combo {
 <rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
 <text x="168" y="144" class="combo tap">Gui+V</text>
 </g>
+<g class="combo combopos-17">
+<path d="M209,172 l109,65" class="combo"/>
+<path d="M209,172 l-109,-65" class="combo"/>
+<rect rx="6" ry="6" x="195" y="159" width="28" height="26" class="combo"/>
+<text x="209" y="172" class="combo tap"><tspan style="font-size: 64%">&amp;LaTeX_for…</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1694)" class="layer-Win_Select_2">
@@ -1879,6 +1909,12 @@ path.combo {
 <g class="combo combopos-16">
 <rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
 <text x="168" y="144" class="combo tap">Gui+V</text>
+</g>
+<g class="combo combopos-17">
+<path d="M209,172 l109,65" class="combo"/>
+<path d="M209,172 l-109,-65" class="combo"/>
+<rect rx="6" ry="6" x="195" y="159" width="28" height="26" class="combo"/>
+<text x="209" y="172" class="combo tap"><tspan style="font-size: 64%">&amp;LaTeX_for…</tspan></text>
 </g>
 </g>
 </g>
@@ -2181,6 +2217,12 @@ path.combo {
 <g class="combo combopos-16">
 <rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
 <text x="168" y="144" class="combo tap">Gui+V</text>
+</g>
+<g class="combo combopos-17">
+<path d="M209,172 l109,65" class="combo"/>
+<path d="M209,172 l-109,-65" class="combo"/>
+<rect rx="6" ry="6" x="195" y="159" width="28" height="26" class="combo"/>
+<text x="209" y="172" class="combo tap"><tspan style="font-size: 64%">&amp;LaTeX_for…</tspan></text>
 </g>
 </g>
 </g>
@@ -2488,6 +2530,12 @@ path.combo {
 <rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
 <text x="168" y="144" class="combo tap">Gui+V</text>
 </g>
+<g class="combo combopos-17">
+<path d="M209,172 l109,65" class="combo"/>
+<path d="M209,172 l-109,-65" class="combo"/>
+<rect rx="6" ry="6" x="195" y="159" width="28" height="26" class="combo"/>
+<text x="209" y="172" class="combo tap"><tspan style="font-size: 64%">&amp;LaTeX_for…</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 2711)" class="layer-iPad_Num_Function">
@@ -2793,6 +2841,12 @@ path.combo {
 <rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
 <text x="168" y="144" class="combo tap">Gui+V</text>
 </g>
+<g class="combo combopos-17">
+<path d="M209,172 l109,65" class="combo"/>
+<path d="M209,172 l-109,-65" class="combo"/>
+<rect rx="6" ry="6" x="195" y="159" width="28" height="26" class="combo"/>
+<text x="209" y="172" class="combo tap"><tspan style="font-size: 64%">&amp;LaTeX_for…</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 3050)" class="layer-iPad_Symbol_Scroll">
@@ -3077,6 +3131,12 @@ path.combo {
 <g class="combo combopos-16">
 <rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
 <text x="168" y="144" class="combo tap">Gui+V</text>
+</g>
+<g class="combo combopos-17">
+<path d="M209,172 l109,65" class="combo"/>
+<path d="M209,172 l-109,-65" class="combo"/>
+<rect rx="6" ry="6" x="195" y="159" width="28" height="26" class="combo"/>
+<text x="209" y="172" class="combo tap"><tspan style="font-size: 64%">&amp;LaTeX_for…</tspan></text>
 </g>
 </g>
 </g>
@@ -3370,6 +3430,12 @@ path.combo {
 <rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
 <text x="168" y="144" class="combo tap">Gui+V</text>
 </g>
+<g class="combo combopos-17">
+<path d="M209,172 l109,65" class="combo"/>
+<path d="M209,172 l-109,-65" class="combo"/>
+<rect rx="6" ry="6" x="195" y="159" width="28" height="26" class="combo"/>
+<text x="209" y="172" class="combo tap"><tspan style="font-size: 64%">&amp;LaTeX_for…</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 3727)" class="layer-Mouse">
@@ -3654,6 +3720,12 @@ path.combo {
 <g class="combo combopos-16">
 <rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
 <text x="168" y="144" class="combo tap">Gui+V</text>
+</g>
+<g class="combo combopos-17">
+<path d="M209,172 l109,65" class="combo"/>
+<path d="M209,172 l-109,-65" class="combo"/>
+<rect rx="6" ry="6" x="195" y="159" width="28" height="26" class="combo"/>
+<text x="209" y="172" class="combo tap"><tspan style="font-size: 64%">&amp;LaTeX_for…</tspan></text>
 </g>
 </g>
 </g>
@@ -3946,6 +4018,12 @@ path.combo {
 <rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
 <text x="168" y="144" class="combo tap">Gui+V</text>
 </g>
+<g class="combo combopos-17">
+<path d="M209,172 l109,65" class="combo"/>
+<path d="M209,172 l-109,-65" class="combo"/>
+<rect rx="6" ry="6" x="195" y="159" width="28" height="26" class="combo"/>
+<text x="209" y="172" class="combo tap"><tspan style="font-size: 64%">&amp;LaTeX_for…</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 4405)" class="layer-Scroll">
@@ -4216,6 +4294,12 @@ path.combo {
 <g class="combo combopos-16">
 <rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
 <text x="168" y="144" class="combo tap">Gui+V</text>
+</g>
+<g class="combo combopos-17">
+<path d="M209,172 l109,65" class="combo"/>
+<path d="M209,172 l-109,-65" class="combo"/>
+<rect rx="6" ry="6" x="195" y="159" width="28" height="26" class="combo"/>
+<text x="209" y="172" class="combo tap"><tspan style="font-size: 64%">&amp;LaTeX_for…</tspan></text>
 </g>
 </g>
 </g>
@@ -4492,6 +4576,12 @@ path.combo {
 <g class="combo combopos-16">
 <rect rx="6" ry="6" x="154" y="131" width="28" height="26" class="combo"/>
 <text x="168" y="144" class="combo tap">Gui+V</text>
+</g>
+<g class="combo combopos-17">
+<path d="M209,172 l109,65" class="combo"/>
+<path d="M209,172 l-109,-65" class="combo"/>
+<rect rx="6" ry="6" x="195" y="159" width="28" height="26" class="combo"/>
+<text x="209" y="172" class="combo tap"><tspan style="font-size: 64%">&amp;LaTeX_for…</tspan></text>
 </g>
 </g>
 </g>

@@ -695,3 +695,5 @@ combos:
   k: F2
 - p: [24, 25]
   k: Gui+V
+- p: [39, 11]
+  k: '&LaTeX_formula'
