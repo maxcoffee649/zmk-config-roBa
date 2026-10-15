@@ -310,7 +310,7 @@ layers:
   - Gui+Alt+Q
   iPad_Arrow:
   - '&iPad_globe_left'
-  - {t: ▽, type: trans}
+  - '&iPad_globe_right'
   - UP ARROW
   - DOWN ARROW
   - DEL
@@ -319,7 +319,7 @@ layers:
   - '&iPad_globe_right'
   - {t: LEFT GUI, type: held}
   - TAB
-  - GLOBE
+  - Alt+LEFT SHIFT
   - LSHIFT
   - LEFT
   - RIGHT
@@ -333,12 +333,12 @@ layers:
   - Gui+RIGHT
   - Gui+Alt+L
   - Gui+Alt+N
-  - Gui+M
-  - Gui+Sft+Alt+M
-  - Gui+Alt+D
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - INTERNATIONAL 1
-  - Gui+Alt+N
+  - {t: ▽, type: trans}
   - '&mkp MB3'
   - '&mkp MB4'
   - {t: ▽, type: trans}
@@ -363,7 +363,7 @@ layers:
   - \
   - '&ps'
   - Alt+Gui+C
-  - Sft+-
+  - {t: ▽, type: trans}
   - KP 4
   - KP 5
   - KP 6
@@ -373,8 +373,8 @@ layers:
   - Ctl+KP 0
   - Sft+8
   - Sft+9
-  - PAGE UP
-  - '&dock_app_switcher'
+  - Alt+Gui+D
+  - Alt+Gui+M
   - {t: ▽, type: trans}
   - KP 1
   - KP 2
@@ -385,7 +385,7 @@ layers:
   - Ctl+KP MINUS
   - '}'
   - '|'
-  - PAGE DOWN
+  - Alt+Gui+N
   - Gui+M
   - {t: iPad_Default_Layer, h: toggle}
   - '&num_00'
@@ -395,7 +395,7 @@ layers:
   - BACKSPACE
   - {t: ▽, type: trans}
   - {type: held}
-  - Gui+H
+  - Alt+Gui+L
   iPad_Symbol_Scroll:
   - {t: ▽, type: trans}
   - '&'
@@ -427,7 +427,7 @@ layers:
   - {t: iPad_GoodNotes, h: toggle}
   - '-'
   - {t: ▽, type: trans}
-  - Gui+M
+  - {t: ▽, type: trans}
   - '&iPad_SlideOvere_Non'
   - '&iPad_move_display'
   - {t: ▽, type: trans}
@@ -697,3 +697,5 @@ combos:
   k: Gui+V
 - p: [39, 11]
   k: '&LaTeX_formula'
+- p: [21, 18]
+  k: Ctl+Alt+Gui+C
