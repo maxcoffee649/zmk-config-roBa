@@ -331,16 +331,16 @@ layers:
   - '&mkp MB2'
   - Gui+LEFT ARROW
   - Gui+RIGHT
-  - Gui+Alt+L
-  - Gui+Alt+N
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - INTERNATIONAL 1
   - Gui+Sft+T
-  - '&mkp MB3'
-  - '&mkp MB4'
+  - Gui+]
+  - Gui+\
   - Gui+UP ARROW
   - Gui+DOWN
   - {t: ▽, type: trans}
