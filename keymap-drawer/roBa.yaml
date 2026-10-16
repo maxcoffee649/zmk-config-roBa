@@ -283,7 +283,7 @@ layers:
   - {t: iPad_Default_Layer, h: toggle}
   - '&numslash'
   - {t: H, h: Cursor_Arrow}
-  - {t: J, h: Alt+GLOBE}
+  - Alt+J
   - {t: K, h: LEFT ALT}
   - {t: L, h: LEFT SHIFT}
   - {t: '-', h: LEFT GUI}
@@ -307,7 +307,7 @@ layers:
   - {t: LANGUAGE 1, h: iPad_Symbol_Scroll}
   - BSPC
   - {t: ENTER, h: iPad_Num_Function}
-  - Gui+Alt+Q
+  - GLOBE
   iPad_Arrow:
   - '&iPad_globe_left'
   - '&iPad_globe_right'
@@ -329,20 +329,20 @@ layers:
   - Gui+T
   - '&mkp MB1'
   - '&mkp MB2'
-  - Gui+LEFT ARROW
-  - Gui+RIGHT
+  - '&ipad_home_ctrl_home'
+  - '&ipad_end_cntrl_end'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PG UP
+  - PAGE DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - INTERNATIONAL 1
   - Gui+Sft+T
   - Gui+]
   - Gui+\
-  - Gui+UP ARROW
-  - Gui+DOWN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -358,7 +358,7 @@ layers:
   - KP 8
   - KP 9
   - '"'
-  - Ctl+KP PLUS
+  - {t: ▽, type: trans}
   - ']'
   - \
   - '&ps'
@@ -370,7 +370,7 @@ layers:
   - Sft+-
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctl+KP 0
+  - {t: ▽, type: trans}
   - Sft+8
   - Sft+9
   - '&dock'
@@ -382,7 +382,7 @@ layers:
   - ':'
   - '&student_ID'
   - {t: ▽, type: trans}
-  - Ctl+KP MINUS
+  - {t: ▽, type: trans}
   - '}'
   - '|'
   - '&notification_center'
@@ -593,7 +593,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB4'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
