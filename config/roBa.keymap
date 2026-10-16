@@ -680,20 +680,6 @@
             #binding-cells = <0>;
             bindings = <&kp DOLLAR>, <&LaTeX_formula>;
         };
-
-        ipad_home_ctrl_home: ipad_home_ctrl_home {
-            compatible = "zmk,behavior-tap-dance";
-            label = "IPAD_HOME_CTRL_HOME";
-            #binding-cells = <0>;
-            bindings = <&kp LG(LEFT_ARROW)>, <&kp LG(UP_ARROW)>;
-        };
-
-        ipad_end_cntrl_end: ipad_end_cntrl_end {
-            compatible = "zmk,behavior-tap-dance";
-            label = "IPAD_END_CNTRL_END";
-            #binding-cells = <0>;
-            bindings = <&kp LG(RIGHT)>, <&kp LG(DOWN)>;
-        };
     };
 
     // 設定したいレイヤーに sensor-bindings = <&encoder_msc_down_up>; を追記
@@ -782,8 +768,8 @@
         iPad_Arrow {
             bindings = <
 &iPad_globe_left    &iPad_globe_right  &kp UP_ARROW  &kp DOWN_ARROW  &kp DEL                                                &kp LG(N)      &kp LEFT_WIN           &kp TAB            &kp LG(LS(RIGHT_BRACKET))  &kp LG(LS(BACKSLASH))
-&kp LA(LEFT_SHIFT)  &kp LSHIFT         &kp LEFT      &kp RIGHT       &iPad_home_shift_end  &trans      &kp SLASH            &kp LG(T)      &mkp MB1               &mkp MB2           &ipad_home_ctrl_home       &ipad_end_cntrl_end
-&trans              &trans             &kp PG_UP     &kp PAGE_DOWN   &trans                &trans      &kp INTERNATIONAL_1  &kp LG(LS(T))  &kp LG(RIGHT_BRACKET)  &kp LG(BACKSLASH)  &trans                     &trans
+&kp LA(LEFT_SHIFT)  &kp LSHIFT         &kp LEFT      &kp RIGHT       &iPad_home_shift_end  &trans      &kp SLASH            &kp LG(T)      &mkp MB1               &mkp MB2           &kp LG(LEFT)               &kp LG(RIGHT_ARROW)
+&trans              &trans             &kp PG_UP     &kp PAGE_DOWN   &trans                &trans      &kp INTERNATIONAL_1  &kp LG(LS(T))  &kp LG(RIGHT_BRACKET)  &kp LG(BACKSLASH)  &kp LG(UP_ARROW)           &kp LG(DOWN)
 &trans              &trans             &trans        &trans          &trans                &trans      &kp LG(L)            &kp LG(SPACE)                                                                       &kp LG(LS(NUMBER_4))
             >;
 
@@ -842,7 +828,7 @@
         Scroll {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &kp LCTRL  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &mkp MB4   &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans     &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans     &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                             &trans
             >;
