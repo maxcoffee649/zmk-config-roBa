@@ -542,6 +542,62 @@
 
             label = "APP_SWITCHER";
         };
+
+        dock: dock {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp GLOBE>,
+                <&macro_tap>,
+                <&kp A>,
+                <&macro_release>,
+                <&kp GLOBE>;
+
+            label = "DOCK";
+        };
+
+        control_center: control_center {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp GLOBE>,
+                <&macro_tap>,
+                <&kp C>,
+                <&macro_release>,
+                <&kp GLOBE>;
+
+            label = "CONTROL_CENTER";
+        };
+
+        notification_center: notification_center {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp GLOBE>,
+                <&macro_tap>,
+                <&kp C>,
+                <&macro_release>,
+                <&kp GLOBE>;
+
+            label = "NOTIFICATION_CENTER";
+        };
+
+        app_liburary: app_liburary {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_SHIFT &kp GLOBE>,
+                <&macro_tap>,
+                <&kp A>,
+                <&macro_release>,
+                <&kp GLOBE &kp LEFT_SHIFT>;
+
+            label = "APP_LIBURARY";
+        };
     };
 
     behaviors {
@@ -707,10 +763,10 @@
 
         iPad_Default_Layer {
             bindings = <
-&kp Q     &kp W     &kp E      &kp R                      &kp T                                             &kp Y        &kp U               &kp I           &lt 7 O           &lt 13 P
-&lt 0 A   &lt 0 S   &kp D      &kp F                      &kp G        &to 6                 &numslash      &lt 12 H     &mt LA(LEFT_GUI) J  &mt LEFT_ALT K  &mt LEFT_SHIFT L  &mt LEFT_GUI MINUS
-&kp Z     &kp X     &kp C      &kp V                      &kp B        &mo 14                &numbackslash  &kp N        &kp M               &kp COMMA       &kp DOT           &kp FSLH
-&kp LGUI  &kp LALT  &kp LCTRL  &mt LEFT_SHIFT LANGUAGE_2  &lt 7 SPACE  &lt 9 LANGUAGE_1      &kp BSPC       &lt 8 ENTER                                                        &kp LG(LA(Q))
+&kp Q     &kp W     &kp E      &kp R                      &kp T                                             &kp Y        &kp U            &kp I           &lt 7 O           &lt 13 P
+&kp A     &kt S     &kp D      &kp F                      &kp G        &to 6                 &numslash      &lt 12 H     &mt LA(GLOBE) J  &mt LEFT_ALT K  &mt LEFT_SHIFT L  &mt LEFT_GUI MINUS
+&kp Z     &kp X     &kp C      &kp V                      &kp B        &mo 14                &numbackslash  &kp N        &kp M            &kp COMMA       &kp DOT           &kp FSLH
+&kp LGUI  &kp LALT  &kp LCTRL  &mt LEFT_SHIFT LANGUAGE_2  &lt 7 SPACE  &lt 9 LANGUAGE_1      &kp BSPC       &lt 8 ENTER                                                     &kp LG(LA(Q))
             >;
 
             // sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -720,10 +776,10 @@
 
         iPad_Arrow {
             bindings = <
-&iPad_globe_left    &iPad_globe_right  &kp UP_ARROW  &kp DOWN_ARROW  &kp DEL                                                &kp LEFT_CONTROL  &kp LEFT_WIN  &kp TAB   &kp LC(TAB)         &kp LC(LS(TAB))
-&kp LA(LEFT_SHIFT)  &kp LSHIFT         &kp LEFT      &kp RIGHT       &iPad_home_shift_end  &trans      &kp SLASH            &kp LG(T)         &mkp MB1      &mkp MB2  &kp LG(LEFT_ARROW)  &kp LG(RIGHT)
-&kp LG(LA(L))       &kp LG(LA(N))      &trans        &trans          &trans                &trans      &kp INTERNATIONAL_1  &kp LG(LS(T))     &mkp MB3      &mkp MB4  &kp LG(UP_ARROW)    &kp LG(DOWN)
-&trans              &trans             &trans        &trans          &trans                &trans      &kp LG(L)            &kp LG(SPACE)                                                 &kp LG(LS(NUMBER_4))
+&iPad_globe_left    &iPad_globe_right  &kp UP_ARROW  &kp DOWN_ARROW  &kp DEL                                                &kp LG(N)      &kp LEFT_WIN  &kp TAB   &kp LG(LS(RIGHT_BRACKET))  &kp LG(LS(BACKSLASH))
+&kp LA(LEFT_SHIFT)  &kp LSHIFT         &kp LEFT      &kp RIGHT       &iPad_home_shift_end  &trans      &kp SLASH            &kp LG(T)      &mkp MB1      &mkp MB2  &kp LG(LEFT_ARROW)         &kp LG(RIGHT)
+&kp LG(LA(L))       &kp LG(LA(N))      &trans        &trans          &trans                &trans      &kp INTERNATIONAL_1  &kp LG(LS(T))  &mkp MB3      &mkp MB4  &kp LG(UP_ARROW)           &kp LG(DOWN)
+&trans              &trans             &trans        &trans          &trans                &trans      &kp LG(L)            &kp LG(SPACE)                                                     &kp LG(LS(NUMBER_4))
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
@@ -731,10 +787,10 @@
 
         iPad_Num_Function {
             bindings = <
-&kp ESCAPE  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp DOUBLE_QUOTES                             &kp LC(KP_PLUS)      &kp RIGHT_BRACKET  &kp BACKSLASH  &ps            &kp LA(LG(C))
-&trans      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp LS(MINUS)      &trans             &trans  &kp LC(KP_NUMBER_0)  &kp LS(N8)         &kp LS(N9)     &kp LA(LG(D))  &app_switcher
-&trans      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp COLON          &student_ID        &trans  &kp LC(KP_MINUS)     &kp RIGHT_BRACE    &kp PIPE       &kp LA(LG(N))  &kp LG(M)
-&to 6       &num_00          &kp KP_NUMBER_0  &kp SPACE        &kp ENTER          &kp BACKSPACE      &trans  &trans                                                                &kp LA(LG(L))
+&kp ESCAPE  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp DOUBLE_QUOTES                             &kp LC(KP_PLUS)      &kp RIGHT_BRACKET  &kp BACKSLASH  &ps                   &control_center
+&trans      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp LS(MINUS)      &trans             &trans  &kp LC(KP_NUMBER_0)  &kp LS(N8)         &kp LS(N9)     &dock                 &app_switcher
+&trans      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp COLON          &student_ID        &trans  &kp LC(KP_MINUS)     &kp RIGHT_BRACE    &kp PIPE       &notification_center  &kp LG(M)
+&to 6       &num_00          &kp KP_NUMBER_0  &kp SPACE        &kp ENTER          &kp BACKSPACE      &trans  &trans                                                                       &app_liburary
             >;
         };
 
