@@ -329,8 +329,8 @@ layers:
   - Gui+T
   - '&mkp MB1'
   - '&mkp MB2'
-  - '&ipad_home_ctrl_home'
-  - '&ipad_end_cntrl_end'
+  - Gui+LEFT
+  - Gui+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - PG UP
@@ -341,8 +341,8 @@ layers:
   - Gui+Sft+T
   - Gui+]
   - Gui+\
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+UP ARROW
+  - Gui+DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -593,7 +593,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB4'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
