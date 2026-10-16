@@ -459,7 +459,7 @@
         iPad_home_shift_end: iPad_home_shift_end {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LG(LC(LEFT_ARROW)) &kp LG(LS(RIGHT))>;
+            bindings = <&kp LG(LEFT_ARROW) &kp LS(LG(RIGHT))>;
             label = "IPAD_HOME_SHIFT_END";
         };
 
@@ -527,6 +527,20 @@
             #binding-cells = <0>;
             bindings = <&kp LANGUAGE_2 &kp DOLLAR &kp DOLLAR &kp LEFT_ARROW>;
             label = "LATEX_FORMULA";
+        };
+
+        app_switcher: app_switcher {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp GLOBE>,
+                <&macro_tap>,
+                <&kp UP_ARROW>,
+                <&macro_release>,
+                <&kp GLOBE>;
+
+            label = "APP_SWITCHER";
         };
     };
 
@@ -706,10 +720,10 @@
 
         iPad_Arrow {
             bindings = <
-&iPad_globe_left    &iPad_globe_right  &kp UP_ARROW  &kp DOWN_ARROW  &kp DEL                                                &kp LG(LS(T))  &iPad_globe_left  &iPad_globe_right  &kp LEFT_GUI        &kp TAB
-&kp LA(LEFT_SHIFT)  &kp LSHIFT         &kp LEFT      &kp RIGHT       &iPad_home_shift_end  &trans      &kp SLASH            &kp LG(T)      &mkp MB1          &mkp MB2           &kp LG(LEFT_ARROW)  &kp LG(RIGHT)
-&kp LG(LA(L))       &kp LG(LA(N))      &trans        &trans          &trans                &trans      &kp INTERNATIONAL_1  &trans         &mkp MB3          &mkp MB4           &trans              &trans
-&trans              &trans             &trans        &trans          &trans                &trans      &kp F8               &kp F7                                                                  &kp LG(LS(NUMBER_4))
+&iPad_globe_left    &iPad_globe_right  &kp UP_ARROW  &kp DOWN_ARROW  &kp DEL                                                &trans         &kp LEFT_WIN  &kp TAB   &trans              &trans
+&kp LA(LEFT_SHIFT)  &kp LSHIFT         &kp LEFT      &kp RIGHT       &iPad_home_shift_end  &trans      &kp SLASH            &kp LG(T)      &mkp MB1      &mkp MB2  &kp LG(LEFT_ARROW)  &kp LG(RIGHT)
+&kp LG(LA(L))       &kp LG(LA(N))      &trans        &trans          &trans                &trans      &kp INTERNATIONAL_1  &kp LG(LS(T))  &mkp MB3      &mkp MB4  &kp LG(UP_ARROW)    &kp LG(DOWN)
+&trans              &trans             &trans        &trans          &trans                &trans      &kp LG(L)            &kp LG(SPACE)                                              &kp LG(LS(NUMBER_4))
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
@@ -718,7 +732,7 @@
         iPad_Num_Function {
             bindings = <
 &kp ESCAPE  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp DOUBLE_QUOTES                             &kp LC(KP_PLUS)      &kp RIGHT_BRACKET  &kp BACKSLASH  &ps            &kp LA(LG(C))
-&trans      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp LS(MINUS)      &trans             &trans  &kp LC(KP_NUMBER_0)  &kp LS(N8)         &kp LS(N9)     &kp LA(LG(D))  &kp LA(LG(M))
+&trans      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp LS(MINUS)      &trans             &trans  &kp LC(KP_NUMBER_0)  &kp LS(N8)         &kp LS(N9)     &kp LA(LG(D))  &app_switcher
 &trans      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp COLON          &student_ID        &trans  &kp LC(KP_MINUS)     &kp RIGHT_BRACE    &kp PIPE       &kp LA(LG(N))  &kp LG(M)
 &to 6       &num_00          &kp KP_NUMBER_0  &kp SPACE        &kp ENTER          &kp BACKSPACE      &trans  &trans                                                                &kp LA(LG(L))
             >;
@@ -726,10 +740,10 @@
 
         iPad_Symbol_Scroll {
             bindings = <
-&trans            &kp AMPERSAND    &kp LEFT_SHIFT  &kp LS(INTERNATIONAL_1)  &macro_braces                                        &macro_angle       &iPad_SlideOvere_left  &iPad_move_up         &iPad_SlideOvere_right  &kp EQUAL
-&kp LEFT_BRACKET  &kp DOLLAR       &kp PERCENT     &kp CARET                &macro_parens    &trans      &kp APOS                &kp LG(LS(H))      &iPad_move_left        &iPad_move_down       &iPad_move_right        &kp LS(EQUAL)
-&kp LEFT_BRACE    &kp EXCLAMATION  &kp AT          &kp HASH                 &macro_brackets  &to 10      &kp MINUS               &trans             &trans                 &iPad_SlideOvere_Non  &iPad_move_display      &trans
-&to 6             &trans           &trans          &trans                   &trans           &trans      &kp LC(LG(LEFT_ARROW))  &kp LG(LC(RIGHT))                                                                       &trans
+&trans            &kp AMPERSAND    &kp LEFT_SHIFT  &kp LS(INTERNATIONAL_1)  &macro_braces                                  &macro_angle       &iPad_SlideOvere_left  &iPad_move_up         &iPad_SlideOvere_right  &kp EQUAL
+&kp LEFT_BRACKET  &kp DOLLAR       &kp PERCENT     &kp CARET                &macro_parens    &trans      &kp APOS          &kp LG(LS(H))      &iPad_move_left        &iPad_move_down       &iPad_move_right        &kp LS(EQUAL)
+&kp LEFT_BRACE    &kp EXCLAMATION  &kp AT          &kp HASH                 &macro_brackets  &to 10      &kp MINUS         &trans             &trans                 &iPad_SlideOvere_Non  &iPad_move_display      &trans
+&to 6             &trans           &trans          &trans                   &trans           &trans      &iPad_globe_left  &iPad_globe_right                                                                       &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
