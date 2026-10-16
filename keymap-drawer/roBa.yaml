@@ -275,15 +275,15 @@ layers:
   - I
   - {t: O, h: iPad_Arrow}
   - {t: P, h: Scroll}
-  - {t: A, h: Win_Default_Layer}
-  - {t: S, h: Win_Default_Layer}
+  - A
+  - {t: S, h: toggle}
   - D
   - F
   - G
   - {t: iPad_Default_Layer, h: toggle}
   - '&numslash'
   - {t: H, h: Cursor_Arrow}
-  - {t: J, h: Alt+LEFT GUI}
+  - {t: J, h: Alt+GLOBE}
   - {t: K, h: LEFT ALT}
   - {t: L, h: LEFT SHIFT}
   - {t: '-', h: LEFT GUI}
@@ -314,11 +314,11 @@ layers:
   - UP ARROW
   - DOWN ARROW
   - DEL
-  - LEFT CONTROL
+  - Gui+N
   - LEFT WIN
   - TAB
-  - {t: Ctl+TAB, type: held}
-  - Ctl+Sft+TAB
+  - {t: 'Gui+Sft+]', type: held}
+  - Gui+Sft+\
   - Alt+LEFT SHIFT
   - LSHIFT
   - LEFT
@@ -362,7 +362,7 @@ layers:
   - ']'
   - \
   - '&ps'
-  - Alt+Gui+C
+  - '&control_center'
   - {t: ▽, type: trans}
   - KP 4
   - KP 5
@@ -373,7 +373,7 @@ layers:
   - Ctl+KP 0
   - Sft+8
   - Sft+9
-  - Alt+Gui+D
+  - '&dock'
   - '&app_switcher'
   - {t: ▽, type: trans}
   - KP 1
@@ -385,7 +385,7 @@ layers:
   - Ctl+KP MINUS
   - '}'
   - '|'
-  - Alt+Gui+N
+  - '&notification_center'
   - Gui+M
   - {t: iPad_Default_Layer, h: toggle}
   - '&num_00'
@@ -395,7 +395,7 @@ layers:
   - BACKSPACE
   - {t: ▽, type: trans}
   - {type: held}
-  - Alt+Gui+L
+  - '&app_liburary'
   iPad_Symbol_Scroll:
   - {t: ▽, type: trans}
   - '&'
