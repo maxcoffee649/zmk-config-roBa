@@ -314,11 +314,11 @@ layers:
   - UP ARROW
   - DOWN ARROW
   - DEL
-  - Gui+Sft+T
-  - '&iPad_globe_left'
-  - '&iPad_globe_right'
-  - {t: LEFT GUI, type: held}
+  - {t: ▽, type: trans}
+  - LEFT WIN
   - TAB
+  - {type: held}
+  - {t: ▽, type: trans}
   - Alt+LEFT SHIFT
   - LSHIFT
   - LEFT
@@ -338,19 +338,19 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - INTERNATIONAL 1
-  - {t: ▽, type: trans}
+  - Gui+Sft+T
   - '&mkp MB3'
   - '&mkp MB4'
+  - Gui+UP ARROW
+  - Gui+DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - F8
-  - F7
+  - Gui+L
+  - Gui+SPACE
   - Gui+Sft+4
   iPad_Num_Function:
   - ESCAPE
@@ -374,7 +374,7 @@ layers:
   - Sft+8
   - Sft+9
   - Alt+Gui+D
-  - Alt+Gui+M
+  - '&app_switcher'
   - {t: ▽, type: trans}
   - KP 1
   - KP 2
@@ -437,8 +437,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - Ctl+Gui+LEFT ARROW
-  - Gui+Ctl+RIGHT
+  - '&iPad_globe_left'
+  - '&iPad_globe_right'
   - {t: ▽, type: trans}
   iPad_GoodNotes:
   - '&iPad_globe_left'
