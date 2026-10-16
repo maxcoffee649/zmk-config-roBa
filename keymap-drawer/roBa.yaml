@@ -314,11 +314,11 @@ layers:
   - UP ARROW
   - DOWN ARROW
   - DEL
-  - {t: ▽, type: trans}
+  - LEFT CONTROL
   - LEFT WIN
   - TAB
-  - {type: held}
-  - {t: ▽, type: trans}
+  - {t: Ctl+TAB, type: held}
+  - Ctl+Sft+TAB
   - Alt+LEFT SHIFT
   - LSHIFT
   - LEFT
