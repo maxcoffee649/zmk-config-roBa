@@ -798,10 +798,10 @@
 
         iPad_GoodNotes {
             bindings = <
-&iPad_globe_left      &iPad_globe_right  &kp I   &kp S          &trans                                    &trans  &trans  &trans  &trans  &trans
-&kp LS(LEFT)          &kp LS(RIGHT)      &kp E   &kp P          &kp LG(LA(D))  &trans             &trans  &trans  &trans  &trans  &trans  &trans
-&kp LS(LG(NUMBER_4))  &kp T              &kp L   &kp H          &kp LG(LA(C))  &to 6              &trans  &trans  &trans  &trans  &trans  &trans
-&kp LG(LA(L))         &kp LG(LA(N))      &trans  &kp LG(LA(M))  &kp LG(Z)      &kp LS(LG(Z))      &trans  &trans                          &trans
+&iPad_globe_left      &iPad_globe_right     &kp I   &kp S          &control_center                             &trans  &trans  &trans  &trans  &trans
+&kp LEFT              &kp RIGHT             &kp E   &kp P          &app_switcher    &trans             &trans  &trans  &trans  &trans  &trans  &trans
+&kp LS(LG(NUMBER_4))  &kp T                 &kp L   &kp H          &dock            &to 6              &trans  &trans  &trans  &trans  &trans  &trans
+&app_liburary         &notification_center  &trans  &app_switcher  &kp LG(Z)        &kp LS(LG(Z))      &trans  &trans                          &trans
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
