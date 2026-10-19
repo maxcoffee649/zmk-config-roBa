@@ -276,7 +276,7 @@ layers:
   - {t: O, h: iPad_Arrow}
   - {t: P, h: Scroll}
   - A
-  - {t: S, h: toggle}
+  - S
   - D
   - F
   - G
