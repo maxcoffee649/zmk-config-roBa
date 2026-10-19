@@ -445,17 +445,17 @@ layers:
   - '&iPad_globe_right'
   - I
   - S
+  - '&control_center'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Sft+LEFT
-  - Sft+RIGHT
+  - LEFT
+  - RIGHT
   - E
   - P
-  - Gui+Alt+D
+  - '&app_switcher'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -467,7 +467,7 @@ layers:
   - T
   - L
   - H
-  - Gui+Alt+C
+  - '&dock'
   - {t: iPad_Default_Layer, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -475,10 +475,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+Alt+L
-  - Gui+Alt+N
+  - '&app_liburary'
+  - '&notification_center'
   - {t: ▽, type: trans}
-  - Gui+Alt+M
+  - '&app_switcher'
   - Gui+Z
   - Sft+Gui+Z
   - {t: ▽, type: trans}
