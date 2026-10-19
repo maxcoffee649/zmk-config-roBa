@@ -283,7 +283,7 @@ layers:
   - {t: iPad_Default_Layer, h: toggle}
   - '&numslash'
   - {t: H, h: Cursor_Arrow}
-  - Alt+J
+  - J
   - {t: K, h: LEFT ALT}
   - {t: L, h: LEFT SHIFT}
   - {t: '-', h: LEFT GUI}
