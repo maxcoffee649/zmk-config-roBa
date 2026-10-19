@@ -755,7 +755,7 @@
         iPad_Default_Layer {
             bindings = <
 &kp Q     &kp W     &kp E      &kp R                      &kp T                                             &kp Y        &kp U  &kp I           &lt 7 O           &lt 13 P
-&kp A     &kt S     &kp D      &kp F                      &kp G        &to 6                 &numslash      &lt 12 H     &kp J  &mt LEFT_ALT K  &mt LEFT_SHIFT L  &mt LEFT_GUI MINUS
+&kp A     &kp S     &kp D      &kp F                      &kp G        &to 6                 &numslash      &lt 12 H     &kp J  &mt LEFT_ALT K  &mt LEFT_SHIFT L  &mt LEFT_GUI MINUS
 &kp Z     &kp X     &kp C      &kp V                      &kp B        &mo 14                &numbackslash  &kp N        &kp M  &kp COMMA       &kp DOT           &kp FSLH
 &kp LGUI  &kp LALT  &kp LCTRL  &mt LEFT_SHIFT LANGUAGE_2  &lt 7 SPACE  &lt 9 LANGUAGE_1      &kp BSPC       &lt 8 ENTER                                           &kp GLOBE
             >;
