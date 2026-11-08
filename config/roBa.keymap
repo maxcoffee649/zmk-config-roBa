@@ -137,7 +137,7 @@
         };
 
         next {
-            bindings = <&kp RIGHT>;
+            bindings = <&kp LA(RIGHT)>;
             key-positions = <20 19>;
         };
     };
