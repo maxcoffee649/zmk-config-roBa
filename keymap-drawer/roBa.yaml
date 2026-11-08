@@ -669,13 +669,13 @@ combos:
   k: Ctl+Alt+DOWN ARROW
 - p: [22, 23]
   k: Alt+Z
-- p: [18, 41]
+- p: [18, 40]
   k: '&left'
-- p: [19, 41]
+- p: [19, 40]
   k: '&right'
-- p: [7, 41]
+- p: [7, 40]
   k: '&up'
-- p: [6, 41]
+- p: [6, 40]
   k: '&down'
 - p: [13, 12]
   k: TAB
@@ -699,7 +699,7 @@ combos:
   k: '&LaTeX_formula'
 - p: [21, 18]
   k: Ctl+Alt+Gui+C
-- p: [18, 19]
-  k: Alt+LEFT
-- p: [20, 19]
+- p: [41, 18]
+  k: Alt+LEFT ARROW
+- p: [19, 41]
   k: Alt+RIGHT
