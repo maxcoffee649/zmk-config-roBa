@@ -130,6 +130,16 @@
             bindings = <&kp LC(LA(LG(C)))>;
             key-positions = <21 18>;
         };
+
+        back {
+            bindings = <&kp LA(LEFT)>;
+            key-positions = <18 19>;
+        };
+
+        next {
+            bindings = <&kp RIGHT>;
+            key-positions = <20 19>;
+        };
     };
 
     macros {
@@ -809,10 +819,10 @@
 
         Mouse {
             bindings = <
-&trans  &trans  &trans    &trans    &trans                            &trans         &trans    &trans    &mkp MB1  &mo 13
-&trans  &trans  &mkp MB2  &mkp MB1  &trans  &trans      &trans        &trans         &mkp MB1  &mkp MB2  &mkp MB3  &trans
-&trans  &trans  &trans    &trans    &trans  &trans      &trans        &trans         &trans    &trans    &trans    &trans
-&trans  &trans  &trans    &trans    &trans  &trans      &kp LA(LEFT)  &kp LA(RIGHT)                                &trans
+&trans  &trans  &trans    &trans    &trans                      &trans  &trans    &trans    &mkp MB1  &mo 13
+&trans  &trans  &mkp MB2  &mkp MB1  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB2  &mkp MB3  &trans
+&trans  &trans  &trans    &trans    &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans    &trans    &trans  &trans      &trans  &trans                                &trans
             >;
         };
 
