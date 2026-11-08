@@ -448,7 +448,9 @@ path.combo {
 </g>
 <g class="combo combopos-20">
 <rect rx="6" ry="6" x="631" y="78" width="28" height="26" class="combo"/>
-<text x="645" y="91" class="combo tap">RIGHT</text>
+<text x="645" y="91" class="combo tap">
+<tspan x="645" dy="-0.6em">Alt+</tspan><tspan x="645" dy="1.2em">RIGHT</tspan>
+</text>
 </g>
 </g>
 </g>
@@ -776,7 +778,9 @@ path.combo {
 </g>
 <g class="combo combopos-20">
 <rect rx="6" ry="6" x="631" y="78" width="28" height="26" class="combo"/>
-<text x="645" y="91" class="combo tap">RIGHT</text>
+<text x="645" y="91" class="combo tap">
+<tspan x="645" dy="-0.6em">Alt+</tspan><tspan x="645" dy="1.2em">RIGHT</tspan>
+</text>
 </g>
 </g>
 </g>
@@ -1097,7 +1101,9 @@ path.combo {
 </g>
 <g class="combo combopos-20">
 <rect rx="6" ry="6" x="631" y="78" width="28" height="26" class="combo"/>
-<text x="645" y="91" class="combo tap">RIGHT</text>
+<text x="645" y="91" class="combo tap">
+<tspan x="645" dy="-0.6em">Alt+</tspan><tspan x="645" dy="1.2em">RIGHT</tspan>
+</text>
 </g>
 </g>
 </g>
@@ -1412,7 +1418,9 @@ path.combo {
 </g>
 <g class="combo combopos-20">
 <rect rx="6" ry="6" x="631" y="78" width="28" height="26" class="combo"/>
-<text x="645" y="91" class="combo tap">RIGHT</text>
+<text x="645" y="91" class="combo tap">
+<tspan x="645" dy="-0.6em">Alt+</tspan><tspan x="645" dy="1.2em">RIGHT</tspan>
+</text>
 </g>
 </g>
 </g>
@@ -1717,7 +1725,9 @@ path.combo {
 </g>
 <g class="combo combopos-20">
 <rect rx="6" ry="6" x="631" y="78" width="28" height="26" class="combo"/>
-<text x="645" y="91" class="combo tap">RIGHT</text>
+<text x="645" y="91" class="combo tap">
+<tspan x="645" dy="-0.6em">Alt+</tspan><tspan x="645" dy="1.2em">RIGHT</tspan>
+</text>
 </g>
 </g>
 </g>
@@ -2022,7 +2032,9 @@ path.combo {
 </g>
 <g class="combo combopos-20">
 <rect rx="6" ry="6" x="631" y="78" width="28" height="26" class="combo"/>
-<text x="645" y="91" class="combo tap">RIGHT</text>
+<text x="645" y="91" class="combo tap">
+<tspan x="645" dy="-0.6em">Alt+</tspan><tspan x="645" dy="1.2em">RIGHT</tspan>
+</text>
 </g>
 </g>
 </g>
@@ -2341,7 +2353,9 @@ path.combo {
 </g>
 <g class="combo combopos-20">
 <rect rx="6" ry="6" x="631" y="78" width="28" height="26" class="combo"/>
-<text x="645" y="91" class="combo tap">RIGHT</text>
+<text x="645" y="91" class="combo tap">
+<tspan x="645" dy="-0.6em">Alt+</tspan><tspan x="645" dy="1.2em">RIGHT</tspan>
+</text>
 </g>
 </g>
 </g>
@@ -2673,7 +2687,9 @@ path.combo {
 </g>
 <g class="combo combopos-20">
 <rect rx="6" ry="6" x="631" y="78" width="28" height="26" class="combo"/>
-<text x="645" y="91" class="combo tap">RIGHT</text>
+<text x="645" y="91" class="combo tap">
+<tspan x="645" dy="-0.6em">Alt+</tspan><tspan x="645" dy="1.2em">RIGHT</tspan>
+</text>
 </g>
 </g>
 </g>
@@ -2990,7 +3006,9 @@ path.combo {
 </g>
 <g class="combo combopos-20">
 <rect rx="6" ry="6" x="631" y="78" width="28" height="26" class="combo"/>
-<text x="645" y="91" class="combo tap">RIGHT</text>
+<text x="645" y="91" class="combo tap">
+<tspan x="645" dy="-0.6em">Alt+</tspan><tspan x="645" dy="1.2em">RIGHT</tspan>
+</text>
 </g>
 </g>
 </g>
@@ -3295,7 +3313,9 @@ path.combo {
 </g>
 <g class="combo combopos-20">
 <rect rx="6" ry="6" x="631" y="78" width="28" height="26" class="combo"/>
-<text x="645" y="91" class="combo tap">RIGHT</text>
+<text x="645" y="91" class="combo tap">
+<tspan x="645" dy="-0.6em">Alt+</tspan><tspan x="645" dy="1.2em">RIGHT</tspan>
+</text>
 </g>
 </g>
 </g>
@@ -3597,7 +3617,9 @@ path.combo {
 </g>
 <g class="combo combopos-20">
 <rect rx="6" ry="6" x="631" y="78" width="28" height="26" class="combo"/>
-<text x="645" y="91" class="combo tap">RIGHT</text>
+<text x="645" y="91" class="combo tap">
+<tspan x="645" dy="-0.6em">Alt+</tspan><tspan x="645" dy="1.2em">RIGHT</tspan>
+</text>
 </g>
 </g>
 </g>
@@ -3906,7 +3928,9 @@ path.combo {
 </g>
 <g class="combo combopos-20">
 <rect rx="6" ry="6" x="631" y="78" width="28" height="26" class="combo"/>
-<text x="645" y="91" class="combo tap">RIGHT</text>
+<text x="645" y="91" class="combo tap">
+<tspan x="645" dy="-0.6em">Alt+</tspan><tspan x="645" dy="1.2em">RIGHT</tspan>
+</text>
 </g>
 </g>
 </g>
@@ -4221,7 +4245,9 @@ path.combo {
 </g>
 <g class="combo combopos-20">
 <rect rx="6" ry="6" x="631" y="78" width="28" height="26" class="combo"/>
-<text x="645" y="91" class="combo tap">RIGHT</text>
+<text x="645" y="91" class="combo tap">
+<tspan x="645" dy="-0.6em">Alt+</tspan><tspan x="645" dy="1.2em">RIGHT</tspan>
+</text>
 </g>
 </g>
 </g>
@@ -4516,7 +4542,9 @@ path.combo {
 </g>
 <g class="combo combopos-20">
 <rect rx="6" ry="6" x="631" y="78" width="28" height="26" class="combo"/>
-<text x="645" y="91" class="combo tap">RIGHT</text>
+<text x="645" y="91" class="combo tap">
+<tspan x="645" dy="-0.6em">Alt+</tspan><tspan x="645" dy="1.2em">RIGHT</tspan>
+</text>
 </g>
 </g>
 </g>
@@ -4816,7 +4844,9 @@ path.combo {
 </g>
 <g class="combo combopos-20">
 <rect rx="6" ry="6" x="631" y="78" width="28" height="26" class="combo"/>
-<text x="645" y="91" class="combo tap">RIGHT</text>
+<text x="645" y="91" class="combo tap">
+<tspan x="645" dy="-0.6em">Alt+</tspan><tspan x="645" dy="1.2em">RIGHT</tspan>
+</text>
 </g>
 </g>
 </g>

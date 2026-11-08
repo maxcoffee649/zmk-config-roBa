@@ -702,4 +702,4 @@ combos:
 - p: [18, 19]
   k: Alt+LEFT
 - p: [20, 19]
-  k: RIGHT
+  k: Alt+RIGHT
