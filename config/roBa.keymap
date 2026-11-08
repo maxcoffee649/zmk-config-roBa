@@ -54,22 +54,22 @@
 
         left {
             bindings = <&left>;
-            key-positions = <18 41>;
+            key-positions = <18 40>;
         };
 
         right {
             bindings = <&right>;
-            key-positions = <19 41>;
+            key-positions = <19 40>;
         };
 
         up {
             bindings = <&up>;
-            key-positions = <7 41>;
+            key-positions = <7 40>;
         };
 
         down {
             bindings = <&down>;
-            key-positions = <6 41>;
+            key-positions = <6 40>;
         };
 
         tab {
@@ -132,13 +132,13 @@
         };
 
         back {
-            bindings = <&kp LA(LEFT)>;
-            key-positions = <18 19>;
+            bindings = <&kp LA(LEFT_ARROW)>;
+            key-positions = <41 18>;
         };
 
         next {
             bindings = <&kp LA(RIGHT)>;
-            key-positions = <20 19>;
+            key-positions = <19 41>;
         };
     };
 
