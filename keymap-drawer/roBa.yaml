@@ -525,8 +525,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Alt+LEFT
-  - Alt+RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Cursor_Arrow:
   - {t: ▽, type: trans}
@@ -699,3 +699,7 @@ combos:
   k: '&LaTeX_formula'
 - p: [21, 18]
   k: Ctl+Alt+Gui+C
+- p: [18, 19]
+  k: Alt+LEFT
+- p: [20, 19]
+  k: RIGHT
