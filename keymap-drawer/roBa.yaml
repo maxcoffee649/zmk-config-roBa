@@ -150,7 +150,7 @@ layers:
   - '&macro_parens'
   - {t: ▽, type: trans}
   - ''''
-  - {t: ▽, type: trans}
+  - '&macro_black_lenticular_bracket'
   - Gui+LEFT ARROW
   - Gui+DOWN ARROW
   - Gui+RIGHT ARROW
