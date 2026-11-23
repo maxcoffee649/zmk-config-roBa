@@ -608,6 +608,13 @@
 
             label = "APP_LIBURARY";
         };
+
+        macro_black_lenticular_bracket: black_lenticular_bracket {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(LA(RIGHT_BRACKET)) &kp LC(LA(BACKSLASH)) &kp LEFT_ARROW>;
+            label = "BLACK_LENTICULAR_BRACKET";
+        };
     };
 
     behaviors {
@@ -735,10 +742,10 @@
 
         Win_Symbol_Scroll {
             bindings = <
-&kp LC(LEFT_BRACKET)  &kp AMPERSAND    &kp LEFT_SHIFT  &num_under  &macro_braces                                        &macro_angle       &kp LG(LS(LEFT))    &kp LG(UP_ARROW)    &kp LG(LS(RIGHT))    &kp EQUAL
-&kp LEFT_BRACKET      &kp DOLLAR       &kp PERCENT     &kp CARET   &macro_parens    &trans      &kp APOS                &trans             &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)  &kp LS(EQUAL)
-&kp LEFT_BRACE        &kp EXCLAMATION  &kp AT          &kp HASH    &macro_brackets  &trans      &kp MINUS               &trans             &trans              &trans              &trans               &trans
-&to 2                 &trans           &trans          &trans      &trans           &trans      &kp LC(LG(LEFT_ARROW))  &kp LG(LC(RIGHT))                                                               &kp LA(F4)
+&kp LC(LEFT_BRACKET)  &kp AMPERSAND    &kp LEFT_SHIFT  &num_under  &macro_braces                                        &macro_angle                     &kp LG(LS(LEFT))    &kp LG(UP_ARROW)    &kp LG(LS(RIGHT))    &kp EQUAL
+&kp LEFT_BRACKET      &kp DOLLAR       &kp PERCENT     &kp CARET   &macro_parens    &trans      &kp APOS                &macro_black_lenticular_bracket  &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)  &kp LS(EQUAL)
+&kp LEFT_BRACE        &kp EXCLAMATION  &kp AT          &kp HASH    &macro_brackets  &trans      &kp MINUS               &trans                           &trans              &trans              &trans               &trans
+&to 2                 &trans           &trans          &trans      &trans           &trans      &kp LC(LG(LEFT_ARROW))  &kp LG(LC(RIGHT))                                                                             &kp LA(F4)
             >;
 
             sensor-bindings = <&encoder_ctrl_scroll_down_up>;
